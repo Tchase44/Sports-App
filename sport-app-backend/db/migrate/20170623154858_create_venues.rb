@@ -4,8 +4,9 @@ class CreateVenues < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :location
       t.text :description
+      t.string :photo_url
       t.references :team
-      
+
       t.timestamps
     end
   end

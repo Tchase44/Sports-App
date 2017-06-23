@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20170623154858) do
     t.string "name"
     t.string "sport"
     t.string "city"
+    t.string "logo_url"
     t.bigint "venue_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -29,6 +30,7 @@ ActiveRecord::Schema.define(version: 20170623154858) do
     t.string "name"
     t.string "location"
     t.text "description"
+    t.string "photo_url"
     t.bigint "team_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
