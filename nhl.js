@@ -1,4 +1,4 @@
-[{
+let nhl = [{
 	"city": "Anaheim",
 	"name": "Ducks",
 	"sport": "hockey",
