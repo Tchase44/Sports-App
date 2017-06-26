@@ -31,17 +31,39 @@ angular
   TeamShowControllerFunction
 ])
 
+
+// VENUE'S CONTROLLERS
+.controller("VenueIndexController", [
+  "VenueFactory",
+  VenueIndexControllerFunction
+])
+
+.controller("VenueNewController", [
+  "VenueFactory",
+  "$state",
+  VenueNewControllerFunction
+])
+
+.controller("VenueShowController", [
+  "VenueFactory",
+  "$stateParams",
+  "$state",
+  VenueShowControllerFunction
+])
+
 .factory( "TeamFactory", [
   "$resource",
   FactoryFunction
 ])
+
 .factory("VenueFactory", [
   "$resource",
   VenueFactoryFunction
 ])
 
+
 function RouterFunction ($stateProvider) {
-$stateProvider
+  $stateProvider
   .state("teamIndex", {
     url: "/teams",
     templateUrl: "js/ng-views/index.html",
@@ -56,17 +78,31 @@ $stateProvider
     controllerAs: "vm"
   })
 
-  .state("teamEdit", {
-    url: "/teams/:id/edit",
-    templateUrl: "js/ng-views/edit.html",
-    controller: "TeamEditController",
-    controllerAs: "vm"
-  })
-
   .state("teamShow", {
     url: "/teams/:id",
     templateUrl: "js/ng-views/show.html",
     controller: "TeamShowController",
+    controllerAs: "vm"
+  })
+
+  .state("venueIndex", {
+    url: "/venues",
+    templateUrl: "js/ng-views/venue/index.html",
+    controller: "VenueIndexController",
+    controllerAs: "vm"
+  })
+
+  .state("venueNew", {
+    url: "/venues/new",
+    templateUrl: "js/ng-views/venue/new.html",
+    controller: "VenueNewController",
+    controllerAs: "vm"
+  })
+
+  .state("venueShow", {
+    url: "/venues/:id",
+    templateUrl: "js/ng-views/venue/show.html",
+    controller: "VenueShowController",
     controllerAs: "vm"
   })
 }
@@ -83,9 +119,10 @@ function VenueFactoryFunction($resource){
   })
 }
 
+
+// TEAM'S CONTROLLER FUNCTIONS
 function TeamIndexControllerFunction( TeamFactory ){
   this.teams = TeamFactory.query();
-
 }
 
 function TeamNewControllerFunction( TeamFactory, $state ){
@@ -96,7 +133,6 @@ function TeamNewControllerFunction( TeamFactory, $state ){
     })
   }
 }
-
 
 function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
     this.team = TeamFactory.get({id: $stateParams.id});
@@ -114,3 +150,35 @@ function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFacto
     })
   }
   }
+
+
+// VENUE'S CONTROLLER FUNCTIONS
+function VenueIndexControllerFunction( VenueFactory ) {
+  this.venues = VenueFactory.query();
+}
+
+function VenueNewControllerFunction( VenueFactory, $state ) {
+  this.venue = new VenueFactory();
+  this.create = function () {
+    this.venue.$save().then(function() {
+      $state.go("venueIndex")
+    })
+  }
+}
+
+function VenueShowControllerFunction( VenueFactory, $stateParams, $state ) {
+  this.venue = VenueFactory.get({id: $stateParams.id})
+
+  this.hide = false
+  this.venue = VenueFactory.get({id: $stateParams.id});
+  this.update = function() {
+    this.venue.$update({id: $stateParams.id}).then(function(){
+      $state.reload()
+    })
+  }
+  this.destroy = function(){
+    this.venue.$delete({id: $stateParams.id}).then(function(){
+      $state.go("venueIndex")
+    })
+  }
+}
