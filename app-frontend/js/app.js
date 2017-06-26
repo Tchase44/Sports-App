@@ -19,18 +19,15 @@ angular
 
 .controller( "TeamNewController", [
   "TeamFactory",
+  "$state",
   TeamNewControllerFunction
-])
-
-.controller( "TeamEditController", [
-  "TeamFactory",
-  "$stateParams",
-  TeamEditControllerFunction
 ])
 
 .controller("TeamShowController", [
   "TeamFactory",
   "$stateParams",
+  "$state",
+  "VenueFactory",
   TeamShowControllerFunction
 ])
 
@@ -91,26 +88,31 @@ function TeamIndexControllerFunction( TeamFactory ){
 
 }
 
-function TeamNewControllerFunction( TeamFactory ){
+function TeamNewControllerFunction( TeamFactory, $state ){
   this.team = new TeamFactory();
   this.create = function(){
-  this.team.$save()
+    this.team.$save().then(function(){
+      $state.go("teamIndex")
+    })
   }
 }
 
-function TeamEditControllerFunction( TeamFactory, $stateParams ){
-  this.team = TeamFactory.get({id: $stateParams.id});
+
+function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
+    this.team = TeamFactory.get({id: $stateParams.id});
+    this.hide = false
+    // this.venue = VenueFactory.query()
+    this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
-    this.team.$update({id: $stateParams.id})
+    this.team.$update({id: $stateParams.id}).then(function(){
+      $state.reload()
+    })
   }
   this.destroy = function(){
-    this.team.$delete({id: $stateParams.id});
+    this.team.$delete({id: $stateParams.id}).then(function(){
+      $state.go("teamIndex")
+    })
   }
-}
-
-function TeamShowControllerFunction(TeamFactory, $stateParams, VenueFactory){
-    this.team = TeamFactory.get({id: $stateParams.id});
-    // this.venue = VenueFactory.query()
   }
 
 
