@@ -1,6 +1,5 @@
 "use strict";
 
-
 angular
 .module("sportsapp", [
   "ui.router",
@@ -65,26 +64,35 @@ angular
 
 function RouterFunction ($stateProvider) {
   $stateProvider
+  .state("home", {
+    url: "/",
+    templateUrl: "js/ng-views/index.html",
+    controller: "TeamIndexController",
+    controllerAs: "vm"
+  })
+
   .state("teamIndex", {
     url: "/teams",
-    templateUrl: "js/ng-views/index.html",
+    templateUrl: "js/ng-views/team/index.html",
     controller: "TeamIndexController",
     controllerAs: "vm"
   })
 
   .state("teamNew", {
     url: "/teams/new",
-    templateUrl: "js/ng-views/new.html",
+    templateUrl: "js/ng-views/team/new.html",
     controller: "TeamNewController",
     controllerAs: "vm"
   })
 
   .state("teamShow", {
     url: "/teams/:id",
-    templateUrl: "js/ng-views/show.html",
+    templateUrl: "js/ng-views/team/show.html",
     controller: "TeamShowController",
     controllerAs: "vm"
   })
+
+  // VENUES STATES
 
   .state("venueIndex", {
     url: "/venues",
@@ -137,7 +145,7 @@ function TeamNewControllerFunction( TeamFactory, $state ){
 
 function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
     this.team = TeamFactory.get({id: $stateParams.id});
-    
+
     this.hide = false
     this.venues = VenueFactory.query()
     this.team = TeamFactory.get({id: $stateParams.id});
@@ -171,7 +179,6 @@ function VenueNewControllerFunction( VenueFactory, $state ) {
 function VenueShowControllerFunction( VenueFactory, $stateParams, $state, TeamFactory ) {
   this.venue = VenueFactory.get({id: $stateParams.id})
 
-  // let venues = VenueFactory.get({id: $stateParams.id})
   this.hide = false
   this.teams = TeamFactory.query()
 
