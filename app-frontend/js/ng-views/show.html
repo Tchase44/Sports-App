@@ -1,0 +1,5 @@
+<a data-ui-sref="teamNew">Create New Team</a>
+
+<div data-ng-repeat="team in vm.teams | orderBy:'-created_at'">
+  <p><a data-ui-sref="teamShow({id: team.id})">{{team.name}}</a></p>
+</div>
