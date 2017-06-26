@@ -4,7 +4,7 @@
 angular
 .module("sportsapp", [
   "ui.router"
-  // "ngResource"
+  "ngResource"
 ])
 
 .config([
@@ -13,31 +13,31 @@ angular
 ])
 
 .controller( "TeamIndexController", [
-  // "TeamFactory",
+  "TeamFactory",
   TeamIndexControllerFunction
 ])
 
 .controller( "TeamNewController", [
-  // "TeamFactory",
+  "TeamFactory",
   TeamNewControllerFunction
 ])
 
 .controller( "TeamEditController", [
-  // "TeamFactory",
+  "TeamFactory",
   "$stateParams",
   TeamEditControllerFunction
 ])
 
 .controller("TeamShowController", [
-  // "TeamFactory",
+  "TeamFactory",
   "$stateParams",
   TeamShowControllerFunction
 ])
 
-// .factory( "TeamFactory", [
-//   "$resource",
-//   FactoryFunction
-// ])
+.factory( "TeamFactory", [
+  "$resource",
+  FactoryFunction
+])
 
 function RouterFunction ($stateProvider) {
 $stateProvider
@@ -70,11 +70,11 @@ $stateProvider
   })
 }
 
-// function FactoryFunction( $resource ){
-//     return $resource( "http://localhost:3000/teams/:id", {}, {
-//         update: { method: "PUT" }
-//     });
-// }
+function FactoryFunction( $resource ){
+    return $resource( "http://localhost:3000/teams/:id", {}, {
+        update: { method: "PUT" }
+    });
+}
 
 function TeamIndexControllerFunction( TeamFactory ){
   // this.teams = TeamFactory.query();
@@ -95,14 +95,14 @@ function TeamIndexControllerFunction( TeamFactory ){
 }
 
 function TeamNewControllerFunction( TeamFactory ){
-  // this.team = new TeamFactory();
+  this.team = new TeamFactory();
   this.create = function(){
   this.team.$save()
   }
 }
 
 function TeamEditControllerFunction( TeamFactory, $stateParams ){
-  // this.team = TeamFactory.get({id: $stateParams.id});
+  this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
   this.team.$update({id: $stateParams.id})
   }
@@ -112,5 +112,5 @@ function TeamEditControllerFunction( TeamFactory, $stateParams ){
 }
 
 function TeamShowControllerFunction(TeamFactory, $stateParams){
-    // this.team = TeamFactory.get({id: $stateParams.id});
+    this.team = TeamFactory.get({id: $stateParams.id});
   }
