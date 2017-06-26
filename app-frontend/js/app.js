@@ -3,8 +3,8 @@
 
 angular
 .module("sportsapp", [
-  "ui.router"
-  // "ngResource"
+  "ui.router",
+  "ngResource"
 ])
 
 .config([
@@ -13,31 +13,32 @@ angular
 ])
 
 .controller( "TeamIndexController", [
-  // "TeamFactory",
+  "TeamFactory",
   TeamIndexControllerFunction
 ])
 
 .controller( "TeamNewController", [
-  // "TeamFactory",
+  "TeamFactory",
+  "$state",
   TeamNewControllerFunction
 ])
 
-.controller( "TeamEditController", [
-  // "TeamFactory",
-  "$stateParams",
-  TeamEditControllerFunction
-])
-
 .controller("TeamShowController", [
-  // "TeamFactory",
+  "TeamFactory",
   "$stateParams",
+  "$state",
+  "VenueFactory",
   TeamShowControllerFunction
 ])
 
-// .factory( "TeamFactory", [
-//   "$resource",
-//   FactoryFunction
-// ])
+.factory( "TeamFactory", [
+  "$resource",
+  FactoryFunction
+])
+.factory("VenueFactory", [
+  "$resource",
+  VenueFactoryFunction
+])
 
 function RouterFunction ($stateProvider) {
 $stateProvider
@@ -56,9 +57,9 @@ $stateProvider
   })
 
   .state("teamEdit", {
-    url: "/teams/edit",
+    url: "/teams/:id/edit",
     templateUrl: "js/ng-views/edit.html",
-    controller: "TeamNewController",
+    controller: "TeamEditController",
     controllerAs: "vm"
   })
 
@@ -70,47 +71,50 @@ $stateProvider
   })
 }
 
-// function FactoryFunction( $resource ){
-//     return $resource( "http://localhost:3000/teams/:id", {}, {
-//         update: { method: "PUT" }
-//     });
-// }
+function FactoryFunction( $resource ){
+    return $resource( "http://localhost:3000/teams/:id.json", {}, {
+        update: { method: "PUT" }
+    });
+}
+
+function VenueFactoryFunction($resource){
+  return $resource("http://localhost:3000/venues/:id.json", {}, {
+    update: {method: "PUT"}
+  })
+}
 
 function TeamIndexControllerFunction( TeamFactory ){
-  // this.teams = TeamFactory.query();
-  this.teams = [{
-    "id" : "1",
-    "city" : "Phoenix",
-    "name" : "Arizona Diamondbacks",
-    "sport": "Baseball",
-    "logo_url": "http://content.sportslogos.net/logos/54/50/full/8779_arizona_diamondbacks-alternate-2016.png"
-  },
-  {
-    "id" : "2",
-    "city" : "Atlanta",
-    "name" : "Atlanta Braves",
-    "sport": "Baseball",
-    "logo_url": "http://content.sportslogos.net/logos/54/51/full/3kgwjp6heowkeg3w8zoow9ggy.png"
-  }]
+  this.teams = TeamFactory.query();
+
 }
 
-function TeamNewControllerFunction( TeamFactory ){
-  // this.team = new TeamFactory();
+function TeamNewControllerFunction( TeamFactory, $state ){
+  this.team = new TeamFactory();
   this.create = function(){
-  this.team.$save()
+    this.team.$save().then(function(){
+      $state.go("teamIndex")
+    })
   }
 }
 
-function TeamEditControllerFunction( TeamFactory, $stateParams ){
-  // this.team = TeamFactory.get({id: $stateParams.id});
+
+function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
+    this.team = TeamFactory.get({id: $stateParams.id});
+    this.hide = false
+    // this.venue = VenueFactory.query()
+    this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
-  this.team.$update({id: $stateParams.id})
+    this.team.$update({id: $stateParams.id}).then(function(){
+      $state.reload()
+    })
   }
   this.destroy = function(){
-  this.team.$delete({id: $stateParams.id});
+    this.team.$delete({id: $stateParams.id}).then(function(){
+      $state.go("teamIndex")
+    })
   }
-}
+  }
 
-function TeamShowControllerFunction(TeamFactory, $stateParams){
-    // this.team = TeamFactory.get({id: $stateParams.id});
-  }
+
+
+
