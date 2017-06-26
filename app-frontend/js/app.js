@@ -48,6 +48,7 @@ angular
   "VenueFactory",
   "$stateParams",
   "$state",
+  "TeamFactory",
   VenueShowControllerFunction
 ])
 
@@ -136,8 +137,9 @@ function TeamNewControllerFunction( TeamFactory, $state ){
 
 function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
     this.team = TeamFactory.get({id: $stateParams.id});
+    
     this.hide = false
-    // this.venue = VenueFactory.query()
+    this.venues = VenueFactory.query()
     this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
     this.team.$update({id: $stateParams.id}).then(function(){
@@ -166,11 +168,13 @@ function VenueNewControllerFunction( VenueFactory, $state ) {
   }
 }
 
-function VenueShowControllerFunction( VenueFactory, $stateParams, $state ) {
+function VenueShowControllerFunction( VenueFactory, $stateParams, $state, TeamFactory ) {
   this.venue = VenueFactory.get({id: $stateParams.id})
 
+  // let venues = VenueFactory.get({id: $stateParams.id})
   this.hide = false
-  this.venue = VenueFactory.get({id: $stateParams.id});
+  this.teams = TeamFactory.query()
+
   this.update = function() {
     this.venue.$update({id: $stateParams.id}).then(function(){
       $state.reload()
