@@ -66,7 +66,7 @@ function RouterFunction ($stateProvider) {
   $stateProvider
   .state("home", {
     url: "/",
-    templateUrl: "js/ng-views/index.html",
+    templateUrl: "js/ng-views/home.html",
     controller: "TeamIndexController",
     controllerAs: "vm"
   })
