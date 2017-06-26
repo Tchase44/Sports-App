@@ -112,7 +112,3 @@ function TeamShowControllerFunction(TeamFactory, $stateParams, VenueFactory){
     this.team = TeamFactory.get({id: $stateParams.id});
     // this.venue = VenueFactory.query()
   }
-
-
-
-
