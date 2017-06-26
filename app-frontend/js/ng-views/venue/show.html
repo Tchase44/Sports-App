@@ -1,9 +1,15 @@
 <a data-ui-sref="venueIndex">Venues</a>
 
 <div>
-<p><a href="#" ng-click="vm.hide = !vm.hide"">Edit</a></p>
+<p><a href="#" ng-click="vm.hide = !vm.hide">Edit</a></p>
 
 <p>{{vm.venue.name}}</p>
+
+
+<p ng-repeat="team in vm.teams | filter : {'id' : vm.venue.team_id , 'venue_id' : vm.venue.id}" ng-if="$first">
+  {{team.name}}
+</p>
+
 <p>{{vm.venue.location}}</p>
 <p>{{vm.venue.description}}</p>
 <img src="{{vm.venue.photo_url}}">
