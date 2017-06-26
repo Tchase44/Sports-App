@@ -1,196 +1,184 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
-
-Venue.destroy_all
-Team.destroy_all
-
 #NBA
 bostV = Venue.create!(name: "TD Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 brooklynV = Venue.create!(name: "Barclays Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 knicksV = Venue.create!(name: "Madison Square Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 phillyV = Venue.create!(name: "Wells Fargo Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 torontoV = Venue.create!(name: "Air Canada Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 chicagoV = Venue.create!(name: "United Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 clevelandV = Venue.create!(name: "Quicken Loans Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 pistonsV = Venue.create!(name: "The Palace of Auburn Hills",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 pacersV = Venue.create!(name: "Bankers Life Fieldhouse",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 bucksV = Venue.create!(name: "BMO Harris Bradley Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 atlantaV = Venue.create!(name: "Philips Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 hornetsV = Venue.create!(name: "Spectrum Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 heatV = Venue.create!(name: "American Airlines Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 magicV = Venue.create!(name: "Amway Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 wizardsV = Venue.create!(name: "Verizon Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 nuggetsV = Venue.create!(name: "Pepsi Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 timberwolvesV = Venue.create!(name: "Target Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 okcV = Venue.create!(name: "Chesapeake Energy Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 portV = Venue.create!(name: "Moda Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 jazzV = Venue.create!(name: "Vivint Smart Home Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 goldStateV = Venue.create!(name: "Oracle Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 clippersV = Venue.create!(name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 lakersV = Venue.create!(name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 phoenixV = Venue.create!(name: "Talking Stick Resort Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 kingsV = Venue.create!(name: "Golden 1 Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
-dallasV = Venue.create!(name: "American Airlines Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+dallas_starsV = Venue.create!(name: "American Airlines Center",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 houstonV = Venue.create!(name: "Toyota Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 grizzliesV = Venue.create!(name: "FedExForum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 pelicansV = Venue.create!(name: "Smoothie King Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 spursV = Venue.create!(name: "AT&T Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 
-atl =	Team.create!(
+atl =	(
 		name: "Atlanta Hawks",
 		sport: "Basketball",
 		city: "Atlanta",
 		logo_url: "http://content.sportslogos.net/logos/6/220/full/9168_atlanta_hawks-primary-2016.png",
 		venue: atlantaV
 	)
-Bost =	Team.create!(
+Bost =	(
 		name: "Boston Celtics",
 		sport: "Basketball",
 		city: "Boston",
 		logo_url: "http://content.sportslogos.net/logos/6/213/full/slhg02hbef3j1ov4lsnwyol5o.png",
 		venue: bostV
 	)
-Nets =	Team.create!(
+Nets =	(
 		name: "Brooklyn Nets",
 		sport: "Basketball",
 		city: "Brooklyn",
 		logo_url: "http://content.sportslogos.net/logos/6/3786/full/137_brooklyn-nets-primary-2013.png",
 		venue: brooklynV
 	)
-hornets =Team.create!(
+hornets =(
 		name: "Charlotte Hornets",
 		sport: "Basketball",
 		city: "Charlotte",
 		logo_url: "http://content.sportslogos.net/logos/6/5120/full/1926_charlotte__hornets_-primary-2015.png",
 		venue: hornetsV
 	)
-bulls =	Team.create!(
+bulls =	(
 		name: "Chicago Bulls",
 		sport: "Basketball",
 		city: "Chicago",
@@ -316,7 +304,7 @@ magic = Team.create!(
 		logo_url: "http://content.sportslogos.net/logos/6/217/full/wd9ic7qafgfb0yxs7tem7n5g4.gif",
 		venue: magicV
 	)
-philly_76ers = Team.create!( 
+76ers = Team.create!( 
 		name: "Philadelphia 76ers",
 		sport: "Basketball",
 		city: "Philadelphia",
@@ -337,7 +325,7 @@ blazers = Team.create!(
 		logo_url: "http://content.sportslogos.net/logos/6/239/full/9725_portland_trail_blazers-primary-2018.png",
 		venue: portV
 	)
-kings = Team.create!( 
+kings =( 
 		name: "Sacramento Kings",
 		sport: "Basketball",
 		city: "Sacramento",
@@ -377,193 +365,193 @@ wizards = Team.create!(
 
 na_predsV = Venue.create!(
 		name: "Bridgestone Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 tor_mapleV = Venue.create!(
 		name: "Canadian Tire Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
-dallas_starsV =	Venue.create!(
+da_starsV =	(
 		name: "American Airlines Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 fl_panthersV = Venue.create!(
 		name: "BB&T Center (Sunrise, Florida)",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 mon_cadV = Venue.create!(
 		name: "Bell Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 tor_mapleV = Venue.create!(
 		name: "Air Canada Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 buff_sabreV = Venue.create!(
 		name: "First Niagara Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 pitt_pensV = Venue.create!(
 		name: "Consol Energy Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 phc_coyotesV = Venue.create!(
 		name: "Jobing.com Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 winn_jetsV = Venue.create!(
 		name: "MTS Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 ana_ducksV = Venue.create!(
 		name: "Honda Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 det_redWingsV = Venue.create!(
 		name: "Joe Louis Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 ny_islandV = Venue.create!(
 		name: "Nassau Veterans Memorial Coliseum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 co_avalV = Venue.create!(
 		name: "Pepsi Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 columbus_bluV = Venue.create!(
 		name: "Nationwide Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 edm_oilV = Venue.create!(
 		name: "Rexall Place",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 carolina_hurrV = Venue.create!(
 		name: "PNC Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 van_canV = Venue.create!(
 		name: "Rogers Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 ott_senatV = Venue.create!(
 		name: "Scotiabank Saddledome",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 calgary_fireV = Venue.create!(
 		name: "Scotiabank Saddledome",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 sj_sharksV = Venue.create!(
 		name: "SAP Center at San Jose",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 nj_devilsV = Venue.create!(
 		name: "Prudential Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 st_loius_bluV = Venue.create!(
 		name: "Scottrade Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 tb_lightV = Venue.create!(
 		name: "Tampa Bay Times Forum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 la_kingsV = Venue.create!(
 		name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 ny_rangersV = Venue.create!(
 		name: "Madison Square Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 chi_blackV = Venue.create!(
 		name: "United Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 minn_wildV = Venue.create!(
 		name: "Xcel Energy Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 philly_flyV = Venue.create!(
 		name: "Wells Fargo Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 wash_capsV = Venue.create!(
 		name: "Verizon Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 bost_bruinsV = Venue.create!(
 		name: "TD Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 lasVegas_knightsV = Venue.create!(
 		name: "T-Mobile Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
@@ -576,7 +564,7 @@ anaDucks = Team.create!(
 	venue: ana_ducksV
 	)
 arz_coyotes = Team.create!(
-	city: "Arizona",
+	city: "Arizona"
 	name: "Coyotes",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/5263/full/7807_arizona_coyotes-primary-2015.png",
@@ -680,14 +668,14 @@ mon_cad = Team.create!(
 	logo_url: "http://content.sportslogos.net/logos/1/16/full/124.png",
 	venue: mon_cadV
 	)
-nash_preds = Team.create!(
+nash_preds =(
 	city: "Nashville",
 	name: "Predators",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/17/full/lvchw3qfsun2e7oc02kh2zxb6.png",
 	venue: na_predsV
 	)
-nj_devils = Team.create!(
+nj_devils =(
 	city: "New Jersey",
 	name: "Devils",
 	sport: "Hockey",
@@ -701,28 +689,28 @@ ny_islanders = Team.create!(
 	logo_url: "http://content.sportslogos.net/logos/1/19/full/79520qbne58r9i71zhuggbff0.png",
 	venue: ny_islandV
 	)
-ny_rangers = Team.create!(
+ny_rangers =(
 	city: "New York",
 	name: "Rangers",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/20/full/144.png",
 	venue: ny_rangersV
 	)
-ott_senators = Team.create!(
+ott_senators =(
 	city: "Ottawa",
 	name: "Senators",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/21/full/2bkf2l3xyxi5p0cavbj8.png",
 	venue: ott_senatV
 	)
-philly_flyers = Team.create!(
+philly_flyers =(
 	city: "Philadelphia",
 	name: "Flyers",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/22/full/161.png",
 	venue: philly_flyV
 	)
-pitt_pens = Team.create!(
+pitt_pens(
 	city: "Pittsburgh",
 	name: "Penguins",
 	sport: "Hockey",
@@ -743,14 +731,14 @@ st_loius_blues = Team.create!(
 	logo_url: "http://content.sportslogos.net/logos/1/25/full/187.png",
 	venue: st_loius_bluV
 	)
-tb_lighting = Team.create!(
+tb_lighting =(
 	city: "Tampa Bay",
 	name: "Lightning",
 	sport: "Hockey",
 	logo_url: "http://content.sportslogos.net/logos/1/27/full/97hhvk8e5if0riesnex30etgz.png",
 	venue: tb_lightV
 	)
-tor_maple_leafs = Team.create!(
+tor_maple_leafs =(
 	city: "Toronto",
 	name: "Maple Leafs",
 	sport: "Hockey",
@@ -790,192 +778,192 @@ winn_jets = Team.create!(
 
 buff_billsV = Venue.create!(
     	name: "New Era Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 miami_dolphV = Venue.create!(
     	name: "Sun Life Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
  ne_patsV = Venue.create!(
     	name: "Gillette Stadium",
-    	description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
+    	discription: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
     	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
     	location: "601 F St NW, Washington, DC 20004""1 Patriot Place, Foxborough, Massachusetts")
  ny_jetsV = Venue.create!(
     	name: "MetLife Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 balt_ravensV = Venue.create!(
     	name: "M&T Bank Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 cinci_banglesV = Venue.create!(
     	name: "Paul Brown Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 clev_brownV = Venue.create!(
     	name: "FirstEnergy Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 pitt_steelV = Venue.create!(
     	name: "Heinz Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 houston_txV = Venue.create!(
     	name: "NRG Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 indi_coltsV = Venue.create!(
     	name: "Lucas Oil Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 jax_jagsV = Venue.create!(
     	name: "EverBank Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 tenn_titainV = Venue.create!(
     	name: "Nissan Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 denver_broncV = Venue.create!(
     	name: "Sports Authority Field at Mile High",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 kc_cheifV = Venue.create!(
     	name: "Arrowhead Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 oak_raidV = Venue.create!(
     	name: "Oakland Alemeda Coliseum",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 la_chargerV = Venue.create!(
     	name: "StubHub Center",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 dal_cowboyV = Venue.create!(
     	name: "AT&T Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 ny_giantsV = Venue.create!(
     	name: "MetLife Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
-philly_eagleV = Venue.create!(
+philly_eagleV (
     	name: "Lincoln Financial Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 wash_redskinV = Venue.create!(
     	name: "FedExField",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 chi_bearV = Venue.create!(
     	name: "Soldier Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
-det_lionV= Venue.create!(
+det_lionV= Team.create!(
     	name: "Ford Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 gb_packV = Venue.create!(
     	name: "Lambeau Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 minn_vikingV = Venue.create!(
     	name: "U.S. Bank Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 alt_falconV = Venue.create!(
     	name: "Georgia Dome",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 carolina_pantherV = Venue.create!(
     	name: "Bank of America Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 nola_saintV = Venue.create!(
     	name: "Mercedes-Benz Superdome",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 tb_bucksV = Venue.create!(
     	name: "Raymond James Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 arz_cardinalV = Venue.create!(
     	name: "University of Phoenix Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 la_ramsV = Venue.create!(
     	name: "Los Angeles Memorial Coliseum",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 sf_49V = Venue.create!(
     	name: "Levi's Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
 seattle_seahawkV = Venue.create!(
     	name: "CenturyLink Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    	discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
     	location: "601 F St NW, Washington, DC 20004"
     )
@@ -1049,7 +1037,7 @@ denver_broncos = Team.create!(
         logo_url: "http://content.sportslogos.net/logos/7/161/full/9ebzja2zfeigaziee8y605aqp.png",
         venue: denver_broncV
     )
-det_lions = Team.create!(
+det_lions =(
         city: "Detroit",
         name: "Lions",
         sport: "Football",
@@ -1208,117 +1196,117 @@ wash_redskins = Team.create!(
 atlanta_united_fcV = Venue.create!(
                         name: "Bobby Dodd Stadium",
                         location:" 155 North Avenue, Northwest. Atlanta, Georgia",
-                        description:"The 55,000 seat stadium at Historic Grant Field is located on the campus of the Georgia Institute of Technology in Atlanta.",
+                        discription:"The 55,000 seat stadium at Historic Grant Field is located on the campus of the Georgia Institute of Technology in Atlanta.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BobbyDoddStadiumGTMiami2008.jpg/1280px-BobbyDoddStadiumGTMiami2008.jpg"
                         )
 chicago_fireV = Venue.create!(name: "Toyota Park",
-                description: "About twelve miles southwest of downtown Chicago. It is the home stadium of the Chicago Fire Soccer Club of Major League Soccer (MLS), the Chicago Red Stars[7] of the National Women's Soccer League (NWSL), and the Chicago Bliss of the Legends Football League (LFL). The stadium has also hosted the Chicago Machine of Major League Lacrosse",
+                discription: "About twelve miles southwest of downtown Chicago. It is the home stadium of the Chicago Fire Soccer Club of Major League Soccer (MLS), the Chicago Red Stars[7] of the National Women's Soccer League (NWSL), and the Chicago Bliss of the Legends Football League (LFL). The stadium has also hosted the Chicago Machine of Major League Lacrosse",
                 photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Toyota_Park%2C_9_March_2013.jpg/800px-Toyota_Park%2C_9_March_2013.jpg",
                 location:"7000 South Harlem Avenue. Bridgeview, Illinois"
                 )
 
 columbus_crew_scV = Venue.create!(name: "Mapfre Stadium",
-                    description:"Mapfre Stadium is also the site of a variety of additional events in amateur and professional soccer, American football, lacrosse, and rugby, and is a regular site for outdoor concerts due to the permanent stage in the north end zone.",
+                    discription:"Mapfre Stadium is also the site of a variety of additional events in amateur and professional soccer, American football, lacrosse, and rugby, and is a regular site for outdoor concerts due to the permanent stage in the north end zone.",
                     photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mapfre-stadium-hosts-USA-Mexico_11-11-2016.JPG/1280px-Mapfre-stadium-hosts-USA-Mexico_11-11-2016.JPG",
                     location: "1 Black and Gold Boulevard. Columbus, Ohio"
                     )
 dc_unitedV = Venue.create!(name: "RFK Stadium",
-            description: "A multi-purpose stadium in Washington, D.C., It is the current home of D.C. United of Major League Soccer and the AT&T Nation's Football Classic.",
+            discription: "A multi-purpose stadium in Washington, D.C., It is the current home of D.C. United of Major League Soccer and the AT&T Nation's Football Classic.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/RFK_Stadium_aerial_photo%2C_looking_towards_Capitol%2C_1988.jpg/800px-RFK_Stadium_aerial_photo%2C_looking_towards_Capitol%2C_1988.jpg",
             location: "2400 East Capitol Street SE. Washington, D.C."
 )
 montreal_impactV = Venue.create!(name: "Saputo Stadium",
-                description: "The stadium is built on the former practice track and field site on the grounds of the 1976 Summer Olympics, while the stadium's west side has a view of Olympic Stadium's inclined tower. It has a capacity of 20,801 making it the second-largest soccer-specific stadium in Canada, after BMO Field in Toronto.",
+                discription: "The stadium is built on the former practice track and field site on the grounds of the 1976 Summer Olympics, while the stadium's west side has a view of Olympic Stadium's inclined tower. It has a capacity of 20,801 making it the second-largest soccer-specific stadium in Canada, after BMO Field in Toronto.",
                 photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Stade_Saputo.27.06.12.jpg/800px-Stade_Saputo.27.06.12.jpg",
                 location: "4750 Sherbrooke Street E. Montreal, Quebec"
 )
 new_england_revolutionV = Venue.create!(name: "Gillette Stadium",
-                        description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
+                        discription: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
                         location: "1 Patriot Place, Foxborough, Massachusetts"
 )
 new_york_city_fcV = Venue.create!(name: "Yankee Stadium",
-            description: "A stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball (MLB). ",
+            discription: "A stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball (MLB). ",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Le_Yankee_Stadium.jpg",
             location: "1 East 161st Street. Bronx, New York"
 )
 new_york_red_bullsV = Venue.create!(name: "Red Bull Arena",
-            description: "Featuring a partial transparent roof and with a seating capacity of 25,000 it is the fourth-largest soccer-specific stadium in Major League Soccer.",
+            discription: "Featuring a partial transparent roof and with a seating capacity of 25,000 it is the fourth-largest soccer-specific stadium in Major League Soccer.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Red_Bull_Arena_Harrison_behind_goal.jpg/800px-Red_Bull_Arena_Harrison_behind_goal.jpg",
             location: "600 Cape May Street. Harrison, New Jersey"
                     )
 orlando_city_scV = Venue.create!(name: "Orlando City Stadium",
-            description: "A soccer-specific stadium in downtown Orlando, Florida. It is the home venue for the Orlando City SC, which entered Major League Soccer (MLS) as an expansion franchise in 2015, and their National Women's Soccer League (NWSL) sister club, the Orlando Pride.",
+            discription: "A soccer-specific stadium in downtown Orlando, Florida. It is the home venue for the Orlando City SC, which entered Major League Soccer (MLS) as an expansion franchise in 2015, and their National Women's Soccer League (NWSL) sister club, the Orlando Pride.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Open_House_Event_%2832264010504%29.jpg/800px-Open_House_Event_%2832264010504%29.jpg",
             location: "655 West Church Street. Orlando, Florida"
 )
 philadelphia_UnionV = Venue.create!(name: "alen Energy Stadium",
-            description: "Talen Energy Stadium[8] was designed to be a catalyst for economic development on the waterfront, with additional plans calling for a riverwalk amidst other entertainment, retail, and residential projects.",
+            discription: "Talen Energy Stadium[8] was designed to be a catalyst for economic development on the waterfront, with additional plans calling for a riverwalk amidst other entertainment, retail, and residential projects.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/26/PPL_Park_before_Independence_Playoff_Game_2010.jpg",
             location: "1 Stadium Drive, Chester, Pennsylvania"
 )
 toronto_FCV = Venue.create!(name:"BMO Field",
-            description: "home to Toronto FC of Major League Soccer and the Toronto Argonauts of the Canadian Football League. The largest soccer-specific stadium in Canada witha seting capacity of 28,500",
+            discription: "home to Toronto FC of Major League Soccer and the Toronto Argonauts of the Canadian Football League. The largest soccer-specific stadium in Canada witha seting capacity of 28,500",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bmo_Field_2016_East_Stand.jpg/1024px-Bmo_Field_2016_East_Stand.jpg",
             location:"170 Princes' Boulevard. Toronto, Ontario"
 )
 colorado_RapidsV = Venue.create!(name:"Dick's Sporting Goods Park",
-                description: "The stadium can seat up to 18,061 people for soccer matches, but may accommodate up to 19,734 for special soccer events and 27,000 for concerts. It became the third home venue for the Rapids upon its opening in 2007.",
+                discription: "The stadium can seat up to 18,061 people for soccer matches, but may accommodate up to 19,734 for special soccer events and 27,000 for concerts. It became the third home venue for the Rapids upon its opening in 2007.",
                 photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dicks_Sporting_Goods_Park_covered_in_snow.jpg/1280px-Dicks_Sporting_Goods_Park_covered_in_snow.jpg",
                 location:"6000 Victory Way. Commerce City, Colorado"
 )
 fc_DallasV = Venue.create!(name:"Toyota Stadium",
-            description: "A soccer-specific stadium with a 18,000-seat capacity, built and owned by the city of Frisco, Texas. Its primary tenants are Major League Soccer (MLS) team FC Dallas, which relocated from the Cotton Bowl in central Dallas, , and Frisco Independent School District high school football games.",
+            discription: "A soccer-specific stadium with a 18,000-seat capacity, built and owned by the city of Frisco, Texas. Its primary tenants are Major League Soccer (MLS) team FC Dallas, which relocated from the Cotton Bowl in central Dallas, , and Frisco Independent School District high school football games.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/800px-Pizza_Hut_Park.jpg",
             location:"9200 World Cup Way, Ste 202. Frisco, Texas"
 )
 houston_DynamoV = Venue.create!(name:"BBVA Compass Stadium",
-            description: "American soccer-specific stadium located in Houston, Texas that is home to the Houston Dynamo, a Major League Soccer club, the Houston Dash of the National Women's Soccer League, and to Texas Southern Tigers football.",
+            discription: "American soccer-specific stadium located in Houston, Texas that is home to the Houston Dynamo, a Major League Soccer club, the Houston Dash of the National Women's Soccer League, and to Texas Southern Tigers football.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BBVA_Compass_Stadium%2C_North_Facade.JPG/1024px-BBVA_Compass_Stadium%2C_North_Facade.JPG",
             location:"2200 Texas Avenue. Houston, Texas"
 )
 la_GalaxyV = Venue.create!(name:"StubHub Center",
-            description: "A multiple-use sports complex located on the campus of California State University. With a set capacity of 27,000,[8] it is the second-largest soccer-specific stadium in Major League Soccer.",
+            discription: "A multiple-use sports complex located on the campus of California State University. With a set capacity of 27,000,[8] it is the second-largest soccer-specific stadium in Major League Soccer.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LA_Galaxy_vs_Houston_Dynamo-_Western_Conference_Finals_panorama.jpg/1280px-LA_Galaxy_vs_Houston_Dynamo-_Western_Conference_Finals_panorama.jpg",
             location:"18400 Avalon Boulevard. Carson, California"
 )
-minnesota_United_FCV  = Venue.create!(name:"  TCF Bank Stadium",
-                        description: "An outdoor stadium located on the campus of the University of Minnesota, it is the home field of the Minnesota Golden Gophers of the Big Ten Conference, and the temporary home of Minnesota United FC",
+minnesota_United_FCV  = Team.create!(name:"  TCF Bank Stadium",
+                        discription: "An outdoor stadium located on the campus of the University of Minnesota, it is the home field of the Minnesota Golden Gophers of the Big Ten Conference, and the temporary home of Minnesota United FC",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/TCF_Bank_Stadium_2.JPG/800px-TCF_Bank_Stadium_2.JPG",
                         location:"420 SE 23rd Avenue. Minneapolis, Minnesota"
                         )           
-portland_TimbersV  = Venue.create!(name:"Providence Park",
-                    description: ". The MLS Portland Timbers and NWSL Portland Thorns FC soccer teams use the facility as their home pitch, as do the PDL's Timbers U23s. ",
+portland_TimbersV  = Team.create!(name:"Providence Park",
+                    discription: ". The MLS Portland Timbers and NWSL Portland Thorns FC soccer teams use the facility as their home pitch, as do the PDL's Timbers U23s. ",
                     photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Providence_Park.jpg/800px-Providence_Park.jpg",
                     location:"  1844 SW Morrison. Portland, Oregon"
                     )
-real_Salt_LakeV  = Venue.create!(name:"Rio Tinto Stadium",
-                    description: "9256 South State Street",
+real_Salt_LakeV  = Team.create!(name:"Rio Tinto Stadium",
+                    discription: "9256 South State Street",
                     photo_url:"https://upload.wikimedia.org/wikipedia/commons/a/aa/RioTintoEast3-4-2017.jpg",
                     location:"9256 South State Street. Sandy, Utah"
                     )
-san_Jose_EarthquakesV  = Venue.create!(name: "Avaya Stadium",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+san_Jose_EarthquakesV  = Team.create!(name: "Avaya Stadium",
+                        discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Avaya_Stadium%2C_1-7-15.jpg/1024px-Avaya_Stadium%2C_1-7-15.jpg",
                         location: "1123 Coleman Avenue. San Jose, California"
                         )
-seattle_Sounders_FCV  = Venue.create!(name:"CenturyLink Field",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+seattle_Sounders_FCV  = Team.create!(name:"CenturyLink Field",
+                        discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Qwest_Field_North.jpg/800px-Qwest_Field_North.jpg",
                         location:"800 Occidental Ave S. Seattle, Washington"
                     )
-sporting_Kansas_CityV  = Venue.create!(name:"Children's Mercy Park",
-                        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.", 
+sporting_Kansas_CityV  = Team.create!(name:"Children's Mercy Park",
+                        discription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.", 
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg/800px-Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg",
                         location:"One Sporting Way. Kansas City, Kansas"
                     )
-vancouver_Whitecaps_FCV  = Venue.create!(name:"BC Place",
-                        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+vancouver_Whitecaps_FCV  = Team.create!(name:"BC Place",
+                        discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BC_Place_Opening_Day_2011-09-30.jpg/800px-BC_Place_Opening_Day_2011-09-30.jpg",
                         location:"777 Pacific Boulevard. Vancouver, British Columbia, Canada"
                     )
-los_Angeles_FCV  = Venue.create!(name: "Banc of California Stadium",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+los_Angeles_FCV  = Team.create!(name: "Banc of California Stadium",
+                    discription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                     photo_url:"https://upload.wikimedia.org/wikipedia/en/6/69/LAFC_Stadium_Concept_Art.jpg",
                     location:"3939 South Figueroa Street. Los Angeles, California"
                     )
@@ -1327,14 +1315,14 @@ chicago_fire = Team.create!(
         name: "Chicago Fire",
         sport: "Soccer",
         city: "Chicago",
-        logo_url: "ttp://content.sportslogos.net/logos/9/323/full/umsypmvh1fcxyefrqcfio0yfy.gif",
+        log_url: "ttp://content.sportslogos.net/logos/9/323/full/umsypmvh1fcxyefrqcfio0yfy.gif",
         venue: chicago_fireV
     )
 colorado_Rapids = Team.create!(
         name: "Colorado Rapids",
         sport: "Soccer",
         city: "Colorado",
-        logo_url: "ttp://content.sportslogos.net/logos/9/328/full/rkjf0o1eifa47lh6uhy4oj5qy.gif",
+        log_url: "ttp://content.sportslogos.net/logos/9/328/full/rkjf0o1eifa47lh6uhy4oj5qy.gif",
         venue: colorado_RapidsV
     )
 dc_united = Team.create!(
@@ -1428,7 +1416,7 @@ san_Jose_Earthquakes = Team.create!(
         logo_url: "http://content.sportslogos.net/logos/9/332/full/7952_san_jose_earthquakes-primary-2014.png",
         venue: san_Jose_EarthquakesV
     )
-seattle_Sounders_FC = Team.create!(
+seattle_Sounders_FCV = Venue.create!(
         name: "Seattle Sounders FC",
         sport: "Soccer",
         city: "Seattle",
