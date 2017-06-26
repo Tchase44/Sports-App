@@ -1,5 +1,27 @@
-<a data-ui-sref="teamNew">Create New Team</a>
 
-<div data-ng-repeat="team in vm.teams | orderBy:'-created_at'">
-  <p><a data-ui-sref="teamShow({id: team.id})">{{team.name}}</a></p>
+
+<div >
+<p><a href="#" ng-click="vm.hide = !vm.hide"">Edit</a></p>
+	<p>{{vm.team.city}}</p>
+  <p>{{vm.team.name}}</p>
+  <p>{{vm.team.sport}}</p>
+  <!-- <p>{{vm.venue}}</p> -->
+  <img src="{{vm.team.logo_url}}">
+
+<div ng-show="vm.hide">
+<form>
+ <p>Team Name</p>
+  <input value="vm.team.name"  data-ng-model="vm.team.name" />
+  <p>City</p>
+  <input value="vm.team.city"  data-ng-model="vm.team.city" />
+  <p>Sport</p>
+  <input value="vm.team.sport"  data-ng-model="vm.team.sport" />
+  <p>Logo URL</p>
+  <input value="vm.team.logo_url"  data-ng-model="vm.team.logo_url" />
+  <button type="button" data-ng-click="vm.update()">Edit</button>
+  <button data-ng-click="vm.destroy()">Delete</button>
+</form>
+</div>
+
+
 </div>

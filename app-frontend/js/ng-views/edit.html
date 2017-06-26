@@ -1,10 +1,15 @@
 <h2>Edit Team</h2>
-
+<div>
 <form>
-  <input value="vm.team.name" data-ng-model="vm.team.name" />
-  <input value="vm.team.city" data-ng-model="vm.team.city" />
-  <input value="vm.team.sport" data-ng-model="vm.team.sport" />
-  <input value="vm.team.logo_url" data-ng-model="vm.team.logo_url" />
+ <p>Team Name</p>
+  <input value="vm.team.name"  data-ng-model="vm.team.name" />
+  <p>City</p>
+  <input value="vm.team.city"  data-ng-model="vm.team.city" />
+  <p>Sport</p>
+  <input value="vm.team.sport"  data-ng-model="vm.team.sport" />
+  <p>Logo URL</p>
+  <input value="vm.team.logo_url"  data-ng-model="vm.team.logo_url" />
   <button type="button" data-ng-click="vm.update()">Edit</button>
   <button data-ng-click="vm.destroy()">Delete</button>
 </form>
+</div>

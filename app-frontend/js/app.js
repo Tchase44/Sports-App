@@ -3,8 +3,8 @@
 
 angular
 .module("sportsapp", [
-  "ui.router"
-  // "ngResource"
+  "ui.router",
+  "ngResource"
 ])
 
 .config([
@@ -13,34 +13,57 @@ angular
 ])
 
 .controller( "TeamIndexController", [
-  // "TeamFactory",
+  "TeamFactory",
   TeamIndexControllerFunction
 ])
 
 .controller( "TeamNewController", [
-  // "TeamFactory",
+  "TeamFactory",
+  "$state",
   TeamNewControllerFunction
 ])
 
-.controller( "TeamEditController", [
-  // "TeamFactory",
-  "$stateParams",
-  TeamEditControllerFunction
-])
-
 .controller("TeamShowController", [
-  // "TeamFactory",
+  "TeamFactory",
   "$stateParams",
+  "$state",
+  "VenueFactory",
   TeamShowControllerFunction
 ])
 
-// .factory( "TeamFactory", [
-//   "$resource",
-//   FactoryFunction
-// ])
+
+// VENUE'S CONTROLLERS
+.controller("VenueIndexController", [
+  "VenueFactory",
+  VenueIndexControllerFunction
+])
+
+.controller("VenueNewController", [
+  "VenueFactory",
+  "$state",
+  VenueNewControllerFunction
+])
+
+.controller("VenueShowController", [
+  "VenueFactory",
+  "$stateParams",
+  "$state",
+  VenueShowControllerFunction
+])
+
+.factory( "TeamFactory", [
+  "$resource",
+  FactoryFunction
+])
+
+.factory("VenueFactory", [
+  "$resource",
+  VenueFactoryFunction
+])
+
 
 function RouterFunction ($stateProvider) {
-$stateProvider
+  $stateProvider
   .state("teamIndex", {
     url: "/teams",
     templateUrl: "js/ng-views/index.html",
@@ -55,62 +78,107 @@ $stateProvider
     controllerAs: "vm"
   })
 
-  .state("teamEdit", {
-    url: "/teams/edit",
-    templateUrl: "js/ng-views/edit.html",
-    controller: "TeamNewController",
-    controllerAs: "vm"
-  })
-
   .state("teamShow", {
     url: "/teams/:id",
     templateUrl: "js/ng-views/show.html",
     controller: "TeamShowController",
     controllerAs: "vm"
   })
+
+  .state("venueIndex", {
+    url: "/venues",
+    templateUrl: "js/ng-views/venue/index.html",
+    controller: "VenueIndexController",
+    controllerAs: "vm"
+  })
+
+  .state("venueNew", {
+    url: "/venues/new",
+    templateUrl: "js/ng-views/venue/new.html",
+    controller: "VenueNewController",
+    controllerAs: "vm"
+  })
+
+  .state("venueShow", {
+    url: "/venues/:id",
+    templateUrl: "js/ng-views/venue/show.html",
+    controller: "VenueShowController",
+    controllerAs: "vm"
+  })
 }
 
-// function FactoryFunction( $resource ){
-//     return $resource( "http://localhost:3000/teams/:id", {}, {
-//         update: { method: "PUT" }
-//     });
-// }
+function FactoryFunction( $resource ){
+    return $resource( "http://localhost:3000/teams/:id.json", {}, {
+        update: { method: "PUT" }
+    });
+}
 
+function VenueFactoryFunction($resource){
+  return $resource("http://localhost:3000/venues/:id.json", {}, {
+    update: {method: "PUT"}
+  })
+}
+
+
+// TEAM'S CONTROLLER FUNCTIONS
 function TeamIndexControllerFunction( TeamFactory ){
-  // this.teams = TeamFactory.query();
-  this.teams = [{
-    "id" : "1",
-    "city" : "Phoenix",
-    "name" : "Arizona Diamondbacks",
-    "sport": "Baseball",
-    "logo_url": "http://content.sportslogos.net/logos/54/50/full/8779_arizona_diamondbacks-alternate-2016.png"
-  },
-  {
-    "id" : "2",
-    "city" : "Atlanta",
-    "name" : "Atlanta Braves",
-    "sport": "Baseball",
-    "logo_url": "http://content.sportslogos.net/logos/54/51/full/3kgwjp6heowkeg3w8zoow9ggy.png"
-  }]
+  this.teams = TeamFactory.query();
 }
 
-function TeamNewControllerFunction( TeamFactory ){
-  // this.team = new TeamFactory();
+function TeamNewControllerFunction( TeamFactory, $state ){
+  this.team = new TeamFactory();
   this.create = function(){
-  this.team.$save()
+    this.team.$save().then(function(){
+      $state.go("teamIndex")
+    })
   }
 }
 
-function TeamEditControllerFunction( TeamFactory, $stateParams ){
-  // this.team = TeamFactory.get({id: $stateParams.id});
+function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
+    this.team = TeamFactory.get({id: $stateParams.id});
+    this.hide = false
+    // this.venue = VenueFactory.query()
+    this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
-  this.team.$update({id: $stateParams.id})
+    this.team.$update({id: $stateParams.id}).then(function(){
+      $state.reload()
+    })
   }
   this.destroy = function(){
-  this.team.$delete({id: $stateParams.id});
+    this.team.$delete({id: $stateParams.id}).then(function(){
+      $state.go("teamIndex")
+    })
+  }
+  }
+
+
+// VENUE'S CONTROLLER FUNCTIONS
+function VenueIndexControllerFunction( VenueFactory ) {
+  this.venues = VenueFactory.query();
+}
+
+function VenueNewControllerFunction( VenueFactory, $state ) {
+  this.venue = new VenueFactory();
+  this.create = function () {
+    this.venue.$save().then(function() {
+      $state.go("venueIndex")
+    })
   }
 }
 
-function TeamShowControllerFunction(TeamFactory, $stateParams){
-    // this.team = TeamFactory.get({id: $stateParams.id});
+function VenueShowControllerFunction( VenueFactory, $stateParams, $state ) {
+  this.venue = VenueFactory.get({id: $stateParams.id})
+
+  this.hide = false
+  this.venue = VenueFactory.get({id: $stateParams.id});
+  this.update = function() {
+    this.venue.$update({id: $stateParams.id}).then(function(){
+      $state.reload()
+    })
   }
+  this.destroy = function(){
+    this.venue.$delete({id: $stateParams.id}).then(function(){
+      $state.go("venueIndex")
+    })
+  }
+}
