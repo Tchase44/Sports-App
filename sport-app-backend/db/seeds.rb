@@ -12,154 +12,205 @@ Team.destroy_all
 
 #NBA
 bostV = Venue.create!(name: "TD Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "TD Garden, often called Boston Garden and 'The Garden', is a multi-purpose arena in Boston. TD Garden is the home arena for the Boston Bruins of the
+		National Hockey League and the Boston Celtics of the National Basketball Association. Arena's capacity is 17,565.",
+		photo_url: "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/celtics/media/arena-550x400.jpg",
+		location: " 100 Legends Way, Boston, MA 02114"
 	)
 brooklynV = Venue.create!(name: "Barclays Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Barclays Center is a multi-purpose indoor arena in the New York City borough of Brooklyn.
+		The arena is currently home to the Brooklyn Nets of the National Basketball Association and the New York Islanders of the National Hockey League.
+		Arena's capacity for basketball is  17,732 , for ice hockey is 15,795.",
+		photo_url: "https://www.downtownmagazinenyc.com/wp-content/uploads/2014/01/Nets.jpg",
+		location: "620 Atlantic Ave, Brooklyn, NY 11217"
 	)
 knicksV = Venue.create!(name: "Madison Square Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Madison Square Garden, often called 'MSG' or simply 'The Garden', is a multi-purpose indoor arena in the New York City borough of Manhattan.
+		 It is home to the New York Rangers of the National Hockey League (NHL) and the New York Knicks of the National Basketball Association (NBA).
+		 Madison Square Garden's capacity for basketball is 19,812 , for ice hockey is 17,250.",
+		photo_url: "http://s3.amazonaws.com/product-images.imshopping.com/nimblebuy/new-york-knicks-2-6850132-regular.jpg",
+		location: "4 Pennsylvania Plaza, New York, NY 10001"
 	)
 phillyV = Venue.create!(name: "Wells Fargo Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Wells Fargo Center is a multi-purpose indoor arena located in Philadelphia, Pennsylvania. It is the home arena of the Philadelphia 76ers
+		of the National Basketball Association (NBA), the Philadelphia Flyers of the National Hockey League (NHL), and the Philadelphia Soul of the Arena Football League.
+		The Wells Fargo Center officially seats 20,318 for NBA and NCAA basketball and 19,541 for NHL hockey[1] and indoor NLL lacrosse.",
+		photo_url: "https://media-cdn.tripadvisor.com/media/photo-s/07/03/34/b2/wells-fargo-center.jpg",
+		location: "3601 S Broad St, Philadelphia, PA 19148"
 	)
 torontoV = Venue.create!(name: "Air Canada Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Air Canada Centre (ACC) is a multi-purpose indoor sporting arena located on Bay Street in the South Core district of Downtown Toronto, Ontario,
+		Canada. It is the home of the Toronto Maple Leafs of the National Hockey League (NHL), the Toronto Raptors of the National Basketball Association (NBA)
+		and the Toronto Rock of the National Lacrosse League (NLL). Air Canada Centre's seating capacity is 19,800.",
+		photo_url: "https://media-cdn.tripadvisor.com/media/photo-s/09/68/0f/10/the-air-canada-centre.jpg",
+		location: "40 Bay St, Toronto, ON M5J 2X2, Canada"
 	)
 chicagoV = Venue.create!(name: "United Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "United Center is an indoor sports arena located in the Near West Side neighborhood of Chicago, Illinois. The United Center is home to both
+		the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National Hockey League (NHL). It seats 19,717
+		(not including standing room) for hockey, 20,917 (not including standing room) for basketball.",
+		photo_url: "http://nrt3p27yx671tjb2n1qst3r1-wpengine.netdna-ssl.com/wp-content/uploads/2011/12/united-center-chicago-bulls.jpg",
+		location: "1901 W Madison St, Chicago, IL 60612"
 	)
 clevelandV = Venue.create!(name: "Quicken Loans Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Quicken Loans Arena, commonly known as 'The Q', is a multi-purpose arena in downtown Cleveland, Ohio, United States. The building is the
+		home of the Cleveland Cavaliers of the National Basketball Association (NBA), the Cleveland Monsters of the American Hockey League, and the
+		Cleveland Gladiators of the Arena Football League. It also serves as a secondary arena for Cleveland State Vikings men's and women's basketball. Quicken Loans
+	  Arena seats 20,562 people in its basketball configuration and up to 20,056 for ice hockey, making it the second-largest arena in the NBA by seating capacity.",
+		photo_url: "http://www.theqarena.com/assets/img/court-150129-660.jpg",
+		location: "1 Center Ct, Cleveland, OH 44115"
 	)
 pistonsV = Venue.create!(name: "The Palace of Auburn Hills",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Palace of Auburn Hills, commonly referred to as The Palace, is a multi-purpose arena located in Auburn Hills, Michigan, which is a
+		suburb of Detroit. It served as the home of the Detroit Pistons of the National Basketball Association (NBA), the Detroit Shock of the Women's National
+		Basketball Association (WNBA), the Detroit Vipers of the International Hockey League, the Detroit Safari of the Continental Indoor Soccer League,
+		and the Detroit Fury of the Arena Football League. It's capacity for basketball is 22,076 and for ice hockey is 20,804.",
+		photo_url: "http://www.musco.com/news/images/palace.jpg",
+		location: "6 Championship Dr, Auburn Hills, MI 48326"
 	)
 pacersV = Venue.create!(name: "Bankers Life Fieldhouse",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Bankers Life Fieldhouse is an indoor arena located in downtown Indianapolis, Indiana, USA. It is the home of the Indiana Pacers of the
+		National Basketball Association and the Indiana Fever of the Women's National Basketball Association. The Fieldhouse also hosts college basketball games
+		(including the annual Big Ten Conference tournaments), indoor concerts, and ice hockey. Bankers Life Fieldhouse's capacity is 17,923.",
+		photo_url: "http://i.cdn.turner.com/nba/nba/teamsites/images/legacy/pacers/2012-year-review_0_0.jpg?1356977587",
+		location: "125 S Pennsylvania St, Indianapolis, IN 46204"
 	)
 bucksV = Venue.create!(name: "BMO Harris Bradley Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Bradley Center known as the BMO Harris Bradley Center is home to the Milwaukee Bucks of the NBA and the Marquette University men's basketball team.
+		Bradley Center's capacity is 20,000.",
+		photo_url: "http://www.gettyimages.com/event/san-antonio-spurs-v-milwaukee-bucks-508087451?esource=SEO_GIS_CDN_Redirect#-picture-id467633012",
+		location: "Bradley Center, 1001 North 4th, Milwaukee, WI 53203"
 	)
 atlantaV = Venue.create!(name: "Philips Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Philips Arena is a multi-purpose indoor arena located in Atlanta, Georgia, and is home to the Atlanta Hawks, of the
+		National Basketball Association, and the Atlanta Dream, of the Women's National Basketball Association. The arena has 21,000 capacity.",
+		photo_url: "http://studenttours.kellytours.com/wp-content/uploads//AtlantaFieldTrip-KellyTours-StudentTravel-FieldTripIdeas-BusCharter-MotorcoachCharter-StudentsVisitPhillipsArena-1-c44011932af04ef3a8922fd7db9316b5.png",
+		location: "1 Philips Dr, Atlanta, GA 30303"
 	)
 hornetsV = Venue.create!(name: "Spectrum Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Spectrum Center (formerly Time Warner Cable Arena) is an indoor arena located in center city Charlotte, North Carolina. It is owned by the city of
+		Charlotte and operated by its main tenant, the NBA's Charlotte Hornets. Opened in October 2005, the arena seats 19,077 for NBA games but can be
+		expanded to seat up to 20,200 for college basketball games.",
+		photo_url: "https://media-cdn.tripadvisor.com/media/photo-s/0b/1b/55/d4/hornets-vs-heat-from.jpg",
+		location: "333 E Trade St, Charlotte, NC 28202"
 	)
 heatV = Venue.create!(name: "American Airlines Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The American Airlines Arena is a sports and entertainment arena located in Downtown Miami, Florida. The Arena is home to the Miami Heat
+		of the National Basketball Association. The American Airlines Arena's capacity is 21,000.",
+		photo_url: "https://media-cdn.tripadvisor.com/media/photo-s/02/cd/88/31/american-airlines-arena.jpg",
+		location: "601 Biscayne Blvd, Miami, FL 33132"
 	)
 magicV = Venue.create!(name: "Amway Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Amway Center is a sports and entertainment venue in Orlando, Florida, located in the Downtown area. The arena is home to the
+		Orlando Magic of the NBA, the Orlando Solar Bears of the ECHL, and hosted the 2012 NBA All-Star Game, plus the 2015 ECHL All-Star Game. It's capacity is 18,846 ",
+		photo_url: "http://www.musco.com/news/galleryImages/amway1.jpg",
+		location: "400 W Church St #200, Orlando, FL 32801"
 	)
 wizardsV = Venue.create!(name: "Verizon Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
+		description: "The Verizon Center is a sports and entertainment arena in Washington, D.C. The arena is home to the Washington Wizards of the
+		National Basketball Association (NBA), Washington Capitals of the National Hockey League (NHL), the Georgetown University men's basketball team,
+		the Washington Mystics of the Women's National Basketball Association (WNBA). The arena's seating capacity is 20,308 for basketball and 18,506 for ice hockey.",
+		photo_url: "https://blog.spothero.com/wp-content/uploads/2013/03/March-Madness-Parking-Verizon-Center.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 nuggetsV = Venue.create!(name: "Pepsi Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Pepsi Center is an American multi-purpose arena located in Denver, Colorado. The arena is home to the Denver Nuggets of the
+		National Basketball Association (NBA), the Colorado Avalanche of the National Hockey League (NHL), and the Colorado Mammoth of the National Lacrosse League (NLL).
+		Pepsi Center's capacity is 19,155",
+		photo_url: "https://static.rukkus.com/performer/home_venue/denver-nuggets-at-pepsi-center.5075825fafa3.jpg",
+		location: "1000 Chopper Cir, Denver, CO 80204"
 	)
 timberwolvesV = Venue.create!(name: "Target Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Target Center is a multi-purpose arena located in downtown Minneapolis, Minnesota. The arena is home to the NBA's Minnesota Timberwolves
+		and the WNBA's Minnesota Lynx. Target Center's capacity is 20,000.",
+		photo_url: "http://i.cdn.turner.com/nba/nba/teamsites/images/legacy/timberwolves/140910376.jpg",
+		location: "600 N 1st Ave, Minneapolis, MN 55403"
 	)
 okcV = Venue.create!(name: "Chesapeake Energy Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Chesapeake Energy Arena, originally known as the Ford Center from 2002 to 2010 and Oklahoma City Arena until 2011, is an arena located in
+		downtown Oklahoma City, Oklahoma, United States. It opened in 2002 and since 2008 has served as the home venue of the Oklahoma City Thunder of the
+		 National Basketball Association (NBA). The arena has 18,203 seats in the basketball configuration, and 15,152 for hockey.",
+		photo_url: "http://www.chesapeakearena.com/assets/img/Crowd-Shot_Thunder-8af5b6aed5.jpg",
+		location: "100 W Reno Ave, Oklahoma City, OK 73102"
 	)
 portV = Venue.create!(name: "Moda Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Moda Center, formerly known as the Rose Garden, is the primary indoor sports arena in Portland, Oregon, United States.
+		It is suitable for large indoor events of all sorts, including basketball, ice hockey, rodeos, circuses, conventions, ice shows, concerts,
+		and dramatic productions. The arena is home to the NBA's Portland Trail Blazers and has a capacity of 19,393.",
+		photo_url: "http://kgmi-am.sagacom.com/wp-content/blogs.dir/70/files/2014/04/WP-ModaCenterTrailBlazers.jpg",
+		location: "1 N Center Ct St, Portland, OR 97227"
 	)
 jazzV = Venue.create!(name: "Vivint Smart Home Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Vivint Smart Home Arena is an indoor arena located in Salt Lake City, Utah. The arena is the home of the Utah Jazz of the National Basketball
+		Association (NBA). It seats 19,911 for basketball, has 56 luxury suites, and 668 club seats.",
+		photo_url: "http://d81ldo19jx3e0.cloudfront.net/utah/uteathletics/img/sections/ncaa/venue.jpg",
+		location: "301 S Temple, Salt Lake City, UT 84101"
 	)
 goldStateV = Venue.create!(name: "Oracle Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Oracle Arena is an indoor arena located in Oakland, California, United States, and is the home of the Golden State Warriors of the
+		National Basketball Association (NBA). Oracle Arena seats 19,596 fans for basketball and 17,200 for ice hockey.",
+		photo_url: "http://www.insidearenas.com/wp-content/uploads/2016/09/oracle-arena-2.jpg",
+		location: "7000 Coliseum Way, Oakland, CA 94621"
 	)
 clippersV = Venue.create!(name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Staples Center is a multi-purpose sports arena in Downtown Los Angeles. The arena is home to the Los Angeles Lakers and the Los Angeles Clippers
+		of the National Basketball Association (NBA), the Los Angeles Kings of the National Hockey League (NHL), and the Los Angeles Sparks of the Women's
+		National Basketball Association (WNBA). The arena seats up to 19,067 for basketball, 18,340 for ice hockey.",
+		photo_url: "https://chairnerd.global.ssl.fastly.net/images/seatview/134/nba/nba/bdd0ad/315/640/venue-section-315-view.jpg",
+		location: "1111 S Figueroa St, Los Angeles, CA 90015"
 	)
 lakersV = Venue.create!(name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Staples Center is a multi-purpose sports arena in Downtown Los Angeles. The arena is home to the Los Angeles Lakers and the Los Angeles Clippers
+		of the National Basketball Association (NBA), the Los Angeles Kings of the National Hockey League (NHL), and the Los Angeles Sparks of the Women's
+		National Basketball Association (WNBA). The arena seats up to 19,067 for basketball, 18,340 for ice hockey.",
+		photo_url: "http://i.cdn.turner.com/nba/nba/teamsites/images/legacy/lakers/1112miniplans650.jpg",
+		location: "1111 S Figueroa St, Los Angeles, CA 90015"
 	)
 phoenixV = Venue.create!(name: "Talking Stick Resort Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Talking Stick Resort Arena is a sports and entertainment arena in downtown Phoenix, Arizona, United States. It is home to the Phoenix Suns
+		of the National Basketball Association (NBA), the Phoenix Mercury of the Women's National Basketball Association (WNBA) and the Arizona Rattlers of the
+		 Indoor Football League. Capacity for basketball is 18,422.",
+		photo_url: "http://i.cdn.turner.com/drp/nba/suns/sites/default/files/styles/main_gallery_photo__480_tall/public/gettyimages-502306302_master.jpg?itok=OklOkUh1",
+		location: "201 E Jefferson St, Phoenix, AZ 85004"
 	)
 kingsV = Venue.create!(name: "Golden 1 Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Golden 1 Center is an indoor arena, located in Downtown Sacramento, California. It sits partially on the site of the former Downtown Plaza
+		shopping center. Golden 1 Center is home of the Sacramento Kings of the National Basketball Association. It has 17,608 seat capacity.",
+		photo_url: "http://www.aecom.com/wp-content/uploads/2015/10/golden_1_center_4-850x531.jpg",
+		location: "500 David J Stern Walk, Sacramento, CA 95814"
 	)
 dallasV = Venue.create!(name: "American Airlines Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The American Airlines Center (AAC) is a multi-purpose arena, located in the Victory Park neighborhood, near downtown Dallas, Texas.
+		The arena serves as the home to the Dallas Mavericks of the National Basketball Association, and the Dallas Stars of the National Hockey League.
+		The American Airlines Center has 19,200 seating capacity for basketball and 18,532 for ice hockey.",
+		photo_url: "http://68.media.tumblr.com/tumblr_lzlpakjBoW1qfkop6o1_1280.jpg",
+		location: "2500 Victory Ave, Dallas, TX 75219"
 	)
 houstonV = Venue.create!(name: "Toyota Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Toyota Center is an indoor arena located in downtown Houston, Texas. The arena is home to the Houston Rockets of the
+		National Basketball Association. The arena can seat 18,055 for basketball and 17,800 for ice hockey.",
+		photo_url: "http://groupon.s3.amazonaws.com/sponsorship-imgs/Goods/LTL%20Prints%2042x24%20NBA%20Arena%20Canvas%20CMS%202%3A2%3A2013/727908604931-42-x-24-NBA-Arena-Canvas-Print--Houston-RocketsToyota-Center.jpg",
+		location: "1510 Polk St, Houston, TX 77002"
 	)
 grizzliesV = Venue.create!(name: "FedExForum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "FedExForum is an arena located in downtown Memphis, Tennessee. It is the home of the Memphis Grizzlies of the NBA and the NCAA Division
+		 I men's basketball program of the University of Memphis. It is capable of seating 18,119 for basketball and has 1,000 premiere courtside seats.
+		 There are 27 courtside suites, 32 club suites, 4 party suites, and 80 club boxes.",
+		photo_url: "http://i.cdn.turner.com/drp/nba/grizzlies/sites/default/files/styles/page_main_photo/public/486994863-777.jpg?itok=LHGWF6K2",
+		location: "191 Beale St, Memphis, TN 38103"
 	)
 pelicansV = Venue.create!(name: "Smoothie King Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Smoothie King Center is a multi-purpose indoor arena in New Orleans, Louisiana. The arena opened in 1999 as New Orleans Arena and
+		has been home to the New Orleans Pelicans of the National Basketball Association (NBA) since 2002. The arena seats 18,500 for basketball and 16,900 for
+		arena football. It has 2,800 club seats and 56 luxury suites.",
+		photo_url: "https://www.tickpick.com/DesktopModules/SearchResults/img/performers/new-orleans-pelicans.jpg",
+		location: "1501 Dave Dixon Dr, New Orleans, LA 70113"
 	)
 spursV = Venue.create!(name: "AT&T Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://previews.123rf.com/images/gigiroman/gigiroman0702/gigiroman070200081/775451-large-view-basketball-arena-Stock-Photo-court.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The AT&T Center is a multi-purpose indoor arena on the east side of San Antonio, Texas, United States. It is the home of the San Antonio Spurs
+		 of the NBA. It seats 18,418 for basketball, 16,151 for ice hockey and has 18,581 seating capacity, 2,018 club seats, 50 luxury suites and 32 bathrooms.",
+		photo_url: "https://s-media-cache-ak0.pinimg.com/originals/c6/25/93/c62593226f977f3c2a117c6e99eb7ba7.jpg",
+		location: "1 AT&T Center Parkway, San Antonio, TX 78219"
 	)
 
 atl =	Team.create!(
