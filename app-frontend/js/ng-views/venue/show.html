@@ -3,11 +3,11 @@
 <div>
 <p><a href="#" ng-click="vm.hide = !vm.hide">Edit</a></p>
 
-<p>{{vm.venue.name}}</p>
+<p id="venueName">{{vm.venue.name}}</p>
 
 
 <p ng-repeat="team in vm.teams | filter : {'id' : vm.venue.team_id , 'venue_id' : vm.venue.id}" ng-if="$first">
-  <a data-ui-sref="teamShow({id: team.id})"> {{team.name}} </a>
+  <a id="teamName" data-ui-sref="teamShow({id: team.id})"> {{team.name}} </a>
 </p>
 
 <p>{{vm.venue.location}}</p>
@@ -30,3 +30,10 @@
 </div>
 
 </div>
+
+<button id="venueButton">Show Games!</button>
+<div id="venueEvents">
+  
+</div>
+
+<script type="text/javascript" src="js/tickets.js"></script>
