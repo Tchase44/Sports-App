@@ -1,5 +1,6 @@
 "use strict";
-
+// (function(){
+  
 angular
 .module("sportsapp", [
   "ui.router",
@@ -8,9 +9,13 @@ angular
 
 .config([
   "$stateProvider",
+  "$locationProvider",
   RouterFunction
 ])
-
+.controller("HomeController",[
+  
+  HomeControllerFun
+])
 .controller( "TeamIndexController", [
   "TeamFactory",
   TeamIndexControllerFunction
@@ -60,14 +65,15 @@ angular
   "$resource",
   VenueFactoryFunction
 ])
+angular["sport"] = "";
 
-
-function RouterFunction ($stateProvider) {
+function RouterFunction ($stateProvider,$locationProvider) {
+  $locationProvider.html5Mode(true); 
   $stateProvider
   .state("home", {
     url: "/",
     templateUrl: "js/ng-views/home.html",
-    controller: "TeamIndexController",
+    controller: "HomeController",
     controllerAs: "vm"
   })
 
@@ -128,10 +134,19 @@ function VenueFactoryFunction($resource){
   })
 }
 
+function HomeControllerFun(){
+  this.sportLoad = function(sportIn){
+    console.log("click worked")
+    angular.sport = sportIn
+    console.log(angular.sport)
+  }
+}
 
 // TEAM'S CONTROLLER FUNCTIONS
-function TeamIndexControllerFunction( TeamFactory ){
+function TeamIndexControllerFunction(TeamFactory){
   this.teams = TeamFactory.query();
+  this.selSport = angular.sport
+  
 }
 
 function TeamNewControllerFunction( TeamFactory, $state ){
@@ -145,7 +160,6 @@ function TeamNewControllerFunction( TeamFactory, $state ){
 
 function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
     this.team = TeamFactory.get({id: $stateParams.id});
-
     this.hide = false
     this.venues = VenueFactory.query()
     this.team = TeamFactory.get({id: $stateParams.id});
@@ -193,3 +207,4 @@ function VenueShowControllerFunction( VenueFactory, $stateParams, $state, TeamFa
     })
   }
 }
+// })()
