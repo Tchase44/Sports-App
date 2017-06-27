@@ -5,15 +5,16 @@ $(document).ready(function () {
 	let ticketPlace = $('#ticketsShow')
 	let venueEvents = $('#venueEvents')
 	let stadium = $('#venueButton')
+	let venue = "";
+	let teamName = "";
 	let city = "";
 	let name = "";
-	let venue = "";
-	let teamName = ""
+
 
 	function getNames(){
 		city = $('#city').text()
 		name = $('#name').text()
-		// 
+		//
 		console.log(city +" : "+ name)
 	}
 
@@ -26,11 +27,11 @@ $(document).ready(function () {
   	}
 
   	function format(string) {
-  		return string.split("&").join(" ") 
+  		return string.split("&").join(" ")
   	}
 
   	function apiCall(){
-  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=&keyword="+city+" "+name,function(data){
+  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+city+" "+name,function(data){
   			let ticketData = data._embedded.events
 
   			console.log(ticketData)
@@ -45,11 +46,11 @@ $(document).ready(function () {
 
   	stadium.click(function(e) {
   		e.preventDefault()
-  		// console.log("i was clicked")
+
   		teamName = $('#teamName').text()
   		venue = $('#venueName').text()
-  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=&keyword="+venue+" "+teamName,function(data){
-  			// console.log(data._embedded.events)
+  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+venue+" "+teamName,function(data){
+
   			let venueData = data._embedded.events
 
   			for (let i = 0; i < venueData.length; i++) {
@@ -63,8 +64,5 @@ $(document).ready(function () {
 
   	delayGetNames()
   	delayData()
-
-	
-
 })
 })()
