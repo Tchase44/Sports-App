@@ -108,3 +108,12 @@ footer a:hover {
 img{
 	width:200px;
 }
+.events{
+    border: 1px solid black;
+    margin: 3px;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 15px;
+}
+.events:hover{
+    background: rgb(240,240,240);
+}

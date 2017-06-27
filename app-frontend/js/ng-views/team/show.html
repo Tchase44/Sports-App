@@ -2,8 +2,8 @@
 
 <div >
 <p><a href="#" ng-click="vm.hide = !vm.hide"">Edit</a></p>
-	<p>{{vm.team.city}}</p>
-  <p>{{vm.team.name}}</p>
+	<p id="city">{{vm.team.city}}</p>
+  <p id="name">{{vm.team.name}}</p>
   <p>{{vm.team.sport}}</p>
 
 	<p ng-repeat="venue in vm.venues | filter : {'id' : vm.team.venue_id , 'team_id' : vm.team.id}" ng-if="$first">
@@ -26,6 +26,9 @@
   <button data-ng-click="vm.destroy()">Delete</button>
 </form>
 </div>
-
+  <div id="ticketsShow">
+    
+  </div>
 
 </div>
+<script type="text/javascript" src="js/tickets.js"></script>
