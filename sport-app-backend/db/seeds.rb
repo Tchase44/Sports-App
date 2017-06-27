@@ -316,7 +316,7 @@ magic = Team.create!(
 		logo_url: "http://content.sportslogos.net/logos/6/217/full/wd9ic7qafgfb0yxs7tem7n5g4.gif",
 		venue: magicV
 	)
-philly_76ers = Team.create!( 
+philly_76ers = Team.create!(
 		name: "Philadelphia 76ers",
 		sport: "Basketball",
 		city: "Philadelphia",
@@ -330,35 +330,35 @@ suns = Team.create!(
 		logo_url: "http://content.sportslogos.net/logos/6/238/full/4370_phoenix_suns-primary-2014.png",
 		venue: phoenixV
 	)
-blazers = Team.create!( 
+blazers = Team.create!(
 		name: "Portland Trail Blazers",
 		sport: "Basketball",
 		city: "Portland",
 		logo_url: "http://content.sportslogos.net/logos/6/239/full/9725_portland_trail_blazers-primary-2018.png",
 		venue: portV
 	)
-kings = Team.create!( 
+kings = Team.create!(
 		name: "Sacramento Kings",
 		sport: "Basketball",
 		city: "Sacramento",
 		logo_url: "http://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png",
 		venue: kingsV
 	)
-spurs = Team.create!( 
+spurs = Team.create!(
 		name: "San Antonio Spurs",
 		sport: "Basketball",
 		city: "San Antonio",
 		logo_url: "http://content.sportslogos.net/logos/6/233/full/827.png",
 		venue: spursV
 	)
-raptors = Team.create!( 
+raptors = Team.create!(
 		name: "Toronto Raptors",
 		sport: "Basketball",
 		city: "Toronto",
 		logo_url: "http://content.sportslogos.net/logos/6/227/full/4578_toronto_raptors-primary-2016.png",
 		venue: torontoV
 	)
-jazz = Team.create!( 
+jazz = Team.create!(
 		name: "Utah Jazz",
 		sport: "Basketball",
 		city: "Utah",
@@ -377,195 +377,189 @@ wizards = Team.create!(
 
 na_predsV = Venue.create!(
 		name: "Bridgestone Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "an all-purpose venue in downtown Nashville, Tennessee, that was completed in 1996.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bridgestone_Arena_%28North_face%29_2.JPG/440px-Bridgestone_Arena_%28North_face%29_2.JPG",
+		location: "501 Broadway, Nashville, Tennessee"
 	)
 tor_mapleV = Venue.create!(
 		name: "Canadian Tire Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a multi-purpose indoor arena in Ottawa, Ontario, Canada, located in the western suburb of Kanata.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Canadian_Tire_Centre_Ottawa.jpg/550px-Canadian_Tire_Centre_Ottawa.jpg",
+		location: "1000 Palladium Drive, Ottawa, Ontario"
 	)
 dallas_starsV =	Venue.create!(
 		name: "American Airlines Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The home to the Dallas Mavericks of the National Basketball Association, and the Dallas Stars of the National Hockey League. The arena is also used for concerts and other live entertainment.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/American_Airlines_Center_August_2015.jpg/440px-American_Airlines_Center_August_2015.jpg",
+		location: "2500 Victory Avenue, Dallas, Texas"
 	)
 fl_panthersV = Venue.create!(
-		name: "BB&T Center (Sunrise, Florida)",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "BB&T Center",
+		description: "an indoor arena located in Sunrise, Florida. It is home to the Florida Panthers of the National Hockey League.  It was completed in 1998, at a cost of US$185 million, almost entirely publicly financed, and features 70 suites and 2,623 club seats.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/BankAtlanticCenterCrop.JPG/500px-BankAtlanticCenterCrop.JPG",
+		location: "1 Panther Parkway, Sunrise, Florida"
 	)
 mon_cadV = Venue.create!(
 		name: "Bell Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "t opened on March 16, 1996, after nearly three years under construction. It is best known as the home of the National Hockey League's Montreal Canadiens ice hockey team.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Centerbell.jpg/500px-Centerbell.jpg",
+		location: "1909, avenue des Canadiens-de-Montréa, Montreal, Quebec"
 	)
 tor_mapleV = Venue.create!(
 		name: "Air Canada Centre",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a multi-purpose indoor sporting arena located on Bay Street in the South Core district of Downtown Toronto, Ontario, Canada. It is the home of the Toronto Maple Leafs of the National Hockey League (NHL), the Toronto Raptors of the National Basketball Association (NBA)",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ACC_on_Bay_St_and_CN_Tower.JPG/600px-ACC_on_Bay_St_and_CN_Tower.JPG",
+		location: "40 Bay Street, Toronto, Ontario"
 	)
 buff_sabreV = Venue.create!(
-		name: "First Niagara Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "KeyBank Center",
+		description: "KeyBank Center, formerly known as Marine Midland Arena, HSBC Arena and First Niagara Center, is a multipurpose indoor arena located in downtown Buffalo, New York. It is the largest indoor arena in Western New York, seating 19,070 fans in its normal configuration.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/First_Niagara_Center_front.jpg",
+		location: "1 Seymour H. Knox III Plaza, Buffalo, New York"
 	)
 pitt_pensV = Venue.create!(
-		name: "Consol Energy Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
-	)
-phc_coyotesV = Venue.create!(
-		name: "Jobing.com Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "PPG Paints Arena",
+		description: "It replaced the Penguins' former arena, Civic Arena (formerly known as Mellon Arena), which was completed in 1961. A ceremonial ground-breaking was held on August 14, 2008. The arena is the first Leadership in Energy and Environmental Design (LEED) gold-certified arena in both the NHL and AFL.[9] Soon after the arena opened in 2010 it was named "Best New Major Concert Venue" in the Pollstar Concert Industry Awards and "Best NHL Arena" in the Sports Business Journal reader poll.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/a/a5/PPG_Paints_Arena_-_March_2017.jpg",
+		location: "1001 Fifth Avenue, Pittsburgh, Pennsylvania"
 	)
 winn_jetsV = Venue.create!(
-		name: "MTS Centre",
+		name: "Bell MTS Place",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/MTS_CENTRE_b.jpg/440px-MTS_CENTRE_b.jpg",
+		location: "300 Portage Avenue, Winnipeg, Manitoba"
 	)
 ana_ducksV = Venue.create!(
 		name: "Honda Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
+		description: "The Honda Center (formerly known as the Arrowhead Pond of Anaheim) is an indoor arena located in Anaheim, California. The arena is home to the Anaheim Ducks of the National Hockey League.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Honda-ext-arch.JPG",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 det_redWingsV = Venue.create!(
 		name: "Joe Louis Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a multi-purpose arena located in Detroit, Michigan. Completed in 1979 at a cost of $57 million as a replacement for the Detroit Olympia, it sits adjacent to Cobo Center on the bank of the Detroit River and is accessible via the Joe Louis Arena station on the Detroit People Mover.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Detroit_December_2015_59_%28Joe_Louis_Arena%29.jpg",
+		location: "19 Steve Yzerman Drive, Detroit, Michigan"
 	)
 ny_islandV = Venue.create!(
 		name: "Nassau Veterans Memorial Coliseum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a multi-purpose indoor arena in Uniondale, New York. The Coliseum is approximately 19 miles (31 km) east of New York City on Long Island.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/en/8/8b/Nassau_Coliseum_logo.jpg",
+		location: "1255 Hempstead Turnpike, Uniondale, New York"
 	)
 co_avalV = Venue.create!(
 		name: "Pepsi Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The arena is home to the Denver Nuggets of the National Basketball Association (NBA), the Colorado Avalanche of the National Hockey League (NHL), and the Colorado Mammoth of the National Lacrosse League (NLL). When not in use by one of Denver's sports teams, the building frequently serves as a concert venue.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Denver_Pepsi_Center_1.jpg",
+		location: "1000 Chopper Circle, Denver, Colorado"
 	)
 columbus_bluV = Venue.create!(
 		name: "Nationwide Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a large multi-purpose arena, in Columbus, Ohio, United States. Since completion in 2000, the arena has served as the home of the Columbus Blue Jackets of the National Hockey League.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/68/Columbus-ohio-nationwide-arena.jpg",
+		location: "200 West Nationwide Boulevard, Colombus, Ohio"
 	)
 edm_oilV = Venue.create!(
-		name: "Rexall Place",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "Northlands Coliseum (formerly known as Rexall Place)",
+		description: "An indoor arena located in Edmonton, Alberta, Canada, situated on the north side of Northlands. It was home to the Edmonton Oilers of the National Hockey League (NHL), and the Edmonton Oil Kings of the Western Hockey League (WHL).",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/5/50/Rexall_Place_Edmonton_Alberta_Canada_07A.jpg",
+		location: "7424 118 Avenue, Edmonton, Alberta"
 	)
 carolina_hurrV = Venue.create!(
 		name: "PNC Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "PNC Arena is located in Raleigh, North Carolina, and is home to the 2006 Stanley Cup Champions Carolina Hurricanes and NC State University Men’s Basketball. On an annual basis, PNC Arena welcomes over 1.5 million guests and plays host to more than 150 events including major concert tours, and family shows.",
+		photo_url: "https://www.thepncarena.com/assets/img/PNC_Arena_Exterior.jpg",
+		location: "Raleigh, North Carolina"
 	)
 van_canV = Venue.create!(
 		name: "Rogers Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Opened in 1995, the arena was known as General Motors Place (GM Place) from its opening until July 6, 2010, when General Motors Canada ended its naming rights sponsorship and a new agreement for those rights was reached with Rogers Communications. Rogers Arena was built to replace Pacific Coliseum as Vancouver's primary indoor sports facility and in part due to the National Basketball Association's 1995 expansion into Canada, when Vancouver and Toronto were given expansion teams.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rogers_Arena.jpg",
+		location: "800 Griffiths Way, Vancuver, British Colombia"
 	)
 ott_senatV = Venue.create!(
 		name: "Scotiabank Saddledome",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+		description: "Saddledome was built in 1983 to replace the Stampede Corral as the home of the Calgary Flames of the National Hockey League, and to host ice hockey and figure skating at the 1988 Winter Olympics.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 calgary_fireV = Venue.create!(
 		name: "Scotiabank Saddledome",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/68/PengrowthSaddledome.jpg",
+		location: "555 Saddledome Rise SE, Calgary, Alberta"
 	)
 sj_sharksV = Venue.create!(
-		name: "SAP Center at San Jose",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "SAP Center",
+		description: "an indoor arena located in San Jose, California. Its primary tenant is the San Jose Sharks of the National Hockey League, for which the arena has earned the nickname "The Shark Tank". It is also the home to the San Jose Barracuda of the American Hockey League.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/HP_Pavilion.jpg",
+		location: "525 West Santa Clara Street, San Jose, California"
 	)
 nj_devilsV = Venue.create!(
 		name: "Prudential Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "a multi-purpose indoor arena in the central business district of Newark, New Jersey, United States. It was designed by HOK Sport (now Populous), with the exterior designed by Morris Adjmi Architects.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/8/84/Pudcentnewarkjeh.JPG",
+		location: "25 Lafayette Street, Newark, New Jersey"
 	)
 st_loius_bluV = Venue.create!(
 		name: "Scottrade Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
+		description: "It is the home of the St. Louis Blues of the National Hockey League. The arena opened in 1994 and was known as Kiel Center until 2000 and Savvis Center from 2000 to 2006.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Saint_Louis_Missouri_Metro.jpg",
 		location: "601 F St NW, Washington, DC 20004"
 	)
 tb_lightV = Venue.create!(
-		name: "Tampa Bay Times Forum",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		name: "Amalie Arena",
+		description: "Amalie Arena is an arena in Tampa, Florida, that has been used for ice hockey, basketball, and arena football games, as well as concerts. It is home to the Tampa Bay Lightning of the National Hockey League and the Tampa Bay Storm of the Arena Football League.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/St_Pete_Times_Forum_At_Sunset.jpg",
+		location: "401 Channelside Drive, Tampa Florida"
 	)
 la_kingsV = Venue.create!(
 		name: "Staples Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Opening on October 17, 1999, it is one of the major sporting facilities in the Greater Los Angeles Area. It is owned and operated by the L.A. Arena Company and Anschutz ",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Staples_Center_2012.jpg",
+		location: "1111 South Figueroa Street, Los Angeles, California"
 	)
 ny_rangersV = Venue.create!(
 		name: "Madison Square Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Garden is used for professional basketball and ice hockey, as well as boxing, concerts, ice shows, circuses, professional wrestling and other forms of sports and entertainment. It is close to other midtown Manhattan landmarks, including the Empire State Building, Koreatown, and Macy's at Herald Square.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Madison_Square_Garden%2C_February_2013.jpg",
+		location: "4 Pennsylvania Plaza, New York City, New York"
 	)
 chi_blackV = Venue.create!(
 		name: "United Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The United Center is home to both the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National Hockey League (NHL). The arena is named after its city-based corporate sponsor, United Airlines.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b3/United_Center_Exterior.JPG",
+		location: "1901 West Madison Street, Chicago, Illionis"
 	)
 minn_wildV = Venue.create!(
 		name: "Xcel Energy Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "It is named for its locally based corporate sponsor Xcel Energy. With an official capacity of 17,954, the arena has four spectator levels: one suite level and three general seating levels.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/8/84/XcelEnergyCenteroverview.jpg",
+		location: "199 Kellogg Boulevard West, Saint Paul, Minnesota"
 	)
 philly_flyV = Venue.create!(
 		name: "Wells Fargo Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "The Wells Fargo Center, originally called Spectrum II, was completed in 1996 to replace the Spectrum as the home arena of the 76ers and Flyers, on the former site of John F. Kennedy Stadium at a cost of $210 million, largely privately financed (though the city and state helped to pay for the local infrastructure). It is owned by Comcast Spectacor.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Wells_Fargo_Center.jpg",
+		location: "3601 South Broad Street, Philadelphia, Pennsylvania"
 	)
 wash_capsV = Venue.create!(
 		name: "Verizon Center",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Named after its sponsor, the telecommunications company Verizon Communications, the Verizon Center has been nicknamed the "Phone Booth" by local media outlets and fans, because of its historical association with various telecommunications companies, such as MCI Inc. and Verizon.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Verizon_Center_wide.jpg",
+		location: "601 F Street Northwest, Washington, D.C."
 	)
 bost_bruinsV = Venue.create!(
 		name: "TD Garden",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "It is named after its sponsor, TD Bank, a subsidiary of Canada's Toronto-Dominion Bank. It opened in 1995 as a replacement for the original Boston Garden and has been known as Shawmut Center, FleetCenter, and TD Banknorth Garden.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6a/TD_Garden_%28crop%29.JPG",
+		location: "100 Legends Way, Boston, Massachusetts."
 	)
 lasVegas_knightsV = Venue.create!(
 		name: "T-Mobile Arena",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
+		description: "Opened on April 6, 2016, the arena is a joint venture between MGM Resorts International and the Anschutz Entertainment Group. The arena is the home of the Vegas Golden Knights of the National Hockey League that began play in 2017.",
+		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6e/T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg",
+		location: "3780 South Las Vegas Boulevard, Paradise, Nevada"
 	)
 #NHL teams
 anaDucks = Team.create!(
@@ -786,7 +780,7 @@ winn_jets = Team.create!(
 	venue: winn_jetsV
 	)
 
-#NFL 
+#NFL
 
 buff_billsV = Venue.create!(
     	name: "New Era Field",
@@ -1286,7 +1280,7 @@ minnesota_United_FCV  = Venue.create!(name:"  TCF Bank Stadium",
                         description: "An outdoor stadium located on the campus of the University of Minnesota, it is the home field of the Minnesota Golden Gophers of the Big Ten Conference, and the temporary home of Minnesota United FC",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/TCF_Bank_Stadium_2.JPG/800px-TCF_Bank_Stadium_2.JPG",
                         location:"420 SE 23rd Avenue. Minneapolis, Minnesota"
-                        )           
+                        )
 portland_TimbersV  = Venue.create!(name:"Providence Park",
                     description: ". The MLS Portland Timbers and NWSL Portland Thorns FC soccer teams use the facility as their home pitch, as do the PDL's Timbers U23s. ",
                     photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Providence_Park.jpg/800px-Providence_Park.jpg",
@@ -1308,7 +1302,7 @@ seattle_Sounders_FCV  = Venue.create!(name:"CenturyLink Field",
                         location:"800 Occidental Ave S. Seattle, Washington"
                     )
 sporting_Kansas_CityV  = Venue.create!(name:"Children's Mercy Park",
-                        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.", 
+                        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg/800px-Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg",
                         location:"One Sporting Way. Kansas City, Kansas"
                     )
@@ -1477,5 +1471,3 @@ los_Angeles_FC = Team.create!(
         logo_url: "http://content.sportslogos.net/logos/9/5480/full/5524_lafc_-primary-2018.png",
         venue: los_Angeles_FCV
     )
-    
-
