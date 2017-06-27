@@ -117,3 +117,25 @@ img{
 .events:hover{
     background: rgb(240,240,240);
 }
+div.teamInfo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.teamInfo > div.teams{
+    width: 25%;
+    margin: 10px;
+}
+#weatherReport{
+    width:100%;
+    z-index: 2;
+}
+.weatherDays{
+    display:inline-block;
+    width:50px;
+    margin-left:5px;
+    font-size: 90%;
+}
