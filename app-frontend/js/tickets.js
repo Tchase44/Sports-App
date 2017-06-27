@@ -14,8 +14,13 @@ $(document).ready(function () {
 	function getNames(){
 		city = $('#city').text()
 		name = $('#name').text()
+
 		//
 		console.log(city +" : "+ name)
+
+		//
+		// console.log(city +" : "+ name)
+
 	}
 
 	function delayGetNames(){
@@ -49,14 +54,38 @@ $(document).ready(function () {
 
   		teamName = $('#teamName').text()
   		venue = $('#venueName').text()
+
   		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+venue+" "+teamName,function(data){
 
+
+  		venue = format(venue)
+
+  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=&keyword="+venue+" "+teamName,function(data){
+  			// console.log(data._embedded.events)
   			let venueData = data._embedded.events
 
   			for (let i = 0; i < venueData.length; i++) {
-  				let games = `<div class="events"><a href="${venueData[i].url}"><p>${venueData[i].name}</p><p>${venueData[i].dates.start.localDate} @ ${venueData[i].dates.start.localTime}</p></a></div>`
+  				let vgames = `<div class="events"><a href="${venueData[i].url}"><p>${venueData[i].name}</p><p>${venueData[i].dates.start.localDate} @ ${venueData[i].dates.start.localTime}</p></a></div>`
 
-  				venueEvents.append(games)
+  				venueEvents.append(vgames)
+  			}
+  		})
+  		let address = $('#adr').text()
+		let num = address.length - 5
+		let zip = address.slice(num)
+  		$.getJSON("http://api.wunderground.com/api//forecast10day/q/"+zip+".json",function(data){
+  			let weather = data.forecast.simpleforecast.forecastday
+  			console.log(weather)
+
+  			for (let i = 0; i < weather.length; i++) {
+  				let days = `<div class="weatherDays">
+  								<p>${weather[i].conditions}</p>
+  								<img src="${weather[i].icon_url}" style="width:100%;" />
+  								<p>High: ${weather[i].high.fahrenheit}, Low: ${weather[i].low.fahrenheit}</p>
+  								<p>${weather[i].date.weekday}</p>
+  							</div>`
+
+  				$('#weatherReport').append(days)
   			}
   		})
 
@@ -64,5 +93,20 @@ $(document).ready(function () {
 
   	delayGetNames()
   	delayData()
+
 })
 })()
+
+
+})
+})()
+
+
+// adr = $('#adr').text()
+// => "601 F St NW, Washington, DC 20004"
+
+// num = adr.length -5
+// =>28
+
+// zip = adr.slice(num)
+// =>"20004"
