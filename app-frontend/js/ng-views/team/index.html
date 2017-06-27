@@ -1,11 +1,12 @@
-
 <h2>These are all the {{vm.selSport}} Teams</h2>
 <a data-ui-sref="teamNew">Create New Team</a>
 
-<div data-ng-repeat="team in vm.teams | filter : {'sport' : vm.selSport}" >
+<div class="teamInfo">
+<div class="teams" data-ng-repeat="team in vm.teams | filter : {'sport' : vm.selSport}" >
   <p><a data-ui-sref="teamShow({id: team.id})">Name: {{team.name}}</a></p>
-  <p>City: {{team.city}}</p>
-  <p>Sport: {{team.sport}}</p>
+  <!-- <p>City: {{team.city}}</p>
+  <p>Sport: {{team.sport}}</p> -->
   <!-- <p><a data-ui-sref="teamEdit({id: team.id})">Edit</a></p> -->
-  <p><img ng-src="{{team.logo_url}}"></p>
+  <p><a ui-sref="teamShow({id: team.id})"><img ng-src="{{team.logo_url}}"></a></p>
+</div>
 </div>
