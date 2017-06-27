@@ -136,9 +136,9 @@ function VenueFactoryFunction($resource){
 
 function HomeControllerFun(){
   this.sportLoad = function(sportIn){
-    console.log("click worked")
+    // console.log("click worked")
     angular.sport = sportIn
-    console.log(angular.sport)
+    // console.log(angular.sport)
   }
 }
 
