@@ -432,11 +432,11 @@ na_predsV = Venue.create!(
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bridgestone_Arena_%28North_face%29_2.JPG/440px-Bridgestone_Arena_%28North_face%29_2.JPG",
 		location: "501 Broadway, Nashville, Tennessee"
 	)
-tor_mapleV = Venue.create!(
-		name: "Canadian Tire Centre",
-		description: "a multi-purpose indoor arena in Ottawa, Ontario, Canada, located in the western suburb of Kanata.",
-		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Canadian_Tire_Centre_Ottawa.jpg/550px-Canadian_Tire_Centre_Ottawa.jpg",
-		location: "1000 Palladium Drive, Ottawa, Ontario"
+phc_coyotesV = Venue.create!(
+		name: "Gila River Arena",
+		description: "The Arizona Coyotes of the National Hockey League (NHL) has been the primary tenant since the building opened on December 26, 2003. It sits on the north side of West Maryland Avenue across from University of Phoenix Stadium, home of the National Football League's (NFL) Arizona Cardinals.",
+		photo_url: "https://chairnerd.global.ssl.fastly.net/images/seatview/258/nhl/nhl/b201e7/205/640/gila-river-arena-section-205-view.jpg",
+		location: "9400 W Maryland Ave, Glendale, AZ 85305"
 	)
 dallas_starsV =	Venue.create!(
 		name: "American Airlines Center",
@@ -452,7 +452,7 @@ fl_panthersV = Venue.create!(
 	)
 mon_cadV = Venue.create!(
 		name: "Bell Centre",
-		description: "t opened on March 16, 1996, after nearly three years under construction. It is best known as the home of the National Hockey League's Montreal Canadiens ice hockey team.",
+		description: "It opened on March 16, 1996, after nearly three years under construction. It is best known as the home of the National Hockey League's Montreal Canadiens ice hockey team.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Centerbell.jpg/500px-Centerbell.jpg",
 		location: "1909, avenue des Canadiens-de-Montréa, Montreal, Quebec"
 	)
@@ -470,7 +470,7 @@ buff_sabreV = Venue.create!(
 	)
 pitt_pensV = Venue.create!(
 		name: "PPG Paints Arena",
-		description: "It replaced the Penguins' former arena, Civic Arena (formerly known as Mellon Arena), which was completed in 1961. A ceremonial ground-breaking was held on August 14, 2008. The arena is the first Leadership in Energy and Environmental Design (LEED) gold-certified arena in both the NHL and AFL.[9] Soon after the arena opened in 2010 it was named "Best New Major Concert Venue" in the Pollstar Concert Industry Awards and "Best NHL Arena" in the Sports Business Journal reader poll.",
+		description: "It replaced the Penguins' former arena, Civic Arena (formerly known as Mellon Arena), which was completed in 1961. A ceremonial ground-breaking was held on August 14, 2008. The arena is the first Leadership in Energy and Environmental Design (LEED) gold-certified arena in both the NHL and AFL.[9] Soon after the arena opened in 2010 it was named 'Best New Major Concert Venue' in the Pollstar Concert Industry Awards and 'Best NHL Arena' in the Sports Business Journal reader poll.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/a/a5/PPG_Paints_Arena_-_March_2017.jpg",
 		location: "1001 Fifth Avenue, Pittsburgh, Pennsylvania"
 	)
@@ -542,7 +542,7 @@ calgary_fireV = Venue.create!(
 	)
 sj_sharksV = Venue.create!(
 		name: "SAP Center",
-		description: "an indoor arena located in San Jose, California. Its primary tenant is the San Jose Sharks of the National Hockey League, for which the arena has earned the nickname "The Shark Tank". It is also the home to the San Jose Barracuda of the American Hockey League.",
+		description: "an indoor arena located in San Jose, California. Its primary tenant is the San Jose Sharks of the National Hockey League, for which the arena has earned the nickname 'The Shark Tank'. It is also the home to the San Jose Barracuda of the American Hockey League.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/HP_Pavilion.jpg",
 		location: "525 West Santa Clara Street, San Jose, California"
 	)
@@ -596,7 +596,7 @@ philly_flyV = Venue.create!(
 	)
 wash_capsV = Venue.create!(
 		name: "Verizon Center",
-		description: "Named after its sponsor, the telecommunications company Verizon Communications, the Verizon Center has been nicknamed the "Phone Booth" by local media outlets and fans, because of its historical association with various telecommunications companies, such as MCI Inc. and Verizon.",
+		description: "Named after its sponsor, the telecommunications company Verizon Communications, the Verizon Center has been nicknamed the 'Phone Booth' by local media outlets and fans, because of its historical association with various telecommunications companies, such as MCI Inc. and Verizon.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Verizon_Center_wide.jpg",
 		location: "601 F Street Northwest, Washington, D.C."
 	)
