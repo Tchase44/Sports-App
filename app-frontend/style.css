@@ -164,7 +164,14 @@ div .venueShow {
   width: 980px;
   height: 188px;
 }
-
-/*img .venueImg {
-  margin-top: 50px;
-}*/
+.venueContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.allStadiums > img{
+    width: 250px;
+    border-radius: 30px;
+}
