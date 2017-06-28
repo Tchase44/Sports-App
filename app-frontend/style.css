@@ -139,3 +139,27 @@ div.teamInfo{
     margin-left:5px;
     font-size: 90%;
 }
+
+div .teamShow {
+  border: 1px;
+  border-radius: 50px;
+  background-color: floralwhite;
+  color: steelblue;
+}
+
+.teamImg {
+  margin: 50px;
+}
+
+div .venueShow {
+  border: 1px;
+  border-radius: 50px;
+  background-color: floralwhite;
+  color: steelblue;
+  width: 980px;
+  height: 188px;
+}
+
+/*img .venueImg {
+  margin-top: 50px;
+}*/
