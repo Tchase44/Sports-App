@@ -430,7 +430,7 @@ na_predsV = Venue.create!(
 		name: "Bridgestone Arena",
 		description: "an all-purpose venue in downtown Nashville, Tennessee, that was completed in 1996.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bridgestone_Arena_%28North_face%29_2.JPG/440px-Bridgestone_Arena_%28North_face%29_2.JPG",
-		location: "501 Broadway, Nashville, Tennessee"
+		location: "501 Broadway, Nashville, TN 37203"
 	)
 phc_coyotesV = Venue.create!(
 		name: "Gila River Arena",
@@ -442,175 +442,175 @@ dallas_starsV =	Venue.create!(
 		name: "American Airlines Center",
 		description: "The home to the Dallas Mavericks of the National Basketball Association, and the Dallas Stars of the National Hockey League. The arena is also used for concerts and other live entertainment.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/American_Airlines_Center_August_2015.jpg/440px-American_Airlines_Center_August_2015.jpg",
-		location: "2500 Victory Avenue, Dallas, Texas"
+		location: "2500 Victory Ave, Dallas, TX 75219"
 	)
 fl_panthersV = Venue.create!(
 		name: "BB&T Center",
 		description: "an indoor arena located in Sunrise, Florida. It is home to the Florida Panthers of the National Hockey League.  It was completed in 1998, at a cost of US$185 million, almost entirely publicly financed, and features 70 suites and 2,623 club seats.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/BankAtlanticCenterCrop.JPG/500px-BankAtlanticCenterCrop.JPG",
-		location: "1 Panther Parkway, Sunrise, Florida"
+		location: "1 Panther Pkwy, Sunrise, FL 33323"
 	)
 mon_cadV = Venue.create!(
 		name: "Bell Centre",
 		description: "It opened on March 16, 1996, after nearly three years under construction. It is best known as the home of the National Hockey League's Montreal Canadiens ice hockey team.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Centerbell.jpg/500px-Centerbell.jpg",
-		location: "1909, avenue des Canadiens-de-Montréa, Montreal, Quebec"
+		location: "1909 Avenue des Canadiens-de-Montréal, Montréal, QC H4B 5G0, Canada"
 	)
 tor_mapleV = Venue.create!(
 		name: "Air Canada Centre",
 		description: "a multi-purpose indoor sporting arena located on Bay Street in the South Core district of Downtown Toronto, Ontario, Canada. It is the home of the Toronto Maple Leafs of the National Hockey League (NHL), the Toronto Raptors of the National Basketball Association (NBA)",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ACC_on_Bay_St_and_CN_Tower.JPG/600px-ACC_on_Bay_St_and_CN_Tower.JPG",
-		location: "40 Bay Street, Toronto, Ontario"
+		location: "40 Bay St, Toronto, ON M5J 2X2, Canada"
 	)
 buff_sabreV = Venue.create!(
 		name: "KeyBank Center",
 		description: "KeyBank Center, formerly known as Marine Midland Arena, HSBC Arena and First Niagara Center, is a multipurpose indoor arena located in downtown Buffalo, New York. It is the largest indoor arena in Western New York, seating 19,070 fans in its normal configuration.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/First_Niagara_Center_front.jpg",
-		location: "1 Seymour H. Knox III Plaza, Buffalo, New York"
+		location: "1 Seymour H Knox III Plaza, Buffalo, NY 14203"
 	)
 pitt_pensV = Venue.create!(
 		name: "PPG Paints Arena",
 		description: "It replaced the Penguins' former arena, Civic Arena (formerly known as Mellon Arena), which was completed in 1961. A ceremonial ground-breaking was held on August 14, 2008. The arena is the first Leadership in Energy and Environmental Design (LEED) gold-certified arena in both the NHL and AFL.[9] Soon after the arena opened in 2010 it was named 'Best New Major Concert Venue' in the Pollstar Concert Industry Awards and 'Best NHL Arena' in the Sports Business Journal reader poll.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/a/a5/PPG_Paints_Arena_-_March_2017.jpg",
-		location: "1001 Fifth Avenue, Pittsburgh, Pennsylvania"
+		location: "1001 Fifth Ave, Pittsburgh, PA 15219"
 	)
 winn_jetsV = Venue.create!(
 		name: "Bell MTS Place",
 		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/MTS_CENTRE_b.jpg/440px-MTS_CENTRE_b.jpg",
-		location: "300 Portage Avenue, Winnipeg, Manitoba"
+		location: "345 Graham Ave, Winnipeg, MB R3C 5S6, Canada"
 	)
 ana_ducksV = Venue.create!(
 		name: "Honda Center",
 		description: "The Honda Center (formerly known as the Arrowhead Pond of Anaheim) is an indoor arena located in Anaheim, California. The arena is home to the Anaheim Ducks of the National Hockey League.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Honda-ext-arch.JPG",
-		location: "601 F St NW, Washington, DC 20004"
+		location: "2695 E Katella Ave, Anaheim, CA 92806"
 	)
 det_redWingsV = Venue.create!(
 		name: "Joe Louis Arena",
 		description: "a multi-purpose arena located in Detroit, Michigan. Completed in 1979 at a cost of $57 million as a replacement for the Detroit Olympia, it sits adjacent to Cobo Center on the bank of the Detroit River and is accessible via the Joe Louis Arena station on the Detroit People Mover.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Detroit_December_2015_59_%28Joe_Louis_Arena%29.jpg",
-		location: "19 Steve Yzerman Drive, Detroit, Michigan"
+		location: "19 Steve Yzerman Dr, Detroit, MI 48226"
 	)
 ny_islandV = Venue.create!(
 		name: "Nassau Veterans Memorial Coliseum",
 		description: "a multi-purpose indoor arena in Uniondale, New York. The Coliseum is approximately 19 miles (31 km) east of New York City on Long Island.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/en/8/8b/Nassau_Coliseum_logo.jpg",
-		location: "1255 Hempstead Turnpike, Uniondale, New York"
+		location: "1255 Hempstead Turnpike, Uniondale, NY 11553"
 	)
 co_avalV = Venue.create!(
 		name: "Pepsi Center",
 		description: "The arena is home to the Denver Nuggets of the National Basketball Association (NBA), the Colorado Avalanche of the National Hockey League (NHL), and the Colorado Mammoth of the National Lacrosse League (NLL). When not in use by one of Denver's sports teams, the building frequently serves as a concert venue.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Denver_Pepsi_Center_1.jpg",
-		location: "1000 Chopper Circle, Denver, Colorado"
+		location: "1000 Chopper Cir, Denver, CO 80204"
 	)
 columbus_bluV = Venue.create!(
 		name: "Nationwide Arena",
 		description: "a large multi-purpose arena, in Columbus, Ohio, United States. Since completion in 2000, the arena has served as the home of the Columbus Blue Jackets of the National Hockey League.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/68/Columbus-ohio-nationwide-arena.jpg",
-		location: "200 West Nationwide Boulevard, Colombus, Ohio"
+		location: "200 W Nationwide Blvd, Columbus, OH 43215"
 	)
 edm_oilV = Venue.create!(
 		name: "Northlands Coliseum (formerly known as Rexall Place)",
 		description: "An indoor arena located in Edmonton, Alberta, Canada, situated on the north side of Northlands. It was home to the Edmonton Oilers of the National Hockey League (NHL), and the Edmonton Oil Kings of the Western Hockey League (WHL).",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/5/50/Rexall_Place_Edmonton_Alberta_Canada_07A.jpg",
-		location: "7424 118 Avenue, Edmonton, Alberta"
+		location: "7424 118 Ave, Edmonton, AB T5J 2N5, Canada"
 	)
 carolina_hurrV = Venue.create!(
 		name: "PNC Arena",
 		description: "PNC Arena is located in Raleigh, North Carolina, and is home to the 2006 Stanley Cup Champions Carolina Hurricanes and NC State University Men’s Basketball. On an annual basis, PNC Arena welcomes over 1.5 million guests and plays host to more than 150 events including major concert tours, and family shows.",
 		photo_url: "https://www.thepncarena.com/assets/img/PNC_Arena_Exterior.jpg",
-		location: "Raleigh, North Carolina"
+		location: "1400 Edwards Mill Rd, Raleigh, NC 27607"
 	)
 van_canV = Venue.create!(
 		name: "Rogers Arena",
 		description: "Opened in 1995, the arena was known as General Motors Place (GM Place) from its opening until July 6, 2010, when General Motors Canada ended its naming rights sponsorship and a new agreement for those rights was reached with Rogers Communications. Rogers Arena was built to replace Pacific Coliseum as Vancouver's primary indoor sports facility and in part due to the National Basketball Association's 1995 expansion into Canada, when Vancouver and Toronto were given expansion teams.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rogers_Arena.jpg",
-		location: "800 Griffiths Way, Vancuver, British Colombia"
+		location: "800 Griffiths Way, Vancouver, BC V6B 6G1, Canada"
 	)
 ott_senatV = Venue.create!(
 		name: "Scotiabank Saddledome",
 		description: "Saddledome was built in 1983 to replace the Stampede Corral as the home of the Calgary Flames of the National Hockey League, and to host ice hockey and figure skating at the 1988 Winter Olympics.",
 		photo_url: "https://ak2.picdn.net/shutterstock/videos/1333522/thumb/1.jpg?i10c=img.resize(height:160)",
-		location: "601 F St NW, Washington, DC 20004"
-	)
-calgary_fireV = Venue.create!(
-		name: "Scotiabank Saddledome",
-		description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/68/PengrowthSaddledome.jpg",
-		location: "555 Saddledome Rise SE, Calgary, Alberta"
+		location: "555 Saddledome Rise SE, Calgary, AB T2G 2W1, Canada"
 	)
 sj_sharksV = Venue.create!(
 		name: "SAP Center",
 		description: "an indoor arena located in San Jose, California. Its primary tenant is the San Jose Sharks of the National Hockey League, for which the arena has earned the nickname 'The Shark Tank'. It is also the home to the San Jose Barracuda of the American Hockey League.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b2/HP_Pavilion.jpg",
-		location: "525 West Santa Clara Street, San Jose, California"
+		location: "525 W Santa Clara St, San Jose, CA 95113"
 	)
 nj_devilsV = Venue.create!(
 		name: "Prudential Center",
 		description: "a multi-purpose indoor arena in the central business district of Newark, New Jersey, United States. It was designed by HOK Sport (now Populous), with the exterior designed by Morris Adjmi Architects.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/8/84/Pudcentnewarkjeh.JPG",
-		location: "25 Lafayette Street, Newark, New Jersey"
+		location: "25 Lafayette St, Newark, NJ 07102"
 	)
 st_loius_bluV = Venue.create!(
 		name: "Scottrade Center",
 		description: "It is the home of the St. Louis Blues of the National Hockey League. The arena opened in 1994 and was known as Kiel Center until 2000 and Savvis Center from 2000 to 2006.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Saint_Louis_Missouri_Metro.jpg",
-		location: "601 F St NW, Washington, DC 20004"
+		location: "1401 Clark Ave, St. Louis, MO 63103"
 	)
 tb_lightV = Venue.create!(
 		name: "Amalie Arena",
 		description: "Amalie Arena is an arena in Tampa, Florida, that has been used for ice hockey, basketball, and arena football games, as well as concerts. It is home to the Tampa Bay Lightning of the National Hockey League and the Tampa Bay Storm of the Arena Football League.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/St_Pete_Times_Forum_At_Sunset.jpg",
-		location: "401 Channelside Drive, Tampa Florida"
+		location: "401 Channelside Dr, Tampa, FL 33602"
 	)
 la_kingsV = Venue.create!(
 		name: "Staples Center",
 		description: "Opening on October 17, 1999, it is one of the major sporting facilities in the Greater Los Angeles Area. It is owned and operated by the L.A. Arena Company and Anschutz ",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Staples_Center_2012.jpg",
-		location: "1111 South Figueroa Street, Los Angeles, California"
+		location: "1111 S Figueroa St, Los Angeles, CA 90015"
 	)
 ny_rangersV = Venue.create!(
 		name: "Madison Square Garden",
 		description: "The Garden is used for professional basketball and ice hockey, as well as boxing, concerts, ice shows, circuses, professional wrestling and other forms of sports and entertainment. It is close to other midtown Manhattan landmarks, including the Empire State Building, Koreatown, and Macy's at Herald Square.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Madison_Square_Garden%2C_February_2013.jpg",
-		location: "4 Pennsylvania Plaza, New York City, New York"
+		location: "4 Pennsylvania Plaza, New York, NY 10001"
 	)
 chi_blackV = Venue.create!(
 		name: "United Center",
 		description: "The United Center is home to both the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National Hockey League (NHL). The arena is named after its city-based corporate sponsor, United Airlines.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b3/United_Center_Exterior.JPG",
-		location: "1901 West Madison Street, Chicago, Illionis"
+		location: "1901 W Madison St, Chicago, IL 60612"
 	)
 minn_wildV = Venue.create!(
 		name: "Xcel Energy Center",
 		description: "It is named for its locally based corporate sponsor Xcel Energy. With an official capacity of 17,954, the arena has four spectator levels: one suite level and three general seating levels.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/8/84/XcelEnergyCenteroverview.jpg",
-		location: "199 Kellogg Boulevard West, Saint Paul, Minnesota"
+		location: "199 W Kellogg Blvd, St Paul, MN 55102"
 	)
 philly_flyV = Venue.create!(
 		name: "Wells Fargo Center",
 		description: "The Wells Fargo Center, originally called Spectrum II, was completed in 1996 to replace the Spectrum as the home arena of the 76ers and Flyers, on the former site of John F. Kennedy Stadium at a cost of $210 million, largely privately financed (though the city and state helped to pay for the local infrastructure). It is owned by Comcast Spectacor.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Wells_Fargo_Center.jpg",
-		location: "3601 South Broad Street, Philadelphia, Pennsylvania"
+		location: "3601 S Broad St, Philadelphia, PA 19148"
 	)
 wash_capsV = Venue.create!(
 		name: "Verizon Center",
 		description: "Named after its sponsor, the telecommunications company Verizon Communications, the Verizon Center has been nicknamed the 'Phone Booth' by local media outlets and fans, because of its historical association with various telecommunications companies, such as MCI Inc. and Verizon.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Verizon_Center_wide.jpg",
-		location: "601 F Street Northwest, Washington, D.C."
+		location: "601 F St NW, Washington, DC 20004"
 	)
 bost_bruinsV = Venue.create!(
 		name: "TD Garden",
 		description: "It is named after its sponsor, TD Bank, a subsidiary of Canada's Toronto-Dominion Bank. It opened in 1995 as a replacement for the original Boston Garden and has been known as Shawmut Center, FleetCenter, and TD Banknorth Garden.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6a/TD_Garden_%28crop%29.JPG",
-		location: "100 Legends Way, Boston, Massachusetts."
+		location: "100 Legends Way, Boston, MA 02114"
 	)
 lasVegas_knightsV = Venue.create!(
 		name: "T-Mobile Arena",
 		description: "Opened on April 6, 2016, the arena is a joint venture between MGM Resorts International and the Anschutz Entertainment Group. The arena is the home of the Vegas Golden Knights of the National Hockey League that began play in 2017.",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6e/T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg",
-		location: "3780 South Las Vegas Boulevard, Paradise, Nevada"
+		location: "3780 S Las Vegas Blvd, Las Vegas, NV 89158"
+	)
+calgary_fireV = Venue.create!(
+		name: "Scotiabank Saddledome",
+		description: "Scotiabank Saddledome is a multi-use indoor arena in Calgary, Alberta, Canada. Located in Stampede Park in the southeast end of downtown Calgary, the Saddledome was built in 1983",
+		photo_url: "http://stadiumparkingguides.com/wp-content/uploads/2014/12/14-08232012-5035d8cb60264.jpeg",
+		location: "555 Saddledome Rise SE, Calgary, AB T2G 2W1, Canada"
 	)
 #NHL teams
 anaDucks = Team.create!(
@@ -835,72 +835,56 @@ winn_jets = Team.create!(
 
 buff_billsV = Venue.create!(
     	name: "New Era Field",
-    	description: "New Era Field, originally Rich Stadium and later Ralph Wilson Stadium, is a stadium in Orchard Park, New York, a suburb south of Buffalo.
-			 Opened in 1973, it is the home of the Buffalo Bills of the National Football League (NFL). The stadium is open-air, with a capacity of 71,870.",
-    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/ralph16_top.jpg",
+    	description: "New Era Field, originally Rich Stadium and later Ralph Wilson Stadium, is a stadium in Orchard Park, New York, a suburb south of Buffalo. Opened in 1973, it is the home of the Buffalo Bills of the National Football League.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ralph_Wilson_Stadium_%28NFL_Buffalo_Bills%29_-_Orchard_Park%2C_NY.jpg/500px-Ralph_Wilson_Stadium_%28NFL_Buffalo_Bills%29_-_Orchard_Park%2C_NY.jpg",
     	location: "1 Bills Dr, Orchard Park, NY 14127"
     )
 miami_dolphV = Venue.create!(
-    	name: "Hard Rock Stadium",
-    	description: "Hard Rock Stadium is a multipurpose football stadium located in Miami Gardens, Florida, a suburb north of Miami. It is the home stadium
-			of the Miami Dolphins of the National Football League (NFL), and the Miami Hurricanes from the University of Miami. It has 65,326 permanent seats for
-			football and soccer configurations.",
-    	photo_url: "https://images1.miaminewtimes.com/imager/u/745xauto/8694509/miami_dolphins_stadium.png",
+    	name: "Sun Life Stadium",
+    	description: "Hard Rock Stadium is a multipurpose football stadium located in Miami Gardens, Florida, a suburb north of Miami. It is the home stadium of the Miami Dolphins of the National Football League, and the Miami Hurricanes from the University of Miami.",
+    	photo_url: "http://the305.com/blog/wp-content/uploads/2013/01/tempC-nfl_mezz_1280_1024.jpg",
     	location: "347 Don Shula Dr, Miami Gardens, FL 33056"
     )
  ne_patsV = Venue.create!(
     	name: "Gillette Stadium",
-    	description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England
-			Revolution soccer team. The facility opened in 2002, replacing the old Foxboro Stadium. The seating capacity is 66,829, including 6,000 club seats and 87
-			luxury suites.",
-    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
+    	description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/500px-Gillette_Stadium_%28Top_View%29.jpg",
     	location: "1 Patriot Pl, Foxborough, MA 02035"
-			)
+    	)
  ny_jetsV = Venue.create!(
     	name: "MetLife Stadium",
-    	description: "MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey. It serves as the home stadium for two National
-			Football League (NFL) franchises the New York Jets and the New York Giants. The seating capacity is 82,500.",
-    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/metlifegiants957.jpg",
+    	description: "MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey. It is part of the Meadowlands Sports Complex and serves as the home stadium for two National Football League franchises: the New York Jets and the New York Giants.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/600px-Metlife_stadium_%28Aerial_view%29.jpg",
     	location: "1 MetLife Stadium Dr, East Rutherford, NJ 07073"
     )
 balt_ravensV = Venue.create!(
     	name: "M&T Bank Stadium",
-    	description: "M&T Bank Stadium is a multi-purpose football stadium located in Baltimore, Maryland. It is the home of the Baltimore Ravens of the
-			 National Football League.",
-    	photo_url: "http://a.espncdn.com/photo/2008/0807/m&t_580.jpg",
+    	description: "M&T Bank Stadium is a multi-purpose football stadium located in Baltimore, Maryland. It is the home of the Baltimore Ravens of the National Football League.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/M%26T_Bank_Stadium_DoD.jpg/600px-M%26T_Bank_Stadium_DoD.jpg",
     	location: "1101 Russell St, Baltimore, MD 21230"
     )
 cinci_banglesV = Venue.create!(
     	name: "Paul Brown Stadium",
-    	description: "Paul Brown Stadium is an outdoor football stadium in the north central United States, located in Cincinnati, Ohio. It is the home venue of the
-			Cincinnati Bengals of the National Football League and opened on August 19, 2000. The stadium is located on approximately 22 acres (8.9 ha) of land and
-			has a listed seating capacity of 65,515.",
-    	photo_url: "http://a.espncdn.com/photo/2008/0730/paulbrown_580.jpg",
+    	description: "Paul Brown Stadium is an outdoor football stadium in the north central United States, located in Cincinnati, Ohio. It is the home venue of the Cincinnati Bengals of the National Football League and opened on August 19, 2000.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cincinnati-paul-brown-stadium.jpg/560px-Cincinnati-paul-brown-stadium.jpg",
     	location: "1 Paul Brown Stadium, Cincinnati, OH 45202"
     )
 clev_brownV = Venue.create!(
     	name: "FirstEnergy Stadium",
-    	description: "FirstEnergy Stadium, officially FirstEnergy Stadium, Home of the Cleveland Browns, is a multi-purpose stadium in Cleveland, Ohio, United States,
-			 primarily for American football. It is the home field of the Cleveland Browns of the National Football League (NFL), and serves as a venue for other events
-			 such as college and high school football, soccer, and concerts. The initial seating capacity was listed at 73,200 people, but following the first phase of
-			 the renovation project in 2014, seating capacity was reduced to 67,431.",
-    	photo_url: "http://firstenergystadium.com/wp-content/uploads/2016/09/home-stadium-info.jpg",
+    	description: "It is the home field of the Cleveland Browns of the National Football League (NFL), and serves as a venue for other events such as college and high school football, soccer, and concerts.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/FirstEnergy_Stadium_panorama_2016.jpg",
     	location: "100 Alfred Lerner Way, Cleveland, OH 44114"
     )
 pitt_steelV = Venue.create!(
     	name: "Heinz Field",
-    	description: "Heinz Field is a stadium located in the North Shore neighborhood of Pittsburgh, Pennsylvania, United States. It primarily serves as the home
-			to the Pittsburgh Steelers of the National Football League (NFL) and the Pittsburgh Panthers of the National Collegiate Athletic Association (NCAA). Stadium's
-			seating capacity is 68,400",
-    	photo_url: "http://a.espncdn.com/photo/2008/0730/heinz_580.jpg",
+    	description: " It primarily serves as the home to the Pittsburgh Steelers of the National Football League (NFL) and the Pittsburgh Panthers of the National Collegiate Athletic Association (NCAA). The stadium opened in 2001, after the controlled implosion of the teams' previous stadium, Three Rivers Stadium.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Heinz_Field_%282005%29.jpg/1280px-Heinz_Field_%282005%29.jpg",
     	location: "100 Art Rooney Ave, Pittsburgh, PA 15212"
     )
 houston_txV = Venue.create!(
     	name: "NRG Stadium",
-    	description: "NRG Stadium is a multi-purpose stadium, in Houston, Texas, United States. NRG Stadium has a seating capacity of 71,795, a total area
-			of 1,900,000 square feet (180,000 m2) with a 97,000 sq ft (9,000 m2) playing surface. The stadium is the home of the National Football League's
-			Houston Texans, the Houston Livestock Show and Rodeo, the Texas Bowl, international soccer matches for the USA National Soccer Team, and other events.",
-    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/nrg16_top.jpg",
+    	description: "The stadium is the home of the National Football League's Houston Texans, the Houston Livestock Show and Rodeo, the Texas Bowl, international soccer matches for the USA National Soccer Team, and other events. The stadium served as the host facility for Super Bowl XXXVIII on February 1, 2004, Super Bowl LI on February 5, 2017, and WrestleMania XXV on April 5, 2009.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Reliantstadium.jpg",
     	location: "NRG Pkwy, Houston, TX 77054"
     )
 indi_coltsV = Venue.create!(
@@ -1578,3 +1562,360 @@ los_Angeles_FC = Team.create!(
         logo_url: "http://content.sportslogos.net/logos/9/5480/full/5524_lafc_-primary-2018.png",
         venue: los_Angeles_FCV
     )
+
+# MLB
+arz_diamondbacksV  = Venue.create!( name: "Chase Field",
+                      description: "Chase Field is a baseball park located in Downtown Phoenix, Arizona. It is the home of the Arizona Diamondbacks, the city's Major League Baseball franchise.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/chase11963.jpg",
+                      location: "401 E Jefferson St, Phoenix, AZ 85004"
+                    )
+atlanta_bravesV  = Venue.create!( name: "SunTrust Park",
+                      description: "SunTrust Park is a baseball park located in the Atlanta metropolitan area 10 miles northwest of downtown Atlanta in the Cumberland neighborhood of Cobb County.",
+                      photo_url: "http://atlanta.braves.mlb.com/atl/images/ballpark/y2016/634_sunturst_park.jpg",
+                      location: "755 Battery Avenue Southeast, Atlanta, GA 30339"
+                    )
+baltimore_oriolesV   = Venue.create!( name: "Oriole Park at Camden Yards",
+                      description: "The success of Oriole Park at Camden Yards inspired other cities (Cleveland, Denver, etc.) to build their own versions of this new Retro style ballpark.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/02/camden_top-1.jpg",
+                      location: "333 W Camden St, Baltimore, MD 21201"
+                    )
+boston_red_soxV  = Venue.create!( name: "Fenway Park",
+                      description: "Fenway Park is a baseball park located in Boston, at 4 Yawkey Way near Kenmore Square. Since 1912, it has been the home for the Boston Red Sox, the city's American League baseball team, and since 1953, its only Major League Baseball franchise.",
+                      photo_url: "https://www.smartdestinations.com/img/pt/dest/Bos/att/Bos_Att_Fenway_Park_Tour/gallery/Fenway-Park-Tour-1.jpg",
+                      location: "4 Yawkey Way, Boston, MA 02215"
+                    )
+chi_cubsV  = Venue.create!( name: "Wrigley Field",
+                      description: "Wrigley Field hosted a ski-jumping contest in January 1944, with a ramp set up in the upper deck and jumpers landing around second base.",
+                      photo_url: "https://cdn.vox-cdn.com/uploads/chorus_asset/file/4326083/blueprint01.0.jpg",
+                      location: "1060 W Addison St, Chicago, IL 60613"
+                    )
+chi_white_soxV   = Venue.create!( name: "Guaranteed Rate Field",
+                      description: "In November 2016 the ballpark was renamed Guaranteed Rate Field after the team signed a 13-year naming rights deal with the retail mortgage lender.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/uscell_topv2.jpg",
+                      location: "333 W 35th St, Chicago, IL 60616"
+                    )
+cincinnati_redsV   = Venue.create!( name: "Great American Ball Park",
+                      description: "Great American Ball Park is a baseball stadium in Cincinnati, Ohio, which is the home field of Major League Baseball's Cincinnati Reds. It opened in 2003, replacing Cinergy Field",
+                      photo_url: "https://www.tickpick.com/DesktopModules/SearchResults/img/performers/great-american-ball-park.jpg",
+                      location: "100 Joe Nuxhall Way, Cincinnati, OH 45202"
+                    )
+cleveland_indiansV   = Venue.create!( name: "Progressive Field",
+                      description: "Progressive Field is one of the few facilities in baseball history to host the Major League Baseball All-Star Game and games of the World Series in the same season, which occurred in 1997.",
+                      photo_url: "http://www.westincleveland.com/assets/u/ProgressiveField-1.jpg",
+                      location: "2401 Ontario St, Cleveland, OH 44115"
+                    )
+colorado_rockiesV  = Venue.create!( name: "Coors Field",
+                      description: "Coors Field is a baseball park located in downtown Denver, Colorado. It is the home field of the Colorado Rockies, the city's Major League Baseball (MLB) franchise. The park includes 63 luxury suites and 4,526 club seats.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/coors14975.jpg",
+                      location: "2001 Blake St, Denver, CO 80205"
+                    )
+det_tigersV  = Venue.create!( name: "Comerica Park",
+                      description: "Comerica Park is an open-air ballpark located in Downtown Detroit. It serves as the home of the Detroit Tigers of Major League Baseball, replacing Tiger Stadium in 2000.",
+                      photo_url: "http://www.mlb.com/det/images/ballpark/480x200_main.jpg",
+                      location: "2100 Woodward Ave, Detroit, MI 48201"
+                    )
+houston_astrosV  = Venue.create!( name: "Minute Maid Park",
+                      description: "Minute Maid Park, previously known as The Ballpark at Union Station, Enron Field, and Astros Field, The Houston Astros have called Minute Maid Park home since 2000 as they welcomed their new stadium with natural grass and a 242-foot high retractable roof",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/minute13973.jpg",
+                      location: "501 Crawford St, Houston, TX 77002"
+                    )
+kansas_city_royalsV  = Venue.create!( name: "Kauffman Stadium",
+                      description: "Kauffman Stadium, often called 'The K', was originally known as Royals Stadium, the facility was officially renamed in honor of Ewing M. Kauffman in a ceremony on July 2, 1993.",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/4/47/NewKauffman.jpg",
+                      location: "1 Royal Way, Kansas City, MO 64129"
+                    )
+la_angelsV   = Venue.create!( name: "Angel Stadium of Anaheim",
+                      description: "Angel Stadium of Anaheim, originally known as Anaheim Stadium and later Edison International Field of Anaheim, is a modern-style ballpark located in Anaheim, California.",
+                      photo_url: "https://i.gse.io/gse_media/114/6/1406569210-venue-AngelsStadium_Intr_Day.jpg?p=1",
+                      location: "2000 E Gene Autry Way, Anaheim, CA 92806"
+                    )
+la_dodgersV   = Venue.create!( name: "Dodger Stadium",
+                      description: "Dodger Stadium, occasionally called by the metonym Chavez Ravine, is a baseball park located in the Elysian Park neighborhood of Los Angeles, the home field of the Los Angeles Dodgers, the city's Major League Baseball franchise",
+                      photo_url: "http://heraldk.com/wp-content/uploads/2014/03/2014032801000137200005461.jpg",
+                      location: "1000 Vin Scully Ave, Los Angeles, CA 90012"
+                    )
+miami_marlinsV   = Venue.create!( name: "Marlins Park",
+                      description: "Marlins Park is a baseball park located in Miami, Florida. It is the current home of the Miami Marlins, the city's Major League Baseball franchise.",
+                      photo_url: "http://www.bizbash.com/content/editorial/storyimg/big/20120404-marlins-0027-editjpg_1.jpg",
+                      location: "501 Marlins Way, Miami, FL 33125"
+                    )
+milwaukee_brewersV   = Venue.create!( name: "Miller Park",
+                      description: "Miller Park is a baseball park located in Milwaukee, Wisconsin. It is home to the Milwaukee Brewers and was completed in 2001 as a replacement for Milwaukee County Stadium.",
+                      photo_url: "http://www.johnsoncontrols.com/-/media/jci/insights/2015/be/images/be_cs_miller_park_front.jpg?data-description=thumbnail2&data-media-type=image",
+                      location: "1 Brewers Way, Milwaukee, WI 53214"
+                    )
+minn_twinsV   = Venue.create!( name: "Target Field",
+                      description: "Target Field is a baseball park located in the historic warehouse district of downtown Minneapolis. It is the home ballpark of the Minnesota Twins",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Target_Field_April_2010.jpg",
+                      location: "1 Twins Way, Minneapolis, MN 55403"
+                    )
+ny_metsV   = Venue.create!( name: "Citi Field",
+                      description: "Citi Field is a stadium located in Flushing Meadows–Corona Park in the New York City borough of Queens. Completed in 2009, it is the home baseball park of Major League Baseball's New York Mets.",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/4/48/Le_Citi_Field.jpg",
+                      location: "123-01 Roosevelt Ave, Queens, NY 11368"
+                    )
+nyyankeesV  = Venue.create!( name: "Yankee Stadium",
+                      description: "Yankee Stadium is a stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball. ",
+                      photo_url: "http://newyork.yankees.mlb.com/nyy/ballpark/enhancements/images/enhancements-1_990x624_home-plateC.jpg",
+                      location: "1 E 161st St, Bronx, NY 10451"
+                    )
+oakland_athleticsV   = Venue.create!( name: "Oakland Coliseum",
+                      description: "The Oakland–Alameda County Coliseum, often referred to as the Oakland Coliseum, is a multi-purpose stadium in Oakland, California, United States, which is home to both the Oakland Athletics and for 15 seasons the Oakland Raiders ",
+                      photo_url: "https://chairnerd.global.ssl.fastly.net/images/seatview/14/nfl/raiders/907eb6/316/640/venue-section-316-view.jpg",
+                      location: "7000 Coliseum Way, Oakland, CA 94621"
+                    )
+philadelphia_philliesV   = Venue.create!( name: "Citizens Bank Park",
+                      description: "Citizens Bank Park is a baseball park located in Philadelphia, On August 14, 2007, it was announced that Citizens Bank Park was voted #1 by PETA as America's most vegetarian-friendly ballpark, which was repeated in 2008, 2009, 2010, and 2012.",
+                      photo_url: "http://bicyclecoalition.org/wp-content/uploads/2016/04/1501_Exterior_of_Citizens_Bank_Park.jpg",
+                      location: "1 Citizens Bank Way, Philadelphia, PA 19148"
+                    )
+pitt_piratesV  = Venue.create!( name: "PNC Park",
+                      description: "PNC Park is the first ballpark with a two-deck design to be built in the United States since Milwaukee's County Stadium was completed in 1953.",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Pedro_goes_to_Pittsburgh.jpg",
+                      location: "115 Federal St, Pittsburgh, PA 15212"
+                    )
+sd_padresV  = Venue.create!( name: "Petco Park",
+                      description: "Petco Park is a baseball park located in the downtown area of San Diego, California, United States, that is home to the San Diego Padres of Major League Baseball.",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Petco_Park%2C_San_Diego.jpg/1024px-Petco_Park%2C_San_Diego.jpg",
+                      location: "100 Park Blvd, San Diego, CA 92101"
+                    )
+sf_giantsV  = Venue.create!( name: "AT&T Park",
+                      description: "AT&T Park is a baseball park located in the South Beach neighborhood of San Francisco, California. Since 2000, it has served as the home of the San Francisco Giants, the city's Major League Baseball franchise",
+                      photo_url: "http://www.mlb.com/sf/images/ballpark/y2016/aerial_480x207.jpg",
+                      location: "24 Willie Mays Plaza, San Francisco, CA 94107"
+                    )
+seattle_marinersV  = Venue.create!( name: "Safeco Field",
+                      description: "Safeco Field is a retractable roof baseball stadium located in Seattle, Washington. However, unlike other retractable roof stadiums, Safeco Field has what is called a 'retractable umbrella'. This is because when the roof is closed, the stadium is still open on the sides to the outside weather.",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Safeco_Field_satellite_view.png/800px-Safeco_Field_satellite_view.png",
+                      location: "1250 1st Ave S, Seattle, WA 98134"
+                    )
+st_louis_cardV  = Venue.create!( name: "Busch Stadium",
+                      description: "Busch Stadium, also referred to informally as 'New Busch Stadium' or 'Busch Stadium III', is a baseball park located in St. Louis, Missouri, and the home of the St. Louis Cardinals",
+                      photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BuschStadium_2006-05-30.jpg/800px-BuschStadium_2006-05-30.jpg",
+                      location: "700 Clark Ave, St. Louis, MO 63102"
+                    )
+tb_raysV  = Venue.create!( name: "Tropicana Field",
+                      description: "Tropicana Field is a domed stadium in St. Petersburg, Florida, United States, that has been the home of the Tampa Bay Rays of Major League Baseball since the team's inaugural season in 1998. Once inside the stadium, visitors find themselves in a location known as Centerfield Street.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/tropicana_topv2.jpg",
+                      location: "1 Tropicana Dr, St. Petersburg, FL 33705"
+                    )
+texas_rangersV   = Venue.create!( name: "Globe Life Park in Arlington",
+                      description: "Globe Life Park in Arlington is a baseball park in Arlington, Texas, located between Dallas and Fort Worth. It is home to the Texas Rangers of Major League Baseball and the Texas Rangers Baseball Hall of Fame.",
+                      photo_url: "http://www.premierpartnerships.com/wp-content/uploads/2014/02/Rangers.jpg",
+                      location: "1000 Ballpark Way, Arlington, TX 76011"
+                    )
+toronto_blue_jaysV   = Venue.create!( name: "Rogers Centre",
+                      description: "Rogers Centre, originally named SkyDome, is a multi-purpose stadium in Downtown Toronto, Ontario, Canada situated just southwest of the CN Tower near the northern shore of Lake Ontario.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/rogers_topv5.jpg",
+                      location: "1 Blue Jays Way, Toronto, ON M5V 1J1, Canada"
+                    )
+washington_nationalsV  = Venue.create!( name: "Nationals Park",
+                      description: "The ballpark has yet to be named after a corporate sponsor, Nationals Park is a baseball park located along the Anacostia River in the Navy Yard neighborhood of Washington, D.C. It is the home ballpark for the Washington Nationals, the city's Major League Baseball franchise.",
+                      photo_url: "http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/nats16950.jpg",
+                      location: "1500 S Capitol St SE, Washington, DC 20003"
+                    )
+
+
+arz_diamond = Team.create!(
+  city: "Phoenix",
+  name: "Arizona Diamondbacks",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/50/full/8779_arizona_diamondbacks-alternate-2016.png",
+  venue: arz_diamondbacksV
+)
+atl_braves = Team.create!(
+  city: "Atlanta",
+  name: "Braves",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/51/full/3kgwjp6heowkeg3w8zoow9ggy.png",
+  venue: atlanta_bravesV
+)
+balt_os = Team.create!(
+  city: "Baltimore",
+  name: "Orioles",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/52/full/lty880yrmrra64y6tqfqmdnbf.png",
+  venue: baltimore_oriolesV
+)
+bost_red_sox = Team.create!(
+  city: "Boston",
+  name: "Red Sox",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/53/full/c0whfsa9j0vbs079opk2s05lx.png",
+  venue: boston_red_soxV
+)
+chi_cubs = Team.create!(
+  city: "Chicago",
+  name: "Cubs",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/54/full/q9gvs07u72gc9xr3395u6jh68.png",
+  venue: chi_cubsV
+)
+chi_white_sox = Team.create!(
+  city: "Chicago",
+  name: "White Sox",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/55/full/oxvkprv7v4inf5dgqdebp0yse.png",
+  venue: chi_white_soxV
+)
+cinci_reds = Team.create!(
+  city: "Cincinnati",
+  name: "Reds",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/56/full/z9e0rqit393ojiizsemd0t1hx.png",
+  venue: cincinnati_redsV
+)
+clev_indians = Team.create!(
+  city: "Cleveland",
+  name: "Indians",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/57/full/5347_cleveland_indians-primary-2014.png",
+  venue: cleveland_indiansV
+)
+den_rocks = Team.create!(
+  city: "Denver",
+  name: "Colorado Rockies",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/58/full/6871_colorado_rockies-primary-2017.png",
+  venue: colorado_rockiesV
+)
+det_tigers = Team.create!(
+  city: "Detroit",
+  name: "Tigers",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/59/full/8964_detroit_tigers-primary-2016.png",
+  venue: det_tigersV
+)
+houston_astro = Team.create!(
+  city: "Houston",
+  name: "Astros",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/4929/full/9503_houston_astros-primary-2000.png",
+  venue: houston_astrosV
+)
+kc_royals = Team.create!(
+  city: "Kansas City",
+  name: "Royals",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/62/full/xttmgt3bha1agv7w6x3xjh6lb.png",
+  venue: kansas_city_royalsV
+)
+la_angels = Team.create!(
+  city: "Anaheim",
+  name: "Los Angeles Angels",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/922/full/wsghhaxkh5qq0hdkbt1b5se41.png",
+  venue: la_angelsV
+)
+la_dodger = Team.create!(
+  city: "Los Angeles",
+  name: "Dodgers",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/63/full/fkshhi6ltir8dzee456n0pvqe.gif",
+  venue: la_dodgersV
+)
+miami_mar = Team.create!(
+  city: "Miami",
+  name: "Marlins",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/3637/full/1720_miami_marlins-primary-2017.png",
+  venue: miami_marlinsV
+)
+milwaukee_brew = Team.create!(
+  city: "Milwaukee",
+  name: "Brewers",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/64/full/codgen7tivw6sheezw0ijymfy.png",
+  venue: milwaukee_brewersV
+)
+minn_twins = Team.create!(
+  city: "Minneapolis",
+  name: "Minnesota Twins",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/65/full/peii986yf4l42v3aa3hy0ovlf.png",
+  venue: minn_twinsV
+)
+ny_mets = Team.create!(
+  city: "Flushing",
+  name: "New York Mets",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/67/full/m01gfgeorgvbfw15fy04alujm.png",
+  venue: ny_metsV
+)
+ny_yankees = Team.create!(
+  city: "Bronx",
+  name: "New York Yankees",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/68/full/1256.png",
+  venue: nyyankeesV
+)
+oak_as = Team.create!(
+  city: "Oakland",
+  name: "Athletics",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/69/full/6xk2lpc36146pbg2kydf13e50.png",
+  venue: oakland_athleticsV
+)
+philly_phillies = Team.create!(
+  city: "Philadelphia",
+  name: "Phillies",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/70/full/o4lmh7dq5e3uordl7hvk6i3ug.gif",
+  venue: philadelphia_philliesV
+)
+pitt_pirate = Team.create!(
+  city: "Pittsburgh",
+  name: "Pirates",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/71/full/1250_pittsburgh_pirates-primary-2014.png",
+  venue: pitt_piratesV
+)
+sd_padre = Team.create!(
+  city: "San Diego",
+  name: "Padres",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/73/full/7082_san_diego_padres-alternate-2015.png",
+  venue: sd_padresV
+)
+sf_giant = Team.create!(
+  city: "San Francisco",
+  name: "Giants",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/74/full/cpqj6up5bvgpoedg5fwsk20ve.png",
+  venue: sf_giantsV
+)
+seattle_mariner = Team.create!(
+  city: "Seattle",
+  name: "Mariners",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/75/full/1305.png",
+  venue: seattle_marinersV
+)
+tb_rays = Team.create!(
+  city: "Saint Petersburg",
+  name: "Tampa Bay Rays",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/2535/full/qiru2jftx1a378eq8ad0s4ik4.gif",
+  venue: tb_raysV
+)
+tex_rangers = Team.create!(
+  city: "Arlington",
+  name: "Texas Rangers",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/77/full/ajfeh4oqeealq37er15r3673h.png",
+  venue: texas_rangersV
+)
+wash_nats = Team.create!(
+  city: "Washington",
+  name: "Nationals",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/53/992/full/1380.gif",
+  venue: washington_nationalsV
+)
+st_louis_card = Team.create!(
+  city: "St. Louis",
+  name: "Cardinals",
+  sport: "Baseball",
+  logo_url: "http://content.sportslogos.net/logos/54/72/full/3zhma0aeq17tktge1huh7yok5.gif",
+  venue: st_louis_cardV
+  )
