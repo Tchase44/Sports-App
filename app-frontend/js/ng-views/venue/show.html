@@ -2,9 +2,9 @@
 
 <div>
 <p><a href="#" ng-click="vm.hide = !vm.hide">Edit</a></p>
+<div class="venueShow">
 
 <p id="venueName">{{vm.venue.name}}</p>
-
 
 <p ng-repeat="team in vm.teams | filter : {'id' : vm.venue.team_id , 'venue_id' : vm.venue.id}" ng-if="$first">
   <a id="teamName" data-ui-sref="teamShow({id: team.id})"> {{team.name}} </a>
@@ -12,7 +12,10 @@
 
 <p id="adr">{{vm.venue.location}}</p>
 <p>{{vm.venue.description}}</p>
-<img src="{{vm.venue.photo_url}}">
+
+</div>
+
+<img class="venueImg" src="{{vm.venue.photo_url}}">
 
 <div ng-show="vm.hide">
 <form>
@@ -33,10 +36,10 @@
 
 <button id="venueButton">Show Games!</button>
 <div id="weatherReport">
-  
+
 </div>
 <div id="venueEvents">
-  
+
 </div>
 
 <script type="text/javascript" src="js/tickets.js"></script>
