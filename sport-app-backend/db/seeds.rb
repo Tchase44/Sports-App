@@ -888,141 +888,179 @@ houston_txV = Venue.create!(
     )
 indi_coltsV = Venue.create!(
     	name: "Lucas Oil Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Lucas Oil Stadium is a multi-purpose stadium in downtown Indianapolis, United States. It replaced the RCA Dome as the home field of the
+			NFL's Indianapolis Colts. Stadium's seating capacity for football games is 62,421",
+    	photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiw1JjQmt_UAhVBgj4KHeQMCcIQjBwIBA&url=http%3A%2F%2Fwww.stadiumsofprofootball.com%2Fwp-content%2Fuploads%2F2016%2F07%2Flucas16_top.jpg&psig=AFQjCNHQL_pRAEFCubpK7mxWq6vKyDZUjQ&ust=1498693460799178",
+    	location: "500 S Capitol Ave, Indianapolis, IN 46225"
     )
 jax_jagsV = Venue.create!(
     	name: "EverBank Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+			description: "EverBank Field is an American football stadium in Downtown Jacksonville, Florida, and the home stadium facility of the Jacksonville Jaguars of the National Football League (NFL). Stadium has 67,246 capacity.",
+    	photo_url: "http://a.espncdn.com/photo/2008/0730/jax_580.jpg",
+    	location: "1 Everbank Field Dr, Jacksonville, FL 32202"
     )
 tenn_titainV = Venue.create!(
     	name: "Nissan Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Nissan Stadium is a multi-purpose stadium in Nashville, Tennessee, United States, owned by the Metropolitan Government of Nashville and
+			 Davidson County. It is primarily used for football and is the home field of the Tennessee Titans of the National Football League (NFL) and the
+			 Tennessee State Tigers of Tennessee State University. Nissan Stadium has a listed seating capacity of 69,143.",
+    	photo_url: "http://a.espncdn.com/photo/2008/0730/lp_580.jpg",
+    	location: "1 Titans Way, Nashville, TN 37213"
     )
 denver_broncV = Venue.create!(
     	name: "Sports Authority Field at Mile High",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Sports Authority Field at Mile High, and commonly known as Mile High or Mile High Stadium, is an American football stadium in Denver, Colorado.
+			 The stadium's primary tenant is the Denver Broncos of the National Football League (NFL).",
+    	photo_url: "http://wsrsolutions.com/wp-content/uploads/2016/09/Best-Wheelchair-Accessible-Football-Stadiums-Sports-Authority-Field-at-Mile-High.jpg",
+    	location: "1701 Bryant St, Denver, CO 80204"
     )
 kc_cheifV = Venue.create!(
     	name: "Arrowhead Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Arrowhead Stadium is a football stadium in Kansas City, Missouri, United States, that primarily serves as the home venue of the Kansas City
+			Chiefs of the National Football League (NFL). It is part of the Truman Sports Complex with adjacent Kauffman Stadium, the home of the Kansas City Royals
+			 of Major League Baseball (MLB). Arrowhead has a seating capacity of 76,416, making it the 28th largest stadium in North America and sixth largest
+			 NFL stadium. It is also the largest sports facility by capacity in the state of Missouri.",
+    	photo_url: "http://www.ucmathletics.com/images/2016/6/17/Arrowhead%20Stadium_web.jpg",
+    	location: "1 Arrowhead Dr, Kansas City, MO 64129"
     )
 oak_raidV = Venue.create!(
     	name: "Oakland Alemeda Coliseum",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "The Oakland–Alameda County Coliseum, often referred to as the Oakland Coliseum, is a multi-purpose stadium in Oakland, California,
+			United States, which is home to both the Oakland Athletics of Major League Baseball (MLB) and the Oakland Raiders of the National Football League (NFL).
+			 It has seating capacity of 47,170 for baseball, 56,057 for football, and 63,132 for soccer.",
+    	photo_url: "https://www.reviewjournal.com/wp-content/uploads/2017/04/8274026_web1_ap_16332777510848.jpg",
+    	location: "7000 Coliseum Way, Oakland, CA 94621"
     )
 la_chargerV = Venue.create!(
     	name: "StubHub Center",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "StubHub Center, formerly is a multiple-use sports complex located on the campus of California State University, Dominguez Hills in Carson,
+			California. It is located approximately 10 miles south of Downtown Los Angeles. The stadium is a capacity of 27,000, and is the second-largest
+			soccer-specific stadium in Major League Soccer. Its primary tenant is the LA Galaxy.",
+    	photo_url: "https://losangeles-mp7static.mlsdigital.net/styles/image_landscape/s3/images/05222016_LAGalaxy_GA_1538.JPG?AjC6iBlTCpDqgw0oNX7w8iLB4G7FSJiK&itok=r1E0BaTC&c=d77e9297b57c66260469e6ae05c48f7d",
+    	location: "18400 S Avalon Blvd, Carson, CA 90746"
     )
 dal_cowboyV = Venue.create!(
     	name: "AT&T Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "AT&T Stadium, formerly Cowboys Stadium, is a retractable roof stadium in Arlington, Texas, United States. It serves as the home of the
+			 Dallas Cowboys of the National Football League (NFL) and was completed on May 27, 2009. The stadium seats 80,000,[17] making it the fifth largest stadium in
+			  the NFL by seating capacity. The maximum capacity of the stadium with standing room is 105,000. The record attendance for an NFL game was set in 2009 with
+				a crowd of 105,121",
+    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/att16_top.jpg",
+    	location: "1 AT&T Way, Arlington, TX 76011"
     )
 ny_giantsV = Venue.create!(
     	name: "MetLife Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey. It is part of the Meadowlands Sports Complex and
+			serves as the home stadium for two National Football League (NFL) franchises: the New York Jets and the New York Giants. Stadium has 82,500 capacity.",
+    	photo_url: "https://www.delawarenorth.com/~/media/delawarenorth/images/venue%20images/sportservice/metlife-stadium_t1.jpg?h=350&la=en&w=804",
+    	location: "1 MetLife Stadium Dr, East Rutherford, NJ 07073"
     )
 philly_eagleV = Venue.create!(
     	name: "Lincoln Financial Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Lincoln Financial Field is the home stadium of the National Football League's Philadelphia Eagles and the Temple Owls football team of
+			Temple University. It has a seating capacity of 69,176.",
+    	photo_url: "http://www.uwishunu.com/wp-content/uploads/2012/09/eagles-lincoln-financial-field-680uw.jpg",
+    	location: "1 Lincoln Financial Field Way, Philadelphia, PA 19148"
     )
 wash_redskinV = Venue.create!(
     	name: "FedExField",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "FedExField is a football stadium located in Landover, Maryland, United States. FedExField is the home of the Washington Redskins football team.
+			 From 2004 until 2010, it had the largest stadium capacity in the National Football League (NFL), at over 91,000. Currently, the capacity is 82,000.",
+    	photo_url: "http://a.espncdn.com/photo/2008/0730/fedex_580.jpg",
+    	location: "1600 Fedex Way, Hyattsville, MD 20785"
     )
 chi_bearV = Venue.create!(
     	name: "Soldier Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Soldier Field is an American football stadium located in the Near South Side of Chicago, Illinois. It opened in 1924 and is the home field of
+			the Chicago Bears of the National Football League (NFL), who moved there in 1971. With a football capacity of 61,500, it is the third-smallest stadium in the NFL.",
+    	photo_url: "http://www.hidowntown.com/images/cmsimg_1430941194.jpg",
+    	location: "1410 Museum Campus Dr, Chicago, IL 60605"
     )
 det_lionV= Venue.create!(
     	name: "Ford Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Ford Field is a multi-purpose indoor stadium located in Downtown Detroit, Michigan, United States. It is primarily used for American football
+			 as the home field of the Detroit Lions of the National Football League (NFL). The regular seating capacity is approximately 65,000, though it is expandable
+			 up to 70,000 for football and 80,000 for basketball.",
+    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/ford16_top.jpg",
+    	location: "2000 Brush St, Detroit, MI 48226"
     )
 gb_packV = Venue.create!(
     	name: "Lambeau Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Lambeau Field is an outdoor athletic stadium in the north central United States, located in Green Bay, Wisconsin. The home field of the
+			Green Bay Packers of the National Football League (NFL). The stadium completed its latest renovation in the summer of 2013 with the addition of 7,000 seats
+			high in the south end zone. It is now the largest venue in the state of Wisconsin, edging out Camp Randall Stadium (80,321).",
+    	photo_url: "http://www.packers.com/assets/images/imported/GB/photos/article_images/2016/11-november/161103-lambeau-ready-950.jpg",
+    	location: "1265 Lombardi Ave, Green Bay, WI 54304"
     )
 minn_vikingV = Venue.create!(
     	name: "U.S. Bank Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "U.S. Bank Stadium is a fixed-roof stadium located in the Downtown East section of Minneapolis, Minnesota, United States. U.S. Bank Stadium
+			serves as the home of the Minnesota Vikings of the National Football League (NFL) and the Minnesota Golden Gophers baseball team (NCAA).The stadium seats
+			66,665 people for most games, slightly more than the Metrodome. It can be expanded to 73,000 for special events such as the Super Bowl.",
+    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/usbank16957.jpg",
+    	location: "401 Chicago Ave, Minneapolis, MN 55415"
     )
 alt_falconV = Venue.create!(
     	name: "Georgia Dome",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "The Georgia Dome is a domed stadium located in Atlanta, Georgia, United States, between downtown to the east and Vine City to the west. It was
+			primarily the home stadium for the Atlanta Falcons of the National Football League (NFL) and the Georgia State Panthers football team from
+			 Georgia State University. It has 74,228 seating capacity.",
+    	photo_url: "http://www.myajc.com/rf/image_medium/Pub/p8/MyAJC/2017/01/21/Images/newsEngin.17456654_011517-falcons-photos-HS05.jpg",
+    	location: "1 Georgia Dome Dr, Atlanta, GA 30313"
     )
 carolina_pantherV = Venue.create!(
     	name: "Bank of America Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Bank of America Stadium is a 75,419-seat football stadium located in uptown Charlotte, North Carolina, United States. It is the home facility
+			and headquarters of the Carolina Panthers of the National Football League.",
+    	photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi_ruG_od_UAhXDeD4KHUDKBTkQjBwIBA&url=http%3A%2F%2Fwww.panthers.com%2Fassets%2Fimages%2Fimported%2FCAR%2Fphotos%2F2013%2F02-February%2F130212_stadium_inside1.jpg&psig=AFQjCNGe0H-NQkOjlm-qzoziMj92aOtUFw&ust=1498695356114255",
+    	location: "800 S Mint St, Charlotte, NC 28202"
     )
 nola_saintV = Venue.create!(
     	name: "Mercedes-Benz Superdome",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "The Mercedes-Benz Superdome, often referred to simply as the Superdome, is a domed sports and exhibition venue located in the Central
+			Business District of New Orleans, Louisiana, United States. It primarily serves as the home venue for the New Orleans Saints of the National Football
+			League (NFL), and is also the home stadium for the Sugar Bowl and New Orleans Bowl in college football. The Superdome has a listed football seating capacity of 76,468.",
+    	photo_url: "http://www.mbsuperdome.com/assets/img/74.jpg",
+    	location: "1500 Sugar Bowl Dr, New Orleans, LA 70112"
     )
 tb_bucksV = Venue.create!(
     	name: "Raymond James Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Raymond James Stadium, also known as the 'Ray Jay', is a multi-purpose football stadium located in Tampa, Florida. It is home to the
+			 Tampa Bay Buccaneers of the National Football League (NFL) as well as the NCAA's South Florida Bulls football team. The stadium seats 65,890,
+			 and is expandable to 75,000 for special events.",
+    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/raymond16_top.jpg",
+    	location: "4201 N Dale Mabry Hwy, Tampa, FL 33607"
     )
 arz_cardinalV = Venue.create!(
     	name: "University of Phoenix Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "University of Phoenix Stadium is a multi-purpose football stadium located in Glendale, Arizona, west of Phoenix. It is the home of the
+			Arizona Cardinals of the National Football League (NFL) and the annual Fiesta Bowl. Stadium has 63,400 capacity.",
+    	photo_url: "http://a.espncdn.com/photo/2008/0730/phoenix_580.jpg",
+    	location: "1 Cardinals Dr, Glendale, AZ 85305"
     )
 la_ramsV = Venue.create!(
     	name: "Los Angeles Memorial Coliseum",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "The Los Angeles Memorial Coliseum is an American sports stadium located in the Exposition Park neighborhood of Los Angeles, California.
+			The stadium serves as the home to the University of Southern California (USC) Trojans football team, and as the temporary home for the Los Angeles Rams
+			of the National Football League (NFL). For Rams games, capacity is at 80,000, giving it the fourth-largest capacity in the NFL.",
+    	photo_url: "https://c1.staticflickr.com/5/4095/4743465143_a926588ab9_b.jpg",
+    	location: "3911 S Figueroa St"
     )
 sf_49V = Venue.create!(
     	name: "Levi's Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Levi's Stadium is a football stadium located in Santa Clara, California, in the San Francisco Bay Area. It has served as the home of
+			the San Francisco 49ers of the National Football League since 2014.  It has a seating capacity of 68,500, expandable to approximately 75,000 to host
+			major events like the Super Bowl and the FIFA World Cup.",
+    	photo_url: "https://nesncom.files.wordpress.com/2015/09/levi-stadium.jpg",
+    	location: "4900 Marie P DeBartolo Way, Santa Clara, CA 95054"
     )
 seattle_seahawkV = Venue.create!(
     	name: "CenturyLink Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "CenturyLink Field is a multi-purpose stadium located in Seattle, Washington, United States. It is the home field for the Seattle Seahawks
+			of the National Football League (NFL) and Seattle Sounders FC of Major League Soccer (MLS). It is a modern facility with views of the Downtown Seattle
+			skyline and can seat 69,000 people.",
+    	photo_url: "https://assets3.roadtrippers.com/uploads/poi_gallery_image/image/319720722/-strip_-quality_60_-interlace_Plane_-resize_1024x480_U__-gravity_center_-extent_1024x480/poi_gallery_image-image-da9a7eb7-4dfe-47aa-9d18-241018f8232b.jpg",
+    	location: "800 Occidental Ave S, Seattle, WA 98134"
     )
 
 arz_cardinals = Team.create!(
@@ -1252,55 +1290,55 @@ wash_redskins = Team.create!(
 
 atlanta_united_fcV = Venue.create!(
                         name: "Bobby Dodd Stadium",
-                        location:" 155 North Avenue, Northwest. Atlanta, Georgia",
+                        location:"177 North Avenue NW, Atlanta, GA 30313",
                         description:"The 55,000 seat stadium at Historic Grant Field is located on the campus of the Georgia Institute of Technology in Atlanta.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BobbyDoddStadiumGTMiami2008.jpg/1280px-BobbyDoddStadiumGTMiami2008.jpg"
                         )
 chicago_fireV = Venue.create!(name: "Toyota Park",
                 description: "About twelve miles southwest of downtown Chicago. It is the home stadium of the Chicago Fire Soccer Club of Major League Soccer (MLS), the Chicago Red Stars[7] of the National Women's Soccer League (NWSL), and the Chicago Bliss of the Legends Football League (LFL). The stadium has also hosted the Chicago Machine of Major League Lacrosse",
                 photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Toyota_Park%2C_9_March_2013.jpg/800px-Toyota_Park%2C_9_March_2013.jpg",
-                location:"7000 South Harlem Avenue. Bridgeview, Illinois"
+                location:"7000 Harlem Ave, Bridgeview, IL 60455"
                 )
 
 columbus_crew_scV = Venue.create!(name: "Mapfre Stadium",
                     description:"Mapfre Stadium is also the site of a variety of additional events in amateur and professional soccer, American football, lacrosse, and rugby, and is a regular site for outdoor concerts due to the permanent stage in the north end zone.",
                     photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mapfre-stadium-hosts-USA-Mexico_11-11-2016.JPG/1280px-Mapfre-stadium-hosts-USA-Mexico_11-11-2016.JPG",
-                    location: "1 Black and Gold Boulevard. Columbus, Ohio"
+                    location: "One Black & Gold Blvd, Columbus, OH 43211"
                     )
 dc_unitedV = Venue.create!(name: "RFK Stadium",
             description: "A multi-purpose stadium in Washington, D.C., It is the current home of D.C. United of Major League Soccer and the AT&T Nation's Football Classic.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/RFK_Stadium_aerial_photo%2C_looking_towards_Capitol%2C_1988.jpg/800px-RFK_Stadium_aerial_photo%2C_looking_towards_Capitol%2C_1988.jpg",
-            location: "2400 East Capitol Street SE. Washington, D.C."
+            location: "2400 East Capitol Street SE, Washington, DC 20003"
 )
 montreal_impactV = Venue.create!(name: "Saputo Stadium",
                 description: "The stadium is built on the former practice track and field site on the grounds of the 1976 Summer Olympics, while the stadium's west side has a view of Olympic Stadium's inclined tower. It has a capacity of 20,801 making it the second-largest soccer-specific stadium in Canada, after BMO Field in Toronto.",
                 photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Stade_Saputo.27.06.12.jpg/800px-Stade_Saputo.27.06.12.jpg",
-                location: "4750 Sherbrooke Street E. Montreal, Quebec"
+                location: "4750 Sherbrooke Street E. Montreal, Canada"
 )
 new_england_revolutionV = Venue.create!(name: "Gillette Stadium",
                         description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
-                        location: "1 Patriot Place, Foxborough, Massachusetts"
+                        location: "1 Patriot Pl, Foxborough, MA 02035"
 )
 new_york_city_fcV = Venue.create!(name: "Yankee Stadium",
             description: "A stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball (MLB). ",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Le_Yankee_Stadium.jpg",
-            location: "1 East 161st Street. Bronx, New York"
+            location: "1 E 161st St, Bronx, NY 10451"
 )
 new_york_red_bullsV = Venue.create!(name: "Red Bull Arena",
             description: "Featuring a partial transparent roof and with a seating capacity of 25,000 it is the fourth-largest soccer-specific stadium in Major League Soccer.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Red_Bull_Arena_Harrison_behind_goal.jpg/800px-Red_Bull_Arena_Harrison_behind_goal.jpg",
-            location: "600 Cape May Street. Harrison, New Jersey"
+            location: "600 Cape May, Harrison, NJ 07029"
                     )
 orlando_city_scV = Venue.create!(name: "Orlando City Stadium",
             description: "A soccer-specific stadium in downtown Orlando, Florida. It is the home venue for the Orlando City SC, which entered Major League Soccer (MLS) as an expansion franchise in 2015, and their National Women's Soccer League (NWSL) sister club, the Orlando Pride.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Open_House_Event_%2832264010504%29.jpg/800px-Open_House_Event_%2832264010504%29.jpg",
-            location: "655 West Church Street. Orlando, Florida"
+            location: "655 W Church St, Orlando, FL 32805"
 )
-philadelphia_UnionV = Venue.create!(name: "alen Energy Stadium",
-            description: "Talen Energy Stadium[8] was designed to be a catalyst for economic development on the waterfront, with additional plans calling for a riverwalk amidst other entertainment, retail, and residential projects.",
+philadelphia_UnionV = Venue.create!(name: "Talen Energy Stadium",
+            description: "Talen Energy Stadium was designed to be a catalyst for economic development on the waterfront, with additional plans calling for a riverwalk amidst other entertainment, retail, and residential projects.",
             photo_url: "https://upload.wikimedia.org/wikipedia/commons/2/26/PPL_Park_before_Independence_Playoff_Game_2010.jpg",
-            location: "1 Stadium Drive, Chester, Pennsylvania"
+            location: "1 Stadium Dr, Chester, PA 19013"
 )
 toronto_FCV = Venue.create!(name:"BMO Field",
             description: "home to Toronto FC of Major League Soccer and the Toronto Argonauts of the Canadian Football League. The largest soccer-specific stadium in Canada witha seting capacity of 28,500",
@@ -1310,52 +1348,53 @@ toronto_FCV = Venue.create!(name:"BMO Field",
 colorado_RapidsV = Venue.create!(name:"Dick's Sporting Goods Park",
                 description: "The stadium can seat up to 18,061 people for soccer matches, but may accommodate up to 19,734 for special soccer events and 27,000 for concerts. It became the third home venue for the Rapids upon its opening in 2007.",
                 photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dicks_Sporting_Goods_Park_covered_in_snow.jpg/1280px-Dicks_Sporting_Goods_Park_covered_in_snow.jpg",
-                location:"6000 Victory Way. Commerce City, Colorado"
+                location:"6000 Victory Way, Commerce City, CO 80022"
 )
 fc_DallasV = Venue.create!(name:"Toyota Stadium",
             description: "A soccer-specific stadium with a 18,000-seat capacity, built and owned by the city of Frisco, Texas. Its primary tenants are Major League Soccer (MLS) team FC Dallas, which relocated from the Cotton Bowl in central Dallas, , and Frisco Independent School District high school football games.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pizza_Hut_Park.jpg/800px-Pizza_Hut_Park.jpg",
-            location:"9200 World Cup Way, Ste 202. Frisco, Texas"
+            location:"9200 World Cup Way, Frisco, TX 75033"
 )
 houston_DynamoV = Venue.create!(name:"BBVA Compass Stadium",
             description: "American soccer-specific stadium located in Houston, Texas that is home to the Houston Dynamo, a Major League Soccer club, the Houston Dash of the National Women's Soccer League, and to Texas Southern Tigers football.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/BBVA_Compass_Stadium%2C_North_Facade.JPG/1024px-BBVA_Compass_Stadium%2C_North_Facade.JPG",
-            location:"2200 Texas Avenue. Houston, Texas"
+            location:"2200 Texas Ave, Houston, TX 77003"
 )
 la_GalaxyV = Venue.create!(name:"StubHub Center",
             description: "A multiple-use sports complex located on the campus of California State University. With a set capacity of 27,000,[8] it is the second-largest soccer-specific stadium in Major League Soccer.",
             photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LA_Galaxy_vs_Houston_Dynamo-_Western_Conference_Finals_panorama.jpg/1280px-LA_Galaxy_vs_Houston_Dynamo-_Western_Conference_Finals_panorama.jpg",
-            location:"18400 Avalon Boulevard. Carson, California"
+            location:"18400 S Avalon Blvd, Carson, CA 90746"
 )
-minnesota_United_FCV  = Venue.create!(name:"  TCF Bank Stadium",
+minnesota_United_FCV  = Venue.create!(name:"TCF Bank Stadium",
                         description: "An outdoor stadium located on the campus of the University of Minnesota, it is the home field of the Minnesota Golden Gophers of the Big Ten Conference, and the temporary home of Minnesota United FC",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/TCF_Bank_Stadium_2.JPG/800px-TCF_Bank_Stadium_2.JPG",
-                        location:"420 SE 23rd Avenue. Minneapolis, Minnesota"
+                        location:"420 SE 23rd Ave, Minneapolis, MN 55455"
                         )
 portland_TimbersV  = Venue.create!(name:"Providence Park",
                     description: ". The MLS Portland Timbers and NWSL Portland Thorns FC soccer teams use the facility as their home pitch, as do the PDL's Timbers U23s. ",
                     photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Providence_Park.jpg/800px-Providence_Park.jpg",
-                    location:"  1844 SW Morrison. Portland, Oregon"
+                    location:"1844 SW Morrison St, Portland, OR 97205"
                     )
 real_Salt_LakeV  = Venue.create!(name:"Rio Tinto Stadium",
                     description: "9256 South State Street",
                     photo_url:"https://upload.wikimedia.org/wikipedia/commons/a/aa/RioTintoEast3-4-2017.jpg",
-                    location:"9256 South State Street. Sandy, Utah"
+                    location:"9256 State St, Sandy, UT 84070"
                     )
 san_Jose_EarthquakesV  = Venue.create!(name: "Avaya Stadium",
                         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Avaya_Stadium%2C_1-7-15.jpg/1024px-Avaya_Stadium%2C_1-7-15.jpg",
-                        location: "1123 Coleman Avenue. San Jose, California"
+                        location: "1123 Coleman Ave, San Jose, CA 95110"
                         )
 seattle_Sounders_FCV  = Venue.create!(name:"CenturyLink Field",
                         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Qwest_Field_North.jpg/800px-Qwest_Field_North.jpg",
-                        location:"800 Occidental Ave S. Seattle, Washington"
+                        location:"800 Occidental Ave S, Seattle, WA 98134
+"
                     )
 sporting_Kansas_CityV  = Venue.create!(name:"Children's Mercy Park",
                         description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                         photo_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg/800px-Livestrong_Sporting_Park_-_Sporting_KC_v_New_England_Revolution.jpg",
-                        location:"One Sporting Way. Kansas City, Kansas"
+                        location:"1 Sporting Way, Kansas City, KS 66111"
                     )
 vancouver_Whitecaps_FCV  = Venue.create!(name:"BC Place",
                         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
@@ -1365,7 +1404,7 @@ vancouver_Whitecaps_FCV  = Venue.create!(name:"BC Place",
 los_Angeles_FCV  = Venue.create!(name: "Banc of California Stadium",
                     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
                     photo_url:"https://upload.wikimedia.org/wikipedia/en/6/69/LAFC_Stadium_Concept_Art.jpg",
-                    location:"3939 South Figueroa Street. Los Angeles, California"
+                    location:"3911 S Figueroa St, Los Angeles, CA 90037"
                     )
 
 chicago_fire = Team.create!(
