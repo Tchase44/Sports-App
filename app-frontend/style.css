@@ -31,8 +31,8 @@ img.img-circle.person {
   height: 190px;
 }
 .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */
+    /*-webkit-filter: grayscale(90%);*/
+    /*filter: grayscale(90%); /* make all photos black and white */
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
@@ -58,8 +58,8 @@ img.img-circle.person {
 #googleMap {
     width: 100%;
     height: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
 }
 .navbar {
     font-family: Montserrat, sans-serif;
