@@ -1,6 +1,6 @@
 "use strict";
 // (function(){
-  
+
 angular
 .module("sportsapp", [
   "ui.router",
@@ -13,7 +13,6 @@ angular
   RouterFunction
 ])
 .controller("HomeController",[
-  
   HomeControllerFun
 ])
 .controller( "TeamIndexController", [
@@ -35,7 +34,6 @@ angular
   TeamShowControllerFunction
 ])
 
-
 // VENUE'S CONTROLLERS
 .controller("VenueIndexController", [
   "VenueFactory",
@@ -56,6 +54,13 @@ angular
   VenueShowControllerFunction
 ])
 
+// PROFILE CONTROLLER
+.controller( "ProfileController", [
+  "$state",
+  ProfileControllerFunction
+])
+
+
 .factory( "TeamFactory", [
   "$resource",
   FactoryFunction
@@ -68,7 +73,7 @@ angular
 angular["sport"] = "";
 
 function RouterFunction ($stateProvider,$locationProvider) {
-  $locationProvider.html5Mode(true); 
+  $locationProvider.html5Mode(true);
   $stateProvider
   .state("home", {
     url: "/",
@@ -120,6 +125,14 @@ function RouterFunction ($stateProvider,$locationProvider) {
     controller: "VenueShowController",
     controllerAs: "vm"
   })
+
+  // PROFILE PAGE
+  .state("profileShow", {
+    url: "/profiles",
+    templateUrl: "js/ng-views/profile/profile.html",
+    controller: "ProfileController",
+    controllerAs: "vm"
+  })
 }
 
 function FactoryFunction( $resource ){
@@ -146,7 +159,7 @@ function HomeControllerFun(){
 function TeamIndexControllerFunction(TeamFactory){
   this.teams = TeamFactory.query();
   this.selSport = angular.sport
-  
+
 }
 
 function TeamNewControllerFunction( TeamFactory, $state ){
@@ -206,5 +219,26 @@ function VenueShowControllerFunction( VenueFactory, $stateParams, $state, TeamFa
       $state.go("venueIndex")
     })
   }
+}
+
+function ProfileControllerFunction($state) {
+  this.profiles = [ {
+    name: "Tim Chase",
+    title: "Full Stack Web Developer",
+    photo_url: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAupAAAAJGFmOGI4NjAwLTc0YmUtNDMzNy1hZTJiLWY5ZWQxNDVkYWM0OA.jpg",
+    linkedin_profile:"https://www.linkedin.com/in/timothychase44/"
+  },
+  {
+    name: "Fittsum W. Haile",
+    title: "Full Stack Web Developer",
+    photo_url: "http://i.imgur.com/pI2nGc8.jpg",
+    linkedin_profile: "https://www.linkedin.com/in/fitssum-haile"
+  },
+  {
+    name: "Tarik Kazanci",
+    title: "Full Stack Web Developer",
+    photo_url: "http://i.imgur.com/yqRVrKf.jpg",
+    linkedin_profile:"https://www.linkedin.com/in/tar%C4%B1k-kazanc%C4%B1-937974135/"
+}]
 }
 // })()

@@ -189,3 +189,29 @@ div .venueShow {
 }
 
 
+
+.profileContainer {
+  display: flex;
+  width: 115%;
+  height: 378px;
+  margin: 5px;
+}
+.profilePage {
+  /*display: inline-block;*/
+    width: 50%;
+    height: 423px;
+    margin: 13px;
+    border: 1px solid black;
+    border-radius: 83px;
+}
+
+.profilePage img {
+  width: 55%;
+}
+
+.profilePage p {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 121%;
+}
+
+
