@@ -606,6 +606,12 @@ lasVegas_knightsV = Venue.create!(
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6e/T_Mobile_Arena_The_Strip_Las_Vegas_%2829798246202%29.jpg",
 		location: "3780 S Las Vegas Blvd, Las Vegas, NV 89158"
 	)
+calgary_fireV = Venue.create!(
+		name: "Scotiabank Saddledome",
+		description: "Scotiabank Saddledome is a multi-use indoor arena in Calgary, Alberta, Canada. Located in Stampede Park in the southeast end of downtown Calgary, the Saddledome was built in 1983",
+		photo_url: "http://stadiumparkingguides.com/wp-content/uploads/2014/12/14-08232012-5035d8cb60264.jpeg",
+		location: "555 Saddledome Rise SE, Calgary, AB T2G 2W1, Canada"
+	)
 #NHL teams
 anaDucks = Team.create!(
 	city: "Anaheim",
@@ -844,6 +850,7 @@ miami_dolphV = Venue.create!(
     	description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
     	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/500px-Gillette_Stadium_%28Top_View%29.jpg",
     	location: "1 Patriot Pl, Foxborough, MA 02035"
+    	)
  ny_jetsV = Venue.create!(
     	name: "MetLife Stadium",
     	description: "MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey. It is part of the Meadowlands Sports Complex and serves as the home stadium for two National Football League franchises: the New York Jets and the New York Giants.",
