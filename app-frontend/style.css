@@ -2,6 +2,9 @@ body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
 }
+p,p>a {
+  font-family: 'Bitter', serif;
+}
 h3, h4 {
     margin: 10px 0 30px 0;
     letter-spacing: 10px;
@@ -143,7 +146,8 @@ div.teamInfo{
 div .teamShow {
   border: 1px;
   border-radius: 50px;
-  background-color: floralwhite;
+  font-size: 120%;
+  /*background-color: floralwhite;*/
   color: steelblue;
 }
 
@@ -152,14 +156,18 @@ div .teamShow {
 }
 
 div .venueShow {
-  border: 1px;
-  border-radius: 50px;
-  background-color: floralwhite;
   color: steelblue;
-  width: 980px;
-  height: 188px;
 }
 
-/*img .venueImg {
-  margin-top: 50px;
-}*/
+.venueShow .venueImg {
+  max-width: 600px;
+  margin: 10px 0 10px 0;
+}
+
+.allStadiums img {
+  width: 300px;
+  border-radius: 40px;
+}
+.allStadiums{
+  font-size: 120%;
+}
