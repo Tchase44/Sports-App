@@ -22,6 +22,6 @@ module SportAppBackend
       end
     end
 
-    
+
   end
 end
