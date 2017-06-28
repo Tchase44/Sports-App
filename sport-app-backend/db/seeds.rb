@@ -835,56 +835,56 @@ winn_jets = Team.create!(
 
 buff_billsV = Venue.create!(
     	name: "New Era Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "New Era Field, originally Rich Stadium and later Ralph Wilson Stadium, is a stadium in Orchard Park, New York, a suburb south of Buffalo. Opened in 1973, it is the home of the Buffalo Bills of the National Football League.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ralph_Wilson_Stadium_%28NFL_Buffalo_Bills%29_-_Orchard_Park%2C_NY.jpg/500px-Ralph_Wilson_Stadium_%28NFL_Buffalo_Bills%29_-_Orchard_Park%2C_NY.jpg",
+    	location: "1 Bills Dr, Orchard Park, NY 14127"
     )
 miami_dolphV = Venue.create!(
     	name: "Sun Life Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Hard Rock Stadium is a multipurpose football stadium located in Miami Gardens, Florida, a suburb north of Miami. It is the home stadium of the Miami Dolphins of the National Football League, and the Miami Hurricanes from the University of Miami.",
+    	photo_url: "http://the305.com/blog/wp-content/uploads/2013/01/tempC-nfl_mezz_1280_1024.jpg",
+    	location: "347 Don Shula Dr, Miami Gardens, FL 33056"
     )
  ne_patsV = Venue.create!(
     	name: "Gillette Stadium",
     	description: "It serves as the home stadium and administrative offices for both the NFL's New England Patriots football franchise and MLS's New England Revolution soccer team.",
-    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
-    	location: "601 F St NW, Washington, DC 20004""1 Patriot Place, Foxborough, Massachusetts")
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/500px-Gillette_Stadium_%28Top_View%29.jpg",
+    	location: "1 Patriot Pl, Foxborough, MA 02035"
  ny_jetsV = Venue.create!(
     	name: "MetLife Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "MetLife Stadium is an American sports stadium located in East Rutherford, New Jersey. It is part of the Meadowlands Sports Complex and serves as the home stadium for two National Football League franchises: the New York Jets and the New York Giants.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/600px-Metlife_stadium_%28Aerial_view%29.jpg",
+    	location: "1 MetLife Stadium Dr, East Rutherford, NJ 07073"
     )
 balt_ravensV = Venue.create!(
     	name: "M&T Bank Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "M&T Bank Stadium is a multi-purpose football stadium located in Baltimore, Maryland. It is the home of the Baltimore Ravens of the National Football League.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/M%26T_Bank_Stadium_DoD.jpg/600px-M%26T_Bank_Stadium_DoD.jpg",
+    	location: "1101 Russell St, Baltimore, MD 21230"
     )
 cinci_banglesV = Venue.create!(
     	name: "Paul Brown Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "Paul Brown Stadium is an outdoor football stadium in the north central United States, located in Cincinnati, Ohio. It is the home venue of the Cincinnati Bengals of the National Football League and opened on August 19, 2000.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cincinnati-paul-brown-stadium.jpg/560px-Cincinnati-paul-brown-stadium.jpg",
+    	location: "1 Paul Brown Stadium, Cincinnati, OH 45202"
     )
 clev_brownV = Venue.create!(
     	name: "FirstEnergy Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "It is the home field of the Cleveland Browns of the National Football League (NFL), and serves as a venue for other events such as college and high school football, soccer, and concerts.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/FirstEnergy_Stadium_panorama_2016.jpg",
+    	location: "100 Alfred Lerner Way, Cleveland, OH 44114"
     )
 pitt_steelV = Venue.create!(
     	name: "Heinz Field",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: " It primarily serves as the home to the Pittsburgh Steelers of the National Football League (NFL) and the Pittsburgh Panthers of the National Collegiate Athletic Association (NCAA). The stadium opened in 2001, after the controlled implosion of the teams' previous stadium, Three Rivers Stadium.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Heinz_Field_%282005%29.jpg/1280px-Heinz_Field_%282005%29.jpg",
+    	location: "100 Art Rooney Ave, Pittsburgh, PA 15212"
     )
 houston_txV = Venue.create!(
     	name: "NRG Stadium",
-    	description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper pharetra imperdiet. Nulla facilisi. Nam at arcu quis est luctus porttitor vitae nec ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    	photo_url: "https://s-media-cache-ak0.pinimg.com/736x/d2/06/10/d20610c40fd15c3729e2a5813e1f2f0a--football-stadiums-american-football.jpg",
-    	location: "601 F St NW, Washington, DC 20004"
+    	description: "The stadium is the home of the National Football League's Houston Texans, the Houston Livestock Show and Rodeo, the Texas Bowl, international soccer matches for the USA National Soccer Team, and other events. The stadium served as the host facility for Super Bowl XXXVIII on February 1, 2004, Super Bowl LI on February 5, 2017, and WrestleMania XXV on April 5, 2009.",
+    	photo_url: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Reliantstadium.jpg",
+    	location: "NRG Pkwy, Houston, TX 77054"
     )
 indi_coltsV = Venue.create!(
     	name: "Lucas Oil Stadium",
