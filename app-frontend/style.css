@@ -157,12 +157,16 @@ div .teamShow {
 }
 
 div .venueShow {
-  border: 1px;
-  border-radius: 50px;
-  background-color: floralwhite;
-  color: steelblue;
-  width: 980px;
-  height: 188px;
+    color: steelblue;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    padding: 9px;
+}
+#venueImg{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px auto 15px auto;
+    box-shadow: 0px 0px 5px black;
 }
 .venueContainer{
     width: 100%;
@@ -170,6 +174,9 @@ div .venueShow {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+#desc{
+    color:black;
 }
 .allStadiums > img{
     width: 250px;
