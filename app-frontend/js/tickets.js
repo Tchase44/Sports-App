@@ -78,7 +78,7 @@ $(document).ready(function () {
 
   			for (let i = 0; i < weather.length; i++) {
   				let days = `<div class="weatherDays">
-  								<p>${weather[i].conditions}</p>
+  								
   								<img src="${weather[i].icon_url}" style="width:100%;" />
   								<p>High: ${weather[i].high.fahrenheit}, Low: ${weather[i].low.fahrenheit}</p>
   								<p>${weather[i].date.weekday}</p>
