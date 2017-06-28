@@ -1,9 +1,9 @@
 <h2>All Venues</h2>
-<!-- <label>Find by name:</label>
-<input type="text" ng-model="typeSearch"> -->
-<a data-ui-sref="venueNew">Create New Venue</a>
+<label>Find by name:</label><br>
+<input type="text" ng-model="typeSearch"><br>
+<a data-ui-sref="venueNew">Create New Venue</a><hr>
 <div class="venueContainer">
-	<div class="allStadiums" data-ng-repeat="venue in vm.venues">
+	<div class="allStadiums" data-ng-repeat="venue in vm.venues | filter: typeSearch">
 	  <p> <a data-ui-sref= "venueShow({id: venue.id})"> {{venue.name}} </a> </p>
 	  <img class="stadiumImg" src="{{venue.photo_url}}">
 	  <hr>
