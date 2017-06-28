@@ -23,6 +23,7 @@ h3, h4 {
 }
 img.img-circle.person {
   width: 100%;
+  border-radius: 0px;
 }
 #baseball {
   height: 160px;
