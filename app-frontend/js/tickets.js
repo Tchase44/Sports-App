@@ -13,7 +13,9 @@ $(document).ready(function () {
 	function getNames(){
 		city = $('#city').text()
 		name = $('#name').text()
+
 		// 
+
 		// console.log(city +" : "+ name)
 	}
 
@@ -26,11 +28,13 @@ $(document).ready(function () {
   	}
 
   	function format(string) {
-  		return string.split("&").join(" ") 
+
+  		return string.split("&").join(" ")
   	}
 
   	function apiCall(){
-  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=&keyword="+city+" "+name,function(data){
+  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+city+" "+name,function(data){
+
   			let ticketData = data._embedded.events
 
   			console.log(ticketData)
@@ -51,7 +55,8 @@ $(document).ready(function () {
 
   		venue = format(venue)
 
-  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=&keyword="+venue+" "+teamName,function(data){
+  		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+venue+" "+teamName,function(data){
+
   			// console.log(data._embedded.events)
   			let venueData = data._embedded.events
 
@@ -64,7 +69,9 @@ $(document).ready(function () {
   		let address = $('#adr').text()
 		let num = address.length - 5
 		let zip = address.slice(num)
-  		$.getJSON("http://api.wunderground.com/api//forecast10day/q/"+zip+".json",function(data){
+
+  		$.getJSON("http://api.wunderground.com/api/d0f7b2301d8d8c2b/forecast10day/q/"+zip+".json",function(data){
+
   			let weather = data.forecast.simpleforecast.forecastday
   			console.log(weather)
 
@@ -87,26 +94,4 @@ $(document).ready(function () {
 
 })
 })()
-
-
-// adr = $('#adr').text()
-// => "601 F St NW, Washington, DC 20004"
-
-// num = adr.length -5
-// =>28
-
-// zip = adr.slice(num)
-// =>"20004"
-
-
-
-
-
-
-
-
-
-
-
-
 
