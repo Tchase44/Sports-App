@@ -51,7 +51,9 @@ $(document).ready(function () {
 
   		venue = format(venue)
 
+
   		$.getJSON("https://app.ticketmaster.com/discovery/v2/events.json?apikey=HGIa2FOFAVlS380zbmEhDIz76AJKXWVA&keyword="+venue+" "+teamName,function(data){
+
   			// console.log(data._embedded.events)
   			let venueData = data._embedded.events
 
