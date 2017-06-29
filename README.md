@@ -63,12 +63,14 @@ Tim Chase, Full-Stack Web Developer
 
 - Developed api call for events (tickets) and weather forecast (10 day report based on zip codes ) in jQuery;
 
-- Created venues for MLS and MLB. Converted all seed data to Ruby.
+- Created venues for MLS and MLB. Converted all seed data to Ruby;
+
+- Troubleshooter.
 
 ## Bugs and Improvements
 
-- Wanted to dynamically update the Google map in the footer
+- Wanted to dynamically update the Google map in the footer;
 
-- Attempted to add search bar to teams page, filter would remove all teams no matter what was typed
+- Attempted to add search bar to teams page, filter would remove all teams no matter what was typed;
 
-- App needs to be configured for deployment to Heroku
+- App needs to be configured for deployment to Heroku.
