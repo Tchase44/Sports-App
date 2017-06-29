@@ -188,16 +188,14 @@ div .venueShow {
     font-size: 140%;
 }
 
-
-
-.profileContainer {
+div .profileContainer {
   display: flex;
-  width: 115%;
+  width: 110%;
   height: 378px;
-  margin: 5px;
+  margin: 0px 12px 0px -30px;
 }
+
 .profilePage {
-  /*display: inline-block;*/
     width: 50%;
     height: 423px;
     margin: 13px;
