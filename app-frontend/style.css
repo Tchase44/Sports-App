@@ -36,8 +36,7 @@ img.img-circle.person {
   height: 160px;
 }
 #basketball {
-  height: 260px;
-  width: 78%;
+  border-radius: 24px;
 }
 .carousel-inner img {
     /*-webkit-filter: grayscale(90%);*/
