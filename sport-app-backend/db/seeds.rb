@@ -78,7 +78,7 @@ pacersV = Venue.create!(name: "Bankers Life Fieldhouse",
 bucksV = Venue.create!(name: "BMO Harris Bradley Center",
 		description: "Bradley Center known as the BMO Harris Bradley Center is home to the Milwaukee Bucks of the NBA and the Marquette University men's basketball team.
 		Bradley Center's capacity is 20,000.",
-		photo_url: "http://www.gettyimages.com/event/san-antonio-spurs-v-milwaukee-bucks-508087451?esource=SEO_GIS_CDN_Redirect#-picture-id467633012",
+		photo_url: "https://media-cdn.tripadvisor.com/media/photo-o/04/36/19/b5/bmo-harris-bradley-center.jpg",
 		location: "Bradley Center, 1001 North 4th, Milwaukee, WI 53203"
 	)
 atlantaV = Venue.create!(name: "Philips Arena",
@@ -495,7 +495,7 @@ det_redWingsV = Venue.create!(
 ny_islandV = Venue.create!(
 		name: "Nassau Veterans Memorial Coliseum",
 		description: "a multi-purpose indoor arena in Uniondale, New York. The Coliseum is approximately 19 miles (31 km) east of New York City on Long Island.",
-		photo_url: "https://upload.wikimedia.org/wikipedia/en/8/8b/Nassau_Coliseum_logo.jpg",
+		photo_url: "https://static01.nyt.com/images/2011/08/02/nyregion/coliseum/coliseum-jumbo.jpg",
 		location: "1255 Hempstead Turnpike, Uniondale, NY 11553"
 	)
 co_avalV = Venue.create!(
@@ -511,7 +511,7 @@ columbus_bluV = Venue.create!(
 		location: "200 W Nationwide Blvd, Columbus, OH 43215"
 	)
 edm_oilV = Venue.create!(
-		name: "Northlands Coliseum (formerly known as Rexall Place)",
+		name: "Northlands Coliseum",
 		description: "An indoor arena located in Edmonton, Alberta, Canada, situated on the north side of Northlands. It was home to the Edmonton Oilers of the National Hockey League (NHL), and the Edmonton Oil Kings of the Western Hockey League (WHL).",
 		photo_url: "https://upload.wikimedia.org/wikipedia/commons/5/50/Rexall_Place_Edmonton_Alberta_Canada_07A.jpg",
 		location: "7424 118 Ave, Edmonton, AB T5J 2N5, Canada"
@@ -573,7 +573,7 @@ ny_rangersV = Venue.create!(
 chi_blackV = Venue.create!(
 		name: "United Center",
 		description: "The United Center is home to both the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National Hockey League (NHL). The arena is named after its city-based corporate sponsor, United Airlines.",
-		photo_url: "https://upload.wikimedia.org/wikipedia/commons/b/b3/United_Center_Exterior.JPG",
+		photo_url: "http://www.unitedcenter.com/assets/1/7/unitedcenter3.png",
 		location: "1901 W Madison St, Chicago, IL 60612"
 	)
 minn_wildV = Venue.create!(
@@ -891,7 +891,7 @@ indi_coltsV = Venue.create!(
     	name: "Lucas Oil Stadium",
     	description: "Lucas Oil Stadium is a multi-purpose stadium in downtown Indianapolis, United States. It replaced the RCA Dome as the home field of the
 			NFL's Indianapolis Colts. Stadium's seating capacity for football games is 62,421",
-    	photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiw1JjQmt_UAhVBgj4KHeQMCcIQjBwIBA&url=http%3A%2F%2Fwww.stadiumsofprofootball.com%2Fwp-content%2Fuploads%2F2016%2F07%2Flucas16_top.jpg&psig=AFQjCNHQL_pRAEFCubpK7mxWq6vKyDZUjQ&ust=1498693460799178",
+    	photo_url: "http://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/lucas16_top.jpg",
     	location: "500 S Capitol Ave, Indianapolis, IN 46225"
     )
 jax_jagsV = Venue.create!(
@@ -1013,7 +1013,7 @@ carolina_pantherV = Venue.create!(
     	name: "Bank of America Stadium",
     	description: "Bank of America Stadium is a 75,419-seat football stadium located in uptown Charlotte, North Carolina, United States. It is the home facility
 			and headquarters of the Carolina Panthers of the National Football League.",
-    	photo_url: "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi_ruG_od_UAhXDeD4KHUDKBTkQjBwIBA&url=http%3A%2F%2Fwww.panthers.com%2Fassets%2Fimages%2Fimported%2FCAR%2Fphotos%2F2013%2F02-February%2F130212_stadium_inside1.jpg&psig=AFQjCNGe0H-NQkOjlm-qzoziMj92aOtUFw&ust=1498695356114255",
+    	photo_url: "https://www.delawarenorth.com/~/media/delawarenorth/images/microsites/carolina%20panther%20football/carolinapanthers_fieldview_t1.jpg?h=350&la=en&w=804",
     	location: "800 S Mint St, Charlotte, NC 28202"
     )
 nola_saintV = Venue.create!(
@@ -1412,14 +1412,14 @@ chicago_fire = Team.create!(
         name: "Chicago Fire",
         sport: "Soccer",
         city: "Chicago",
-        logo_url: "ttp://content.sportslogos.net/logos/9/323/full/umsypmvh1fcxyefrqcfio0yfy.gif",
+        logo_url: "http://content.sportslogos.net/logos/9/323/full/umsypmvh1fcxyefrqcfio0yfy.gif",
         venue: chicago_fireV
     )
 colorado_Rapids = Team.create!(
         name: "Colorado Rapids",
         sport: "Soccer",
         city: "Colorado",
-        logo_url: "ttp://content.sportslogos.net/logos/9/328/full/rkjf0o1eifa47lh6uhy4oj5qy.gif",
+        logo_url: "http://content.sportslogos.net/logos/9/328/full/rkjf0o1eifa47lh6uhy4oj5qy.gif",
         venue: colorado_RapidsV
     )
 dc_united = Team.create!(
