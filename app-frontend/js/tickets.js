@@ -62,7 +62,7 @@ $(document).ready(function () {
   			let venueData = data._embedded.events
 
   			for (let i = 0; i < venueData.length; i++) {
-  				let vgames = `<div class="events"><a href="${venueData[i].url}"><p>${venueData[i].name}</p><p>${venueData[i].dates.start.localDate} @ ${venueData[i].dates.start.localTime}</p></a></div>`
+  				let vgames = `<div class="events"><a href="${venueData[i].url}" target="_blank" ><p>${venueData[i].name}</p><p>${venueData[i].dates.start.localDate} @ ${venueData[i].dates.start.localTime}</p></a></div>`
 
   				venueEvents.append(vgames)
   			}
