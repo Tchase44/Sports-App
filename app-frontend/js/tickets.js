@@ -40,7 +40,7 @@ $(document).ready(function () {
   			console.log(ticketData)
 
   			for (let i = 0; i < ticketData.length; i++) {
-  				let games = `<div class="events"><a href="${ticketData[i].url}"><p>${ticketData[i].name}</p><p>${ticketData[i].dates.start.localDate} @ ${ticketData[i].dates.start.localTime}</p></a></div>`
+  				let games = `<div class="events"><a href="${ticketData[i].url}" target="_blank" ><p>${ticketData[i].name}</p><p>${ticketData[i].dates.start.localDate} @ ${ticketData[i].dates.start.localTime}</p></a></div>`
 
   				ticketPlace.append(games)
   			}
