@@ -1,5 +1,5 @@
 "use strict";
-// (function(){
+(function(){
 
 angular
 .module("sportsapp", [
@@ -241,4 +241,4 @@ function ProfileControllerFunction($state) {
     linkedin_profile:"https://www.linkedin.com/in/tar%C4%B1k-kazanc%C4%B1-937974135/"
 }]
 }
-// })()
+})()
