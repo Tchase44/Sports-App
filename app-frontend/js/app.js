@@ -136,13 +136,13 @@ function RouterFunction ($stateProvider,$locationProvider) {
 }
 
 function FactoryFunction( $resource ){
-    return $resource( "http://localhost:3000/teams/:id.json", {}, {
+    return $resource( "https://sportsappapi.herokuapp.com/teams/:id.json", {}, {
         update: { method: "PUT" }
     });
 }
 
 function VenueFactoryFunction($resource){
-  return $resource("http://localhost:3000/venues/:id.json", {}, {
+  return $resource("https://sportsappapi.herokuapp.com/venues/:id.json", {}, {
     update: {method: "PUT"}
   })
 }
