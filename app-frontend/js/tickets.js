@@ -14,7 +14,7 @@ $(document).ready(function () {
 		city = $('#city').text()
 		name = $('#name').text()
 
-		// 
+		//
 
 		// console.log(city +" : "+ name)
 	}
@@ -78,7 +78,7 @@ $(document).ready(function () {
 
   			for (let i = 0; i < weather.length; i++) {
   				let days = `<div class="weatherDays">
-  								
+
   								<img src="${weather[i].icon_url}" style="width:100%;" />
   								<p>High: ${weather[i].high.fahrenheit}, Low: ${weather[i].low.fahrenheit}</p>
   								<p>${weather[i].date.weekday}</p>
@@ -95,4 +95,3 @@ $(document).ready(function () {
 
 })
 })()
-

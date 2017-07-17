@@ -1919,3 +1919,4 @@ st_louis_card = Team.create!(
   logo_url: "http://content.sportslogos.net/logos/54/72/full/3zhma0aeq17tktge1huh7yok5.gif",
   venue: st_louis_cardV
   )
+	
