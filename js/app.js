@@ -77,28 +77,28 @@ function RouterFunction ($stateProvider,$locationProvider) {
   $stateProvider
   .state("home", {
     url: "/",
-    templateUrl: "./ng-views/home.html",
+    templateUrl: "js/ng-views/home.html",
     controller: "HomeController",
     controllerAs: "vm"
   })
 
   .state("teamIndex", {
     url: "/teams",
-    templateUrl: "./ng-views/team/index.html",
+    templateUrl: "js/ng-views/team/index.html",
     controller: "TeamIndexController",
     controllerAs: "vm"
   })
 
   .state("teamNew", {
     url: "/teams/new",
-    templateUrl: "./ng-views/team/new.html",
+    templateUrl: "js/ng-views/team/new.html",
     controller: "TeamNewController",
     controllerAs: "vm"
   })
 
   .state("teamShow", {
     url: "/teams/:id",
-    templateUrl: "./ng-views/team/show.html",
+    templateUrl: "js/ng-views/team/show.html",
     controller: "TeamShowController",
     controllerAs: "vm"
   })
@@ -107,21 +107,21 @@ function RouterFunction ($stateProvider,$locationProvider) {
 
   .state("venueIndex", {
     url: "/venues",
-    templateUrl: "./ng-views/venue/index.html",
+    templateUrl: "js/ng-views/venue/index.html",
     controller: "VenueIndexController",
     controllerAs: "vm"
   })
 
   .state("venueNew", {
     url: "/venues/new",
-    templateUrl: "./ng-views/venue/new.html",
+    templateUrl: "js/ng-views/venue/new.html",
     controller: "VenueNewController",
     controllerAs: "vm"
   })
 
   .state("venueShow", {
     url: "/venues/:id",
-    templateUrl: "./ng-views/venue/show.html",
+    templateUrl: "js/ng-views/venue/show.html",
     controller: "VenueShowController",
     controllerAs: "vm"
   })
@@ -129,7 +129,7 @@ function RouterFunction ($stateProvider,$locationProvider) {
   // PROFILE PAGE
   .state("profileShow", {
     url: "/profiles",
-    templateUrl: "./ng-views/profile/profile.html",
+    templateUrl: "js/ng-views/profile/profile.html",
     controller: "ProfileController",
     controllerAs: "vm"
   })
