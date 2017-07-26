@@ -175,7 +175,7 @@ function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFacto
     this.team = TeamFactory.get({id: $stateParams.id});
     this.hide = false
     this.venues = VenueFactory.query()
-    this.team = TeamFactory.get({id: $stateParams.id});
+    // this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
     this.team.$update({id: $stateParams.id}).then(function(){
       $state.reload()
