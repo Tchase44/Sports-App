@@ -17,7 +17,7 @@ Sports web application is a one-stop-shop for all sports events developed by the
 
 ## How to view
 - clone down repo
-- start http server for app-frontend
+- start http server for app-frontend (npm install -g http-server)
 - start rails server for sport-app-backend
 - navigate to localhost://8080 (http server port)
 - enjoy!
