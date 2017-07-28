@@ -1,5 +1,5 @@
 
-// (function(){
+(function(){
 $(document).ready(function () {
 
 	let ticketPlace = $('#ticketsShow')
@@ -94,5 +94,5 @@ $(document).ready(function () {
   	delayData()
 
 })
-// })()
+})()
 
