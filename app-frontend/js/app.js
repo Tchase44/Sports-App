@@ -1,3 +1,5 @@
+// overall the code quality here is absolutely excellent. my main suggestions involve attentively indenting code and using a a service in place of modifying the global angular object. this is an unreliable approach since we aren't aware of everything it could do (maybe it could clean itself like a cat, purging foreign properties).
+
 "use strict";
 // (function(){
 
@@ -150,7 +152,11 @@ function VenueFactoryFunction($resource){
 function HomeControllerFun(){
   this.sportLoad = function(sportIn){
     // console.log("click worked")
+
+    // haha impressively clever but hacky. Ideally, you would want to inject a service that communicates changes between 2 controllers. one approach to this is below
+    // https://thinkster.io/a-better-way-to-learn-angularjs/services
     angular.sport = sportIn
+
     // console.log(angular.sport)
   }
 }
@@ -158,6 +164,7 @@ function HomeControllerFun(){
 // TEAM'S CONTROLLER FUNCTIONS
 function TeamIndexControllerFunction(TeamFactory){
   this.teams = TeamFactory.query();
+  // see note above. i love this hacky approach though
   this.selSport = angular.sport
 
 }
@@ -171,11 +178,12 @@ function TeamNewControllerFunction( TeamFactory, $state ){
   }
 }
 
+// be mindful of indentation
 function TeamShowControllerFunction(TeamFactory, $stateParams,$state, VenueFactory){
-    this.team = TeamFactory.get({id: $stateParams.id});
-    this.hide = false
-    this.venues = VenueFactory.query()
-    this.team = TeamFactory.get({id: $stateParams.id});
+  this.team = TeamFactory.get({id: $stateParams.id});
+  this.hide = false
+  this.venues = VenueFactory.query()
+  this.team = TeamFactory.get({id: $stateParams.id});
   this.update = function(){
     this.team.$update({id: $stateParams.id}).then(function(){
       $state.reload()
@@ -221,6 +229,7 @@ function VenueShowControllerFunction( VenueFactory, $stateParams, $state, TeamFa
   }
 }
 
+// nice touch
 function ProfileControllerFunction($state) {
   this.profiles = [ {
     name: "Tim Chase",
